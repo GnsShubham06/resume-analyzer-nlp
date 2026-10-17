@@ -1,0 +1,62 @@
+{
+ "Agriculture": [
+  "farmer",
+  "crop",
+  "soil",
+  "irrigation",
+  "field",
+  "harvest",
+  "agriculture",
+  "organic",
+  "card",
+  "seed"
+ ],
+ "Engineering": [
+  "engineer",
+  "engineering",
+  "machine",
+  "assembly",
+  "electrical",
+  "design",
+  "diagram",
+  "line",
+  "pump",
+  "root_cause_analysis"
+ ],
+ "Finance": [
+  "financial",
+  "cash",
+  "finance",
+  "reconciliation",
+  "model",
+  "gstr",
+  "variance_analysis",
+  "financial model",
+  "capital",
+  "gst"
+ ],
+ "HR": [
+  "employee",
+  "hr",
+  "payroll",
+  "recruitment",
+  "attrition",
+  "hire",
+  "exit_interviews",
+  "onboarding",
+  "session",
+  "hiring"
+ ],
+ "Healthcare": [
+  "patient",
+  "care",
+  "hospital",
+  "medication",
+  "gcp",
+  "ich gcp",
+  "ich",
+  "drug",
+  "nurse",
+  "acls"
+ ]
+}

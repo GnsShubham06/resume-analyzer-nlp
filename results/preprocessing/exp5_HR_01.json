@@ -1,0 +1,54 @@
+{
+ "noise_removed_chars": 118,
+ "noise_examples_before": [
+  "Company Name City , State HR Personnel Assistant 03/2013 to 04/2014",
+  "Company Name City , State Assistant Store Clerk 05/2011 to 01/2012",
+  "Company Name City , State Office Clerk/ Federal Contractor 06/2008 to 10/2009"
+ ],
+ "noise_examples_after": [
+  "  HR Personnel Assistant 03/2013 to 04/2014",
+  "  Assistant Store Clerk 05/2011 to 01/2012",
+  "  Office Clerk/ Federal Contractor 06/2008 to 10/2009"
+ ],
+ "anonymization_real_resume_counts": {
+  "[EMAIL]": 0,
+  "[URL]": 0,
+  "[PHONE]": 0,
+  "[ADDRESS]": 0,
+  "[NAME]": 0
+ },
+ "anonymization_demo_input": "Jane Doe\njane.doe@example.com | +1 (555) 123-4567 | 42 Maple Street, Springfield IL 62704\nwww.linkedin.com/in/janedoe\nHR PERSONNEL ASSISTANT\nSummary\nI am a U.S. citizen who is authorized to work in the US for any employer. I have worked 8 years as an Office Clerk, 2 years as a Student\nIntern/Office Assistant, and 4 years as a Contractor. I am applying for the Data Entry Clerk position (Advert ID# 224278 Advert ID# ",
+ "anonymization_demo_output": "[NAME]\n[EMAIL] | [PHONE] | [ADDRESS], Springfield [ADDRESS]\n[URL]\nHR PERSONNEL ASSISTANT\nSummary\nI am a U.S. citizen who is authorized to work in the US for any employer. I have worked 8 years as an Office Clerk, 2 years as a Student\nIntern/Office Assistant, and 4 years as a Contractor. I am applying for the Data Entry Clerk position (Advert ID# 224278 Advert ID# ",
+ "anonymization_demo_counts": {
+  "[EMAIL]": 1,
+  "[URL]": 1,
+  "[PHONE]": 1,
+  "[ADDRESS]": 2,
+  "[NAME]": 1
+ },
+ "script_validation_real": {
+  "latin_ratio": 1.0,
+  "scripts": {
+   "LATIN": 4215
+  },
+  "language": "en",
+  "language_prob": 1.0,
+  "valid_english_latin": true,
+  "non_english_lines": {},
+  "mixed_language": false
+ },
+ "script_validation_multilingual_demo": {
+  "latin_ratio": 0.9059,
+  "scripts": {
+   "LATIN": 77,
+   "DEVANAGARI": 8
+  },
+  "language": "id",
+  "language_prob": 1.0,
+  "valid_english_latin": false,
+  "non_english_lines": {
+   "id": 1
+  },
+  "mixed_language": false
+ }
+}

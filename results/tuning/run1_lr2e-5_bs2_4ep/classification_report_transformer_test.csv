@@ -1,0 +1,9 @@
+,precision,recall,f1-score,support
+Engineering,0.25,1.0,0.4,4.0
+HR,1.0,0.5,0.6667,4.0
+Finance,0.0,0.0,0.0,4.0
+Healthcare,0.0,0.0,0.0,4.0
+Agriculture,1.0,0.5,0.6667,4.0
+accuracy,0.4,0.4,0.4,0.4
+macro avg,0.45,0.4,0.3467,20.0
+weighted avg,0.45,0.4,0.3467,20.0

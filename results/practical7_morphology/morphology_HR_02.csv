@@ -1,0 +1,18 @@
+word,lemma,pos,tag,morph_features,porter_stem,prefix,derivational_suffix,inflectional_suffix,segmentation
+excellent,excellent,ADJ,JJ,Degree=Pos,excel,,,,excellent
+time,time,NOUN,NN,Number=Sing,time,,,,time
+management,management,NOUN,NN,Number=Sing,manag,,ment,,manage + -ment
+skills,skill,NOUN,NNS,Number=Plur,skill,,,s,skill + -s
+team,team,NOUN,NN,Number=Sing,team,,,,team
+player,player,NOUN,NN,Number=Sing,player,,er,,play + -er
+open,open,ADJ,JJ,Degree=Pos,open,,,,open
+and,and,CCONJ,CC,ConjType=Cmp,and,,,,and
+honest,honest,ADJ,JJ,Degree=Pos,honest,,,,honest
+communicator,communicator,NOUN,NN,Number=Sing,commun,,or,,communicat + -or
+effective,effective,ADJ,JJ,Degree=Pos,effect,,ive,,effect + -ive
+at,at,ADP,IN,-,at,,,,at
+maintaining,maintain,VERB,VBG,Aspect=Prog|Tense=Pres|VerbForm=Part,maintain,,,ing,maintain + -ing
+confidentiality,confidentiality,NOUN,NN,Number=Sing,confidenti,,ity,,confidential + -ity
+and,and,CCONJ,CC,ConjType=Cmp,and,,,,and
+multi,multi,ADJ,JJ,Degree=Pos,multi,,,,multi
+tasker,tasker,NOUN,NN,Number=Sing,tasker,,er,,task + -er

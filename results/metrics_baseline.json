@@ -1,0 +1,42 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "text_column": "classification_text",
+  "vectorizer": "word uni+bi-grams, sublinear tf, max_df=0.9",
+  "classifier": "LogisticRegression(C=10)",
+  "trained_on": "60 train resumes",
+  "n_features": 10414,
+  "results": {
+    "train": {
+      "n_samples": 60,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0
+    },
+    "val": {
+      "n_samples": 20,
+      "accuracy": 0.95,
+      "macro_precision": 0.96,
+      "macro_recall": 0.95,
+      "macro_f1": 0.9492,
+      "weighted_f1": 0.9492
+    },
+    "test": {
+      "n_samples": 20,
+      "accuracy": 0.9,
+      "macro_precision": 0.92,
+      "macro_recall": 0.9,
+      "macro_f1": 0.8984,
+      "weighted_f1": 0.8984
+    },
+    "cv_5fold_all_100": {
+      "n_samples": 100,
+      "accuracy": 0.96,
+      "macro_precision": 0.9636,
+      "macro_recall": 0.96,
+      "macro_f1": 0.9596,
+      "weighted_f1": 0.9596
+    }
+  }
+}

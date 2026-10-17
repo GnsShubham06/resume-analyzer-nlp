@@ -1,0 +1,1973 @@
+{
+ "entity_counts_by_source": {
+  "pretrained (en_core_web_sm)": {
+   "GPE": 278,
+   "PERSON": 290,
+   "ORG": 2051,
+   "WORK_OF_ART": 22,
+   "DATE": 719,
+   "FAC": 10,
+   "NORP": 52,
+   "CARDINAL": 431,
+   "PERCENT": 76,
+   "PRODUCT": 68,
+   "LAW": 8,
+   "MONEY": 22,
+   "LOC": 7
+  },
+  "rule-based (EntityRuler)": {
+   "SKILL": 2653,
+   "JOB_TITLE": 186,
+   "DEGREE": 100,
+   "QUALIFICATION": 19
+  },
+  "rule-based (regex)": {
+   "EXPERIENCE_DATES": 310,
+   "DEGREE": 156
+  },
+  "pretrained (en_core_web_trf)": {
+   "DATE": 32,
+   "ORG": 53,
+   "LAW": 2,
+   "GPE": 11,
+   "CARDINAL": 13,
+   "PRODUCT": 6,
+   "PERSON": 4,
+   "PERCENT": 2,
+   "MONEY": 1,
+   "WORK_OF_ART": 1
+  }
+ },
+ "examples": {
+  "AGR_02": {
+   "pretrained_sm": [
+    [
+     "DATE",
+     "14 years"
+    ],
+    [
+     "DATE",
+     "2012"
+    ],
+    [
+     "CARDINAL",
+     "9"
+    ],
+    [
+     "CARDINAL",
+     "5"
+    ],
+    [
+     "ORG",
+     "Monsoon Micro-Irrigation Systems"
+    ],
+    [
+     "GPE",
+     "Mumbai"
+    ],
+    [
+     "DATE",
+     "2012"
+    ],
+    [
+     "CARDINAL",
+     "10"
+    ],
+    [
+     "DATE",
+     "quarterly"
+    ],
+    [
+     "PERSON",
+     "B.Sc."
+    ],
+    [
+     "ORG",
+     "Lakeshore University"
+    ],
+    [
+     "DATE",
+     "2010"
+    ],
+    [
+     "PERSON",
+     "Animal Husbandry"
+    ],
+    [
+     "ORG",
+     "Westbrook College of Science"
+    ],
+    [
+     "DATE",
+     "2008"
+    ],
+    [
+     "ORG",
+     "Crop"
+    ],
+    [
+     "NORP",
+     "Integrated"
+    ],
+    [
+     "ORG",
+     "MS Office"
+    ],
+    [
+     "ORG",
+     "Fertilizer"
+    ],
+    [
+     "ORG",
+     "Attention"
+    ],
+    [
+     "CARDINAL",
+     "22"
+    ]
+   ],
+   "rule_based": [
+    [
+     "SKILL",
+     "Seed"
+    ],
+    [
+     "SKILL",
+     "Agronomy"
+    ],
+    [
+     "SKILL",
+     "dairy"
+    ],
+    [
+     "SKILL",
+     "livestock"
+    ],
+    [
+     "SKILL",
+     "Seed"
+    ],
+    [
+     "SKILL",
+     "greenhouse"
+    ],
+    [
+     "SKILL",
+     "scheduling"
+    ],
+    [
+     "SKILL",
+     "seed"
+    ],
+    [
+     "SKILL",
+     "harvest"
+    ],
+    [
+     "SKILL",
+     "grain"
+    ],
+    [
+     "SKILL",
+     "Irrigation"
+    ],
+    [
+     "SKILL",
+     "nursery"
+    ],
+    [
+     "SKILL",
+     "agriculture"
+    ],
+    [
+     "SKILL",
+     "Training"
+    ],
+    [
+     "SKILL",
+     "Agriculture"
+    ],
+    [
+     "SKILL",
+     "Animal Husbandry"
+    ],
+    [
+     "SKILL",
+     "irrigation"
+    ],
+    [
+     "SKILL",
+     "Crop management"
+    ],
+    [
+     "SKILL",
+     "Food safety"
+    ],
+    [
+     "SKILL",
+     "Agricultural extension"
+    ],
+    [
+     "SKILL",
+     "Plant protection"
+    ],
+    [
+     "SKILL",
+     "Livestock"
+    ],
+    [
+     "SKILL",
+     "Report writing"
+    ],
+    [
+     "SKILL",
+     "Critical thinking"
+    ],
+    [
+     "SKILL",
+     "Integrated pest management"
+    ],
+    [
+     "SKILL",
+     "MS Office"
+    ],
+    [
+     "SKILL",
+     "Horticulture"
+    ],
+    [
+     "SKILL",
+     "Field data collection"
+    ],
+    [
+     "SKILL",
+     "Fertilizer"
+    ],
+    [
+     "SKILL",
+     "Greenhouse"
+    ],
+    [
+     "EXPERIENCE_DATES",
+     "Apr 2012 - Present"
+    ],
+    [
+     "EXPERIENCE_DATES",
+     "Feb 2011 - Mar 2012"
+    ],
+    [
+     "DEGREE",
+     "MS"
+    ],
+    [
+     "DEGREE",
+     "B.Sc"
+    ]
+   ]
+  },
+  "ENG_05": {
+   "pretrained_sm": [
+    [
+     "ORG",
+     "MECHANICAL ENGINEERING INTERN"
+    ],
+    [
+     "ORG",
+     "CAD"
+    ],
+    [
+     "DATE",
+     "5 years"
+    ],
+    [
+     "ORG",
+     "CAD"
+    ],
+    [
+     "ORG",
+     "SolidWorks"
+    ],
+    [
+     "PERSON",
+     "Autodesk Inventor"
+    ],
+    [
+     "ORG",
+     "CATIA"
+    ],
+    [
+     "DATE",
+     "2.5 years"
+    ],
+    [
+     "ORG",
+     "CAE Softwares"
+    ],
+    [
+     "ORG",
+     "HyperMesh"
+    ],
+    [
+     "GPE",
+     "Abaqus"
+    ],
+    [
+     "ORG",
+     "ANSYS"
+    ],
+    [
+     "DATE",
+     "2.5 years"
+    ],
+    [
+     "ORG",
+     "Analysis ("
+    ],
+    [
+     "ORG",
+     "Linear & Non-linear Static, Dynamic, GD & T, Tolerance Analysis, Design Optimization"
+    ],
+    [
+     "PERSON",
+     "Bill of Materials"
+    ],
+    [
+     "ORG",
+     "DFMEA"
+    ],
+    [
+     "ORG",
+     "Industrial Robotic Assembly"
+    ],
+    [
+     "ORG",
+     "Illinois Institute of Technology"
+    ],
+    [
+     "GPE",
+     "Chicago"
+    ],
+    [
+     "CARDINAL",
+     "6"
+    ],
+    [
+     "CARDINAL",
+     "304"
+    ],
+    [
+     "PERSON",
+     "Gripper"
+    ],
+    [
+     "ORG",
+     "OptiStruct"
+    ],
+    [
+     "ORG",
+     "Reliability Engineering Analysis"
+    ],
+    [
+     "ORG",
+     "Illinois Institute of Technology"
+    ],
+    [
+     "ORG",
+     "Chicago Sept - Dec 2015"
+    ],
+    [
+     "CARDINAL",
+     "3"
+    ],
+    [
+     "ORG",
+     "Taguchi"
+    ],
+    [
+     "ORG",
+     "FMEA"
+    ],
+    [
+     "WORK_OF_ART",
+     "Near Dry Machine"
+    ],
+    [
+     "CARDINAL",
+     "2"
+    ],
+    [
+     "PERSON",
+     "Gearbox Design"
+    ],
+    [
+     "ORG",
+     "Narsee Monjee Institute of Management Studies"
+    ],
+    [
+     "GPE",
+     "Mumbai"
+    ],
+    [
+     "DATE",
+     "May 2013"
+    ],
+    [
+     "CARDINAL",
+     "06/2013"
+    ],
+    [
+     "CARDINAL",
+     "08/2013"
+    ],
+    [
+     "ORG",
+     "Mechanical Engineering Intern"
+    ],
+    [
+     "ORG",
+     "GD&T"
+    ]
+   ],
+   "rule_based": [
+    [
+     "JOB_TITLE",
+     "MECHANICAL ENGINEERING INTERN"
+    ],
+    [
+     "SKILL",
+     "CAD"
+    ],
+    [
+     "SKILL",
+     "CAM"
+    ],
+    [
+     "SKILL",
+     "Finite Element Analysis"
+    ],
+    [
+     "SKILL",
+     "Mechanical Design"
+    ],
+    [
+     "SKILL",
+     "Product Design"
+    ],
+    [
+     "SKILL",
+     "CAD"
+    ],
+    [
+     "SKILL",
+     "SolidWorks"
+    ],
+    [
+     "SKILL",
+     "Autodesk Inventor"
+    ],
+    [
+     "SKILL",
+     "AutoCAD"
+    ],
+    [
+     "SKILL",
+     "CATIA"
+    ],
+    [
+     "SKILL",
+     "PTC CREO"
+    ],
+    [
+     "SKILL",
+     "CAE"
+    ],
+    [
+     "SKILL",
+     "HyperMesh"
+    ],
+    [
+     "SKILL",
+     "Abaqus"
+    ],
+    [
+     "SKILL",
+     "ANSYS"
+    ],
+    [
+     "SKILL",
+     "Tolerance Analysis"
+    ],
+    [
+     "SKILL",
+     "Design Optimization"
+    ],
+    [
+     "SKILL",
+     "Sheet metal"
+    ],
+    [
+     "SKILL",
+     "Design for manufacturing"
+    ],
+    [
+     "SKILL",
+     "Bill of Materials"
+    ],
+    [
+     "SKILL",
+     "DFMEA"
+    ],
+    [
+     "SKILL",
+     "prototyping"
+    ],
+    [
+     "SKILL",
+     "manufacturing"
+    ],
+    [
+     "SKILL",
+     "welding"
+    ],
+    [
+     "SKILL",
+     "3D printing"
+    ],
+    [
+     "SKILL",
+     "Finite Element Analysis"
+    ],
+    [
+     "JOB_TITLE",
+     "Mechanical Engineering Intern"
+    ],
+    [
+     "SKILL",
+     "GD&T"
+    ],
+    [
+     "SKILL",
+     "Manufacturing"
+    ],
+    [
+     "JOB_TITLE",
+     "Engineering Intern"
+    ],
+    [
+     "SKILL",
+     "Manufacturing"
+    ],
+    [
+     "SKILL",
+     "Bill of Materials"
+    ],
+    [
+     "SKILL",
+     "manufacturing"
+    ],
+    [
+     "SKILL",
+     "Training"
+    ],
+    [
+     "DEGREE",
+     "Master's"
+    ],
+    [
+     "SKILL",
+     "Aerospace"
+    ],
+    [
+     "SKILL",
+     "Aerospace"
+    ],
+    [
+     "SKILL",
+     "CAD"
+    ],
+    [
+     "SKILL",
+     "CAM"
+    ]
+   ],
+   "pretrained_trf": [
+    [
+     "DATE",
+     "5 years"
+    ],
+    [
+     "ORG",
+     "SolidWorks"
+    ],
+    [
+     "ORG",
+     "Autodesk Inventor"
+    ],
+    [
+     "ORG",
+     "AutoCAD"
+    ],
+    [
+     "ORG",
+     "CATIA"
+    ],
+    [
+     "DATE",
+     "2.5 years"
+    ],
+    [
+     "ORG",
+     "CAE Softwares"
+    ],
+    [
+     "ORG",
+     "HyperMesh"
+    ],
+    [
+     "ORG",
+     "Abaqus"
+    ],
+    [
+     "ORG",
+     "ANSYS"
+    ],
+    [
+     "ORG",
+     "Optistruct"
+    ],
+    [
+     "DATE",
+     "2.5 years"
+    ],
+    [
+     "LAW",
+     "Bill of Materials"
+    ],
+    [
+     "DATE",
+     "09/2013 to 05/2014"
+    ],
+    [
+     "ORG",
+     "Illinois Institute of Technology"
+    ],
+    [
+     "GPE",
+     "Chicago"
+    ],
+    [
+     "DATE",
+     "Jan - May 2016"
+    ],
+    [
+     "CARDINAL",
+     "6"
+    ],
+    [
+     "PRODUCT",
+     "SCARA Robot"
+    ],
+    [
+     "PRODUCT",
+     "304"
+    ],
+    [
+     "PERSON",
+     "Gripper"
+    ],
+    [
+     "ORG",
+     "Illinois Institute of Technology"
+    ],
+    [
+     "GPE",
+     "Chicago"
+    ],
+    [
+     "DATE",
+     "Sept - Dec 2015"
+    ],
+    [
+     "CARDINAL",
+     "3"
+    ],
+    [
+     "PERSON",
+     "Taguchi"
+    ],
+    [
+     "ORG",
+     "Near Dry Machine"
+    ],
+    [
+     "CARDINAL",
+     "2"
+    ],
+    [
+     "ORG",
+     "Gearbox Design"
+    ],
+    [
+     "ORG",
+     "Narsee Monjee Institute of Management Studies"
+    ],
+    [
+     "GPE",
+     "Mumbai"
+    ],
+    [
+     "DATE",
+     "Jan - May 2013"
+    ],
+    [
+     "DATE",
+     "06/2013 to 08/2013"
+    ],
+    [
+     "ORG",
+     "Hyundai"
+    ],
+    [
+     "DATE",
+     "05/2012 to 07/2012"
+    ],
+    [
+     "PERCENT",
+     "5%"
+    ],
+    [
+     "PERCENT",
+     "20%"
+    ],
+    [
+     "ORG",
+     "SPC"
+    ],
+    [
+     "ORG",
+     "DOE"
+    ],
+    [
+     "DATE",
+     "May 2017"
+    ]
+   ]
+  },
+  "FIN_05": {
+   "pretrained_sm": [
+    [
+     "GPE",
+     "Lucas Fernandes"
+    ],
+    [
+     "ORG",
+     "treasury"
+    ],
+    [
+     "PRODUCT",
+     "Excel"
+    ],
+    [
+     "ORG",
+     "Harrowgate Capital Advisors"
+    ],
+    [
+     "DATE",
+     "May 2017"
+    ],
+    [
+     "CARDINAL",
+     "31"
+    ],
+    [
+     "DATE",
+     "monthly"
+    ],
+    [
+     "ORG",
+     "MIS"
+    ],
+    [
+     "PRODUCT",
+     "Excel"
+    ],
+    [
+     "ORG",
+     "Power Query"
+    ],
+    [
+     "CARDINAL",
+     "37"
+    ],
+    [
+     "CARDINAL",
+     "about USD 85"
+    ],
+    [
+     "CARDINAL",
+     "32"
+    ],
+    [
+     "ORG",
+     "SME"
+    ],
+    [
+     "ORG",
+     "Treasury"
+    ],
+    [
+     "ORG",
+     "Corbel Insurance Brokers"
+    ],
+    [
+     "ORG",
+     "Coimbatore"
+    ],
+    [
+     "DATE",
+     "2015 - Nov 2017"
+    ],
+    [
+     "DATE",
+     "daily"
+    ],
+    [
+     "ORG",
+     "GSTR-1, GSTR-3B"
+    ],
+    [
+     "ORG",
+     "GSTR-2B."
+    ],
+    [
+     "ORG",
+     "Treasury"
+    ],
+    [
+     "ORG",
+     "Hyderabad"
+    ],
+    [
+     "PERSON",
+     "Jun 2013 - Apr"
+    ],
+    [
+     "DATE",
+     "2015"
+    ],
+    [
+     "ORG",
+     "KPI"
+    ],
+    [
+     "DATE",
+     "year-end"
+    ],
+    [
+     "CARDINAL",
+     "24"
+    ],
+    [
+     "CARDINAL",
+     "3"
+    ],
+    [
+     "ORG",
+     "SAP FICO"
+    ],
+    [
+     "PERSON",
+     "Recruitment Trainee"
+    ],
+    [
+     "ORG",
+     "Elmstone Manufacturing"
+    ],
+    [
+     "DATE",
+     "annual"
+    ],
+    [
+     "PERSON",
+     "Maintained"
+    ],
+    [
+     "ORG",
+     "HRIS"
+    ],
+    [
+     "CARDINAL",
+     "23"
+    ],
+    [
+     "ORG",
+     "Riverton Technical University"
+    ],
+    [
+     "DATE",
+     "2011"
+    ],
+    [
+     "ORG",
+     "GST Financial"
+    ],
+    [
+     "PERSON",
+     "Variance"
+    ]
+   ],
+   "rule_based": [
+    [
+     "SKILL",
+     "treasury"
+    ],
+    [
+     "SKILL",
+     "cash management"
+    ],
+    [
+     "SKILL",
+     "variance analysis"
+    ],
+    [
+     "SKILL",
+     "leadership"
+    ],
+    [
+     "SKILL",
+     "reconciliation"
+    ],
+    [
+     "SKILL",
+     "documentation"
+    ],
+    [
+     "SKILL",
+     "Treasury"
+    ],
+    [
+     "SKILL",
+     "reconciliation"
+    ],
+    [
+     "SKILL",
+     "Treasury"
+    ],
+    [
+     "SKILL",
+     "audit"
+    ],
+    [
+     "SKILL",
+     "year-end close"
+    ],
+    [
+     "SKILL",
+     "SAP"
+    ],
+    [
+     "SKILL",
+     "Recruitment"
+    ],
+    [
+     "SKILL",
+     "Manufacturing"
+    ],
+    [
+     "SKILL",
+     "performance appraisal"
+    ],
+    [
+     "SKILL",
+     "HRIS"
+    ],
+    [
+     "SKILL",
+     "Workday"
+    ],
+    [
+     "SKILL",
+     "SAP"
+    ],
+    [
+     "SKILL",
+     "recruitment"
+    ],
+    [
+     "SKILL",
+     "Training"
+    ],
+    [
+     "SKILL",
+     "Variance analysis"
+    ],
+    [
+     "SKILL",
+     "Valuation"
+    ],
+    [
+     "SKILL",
+     "Cash management"
+    ],
+    [
+     "SKILL",
+     "leadership"
+    ],
+    [
+     "SKILL",
+     "Cost accounting"
+    ],
+    [
+     "SKILL",
+     "Critical thinking"
+    ],
+    [
+     "SKILL",
+     "Accounts payable"
+    ],
+    [
+     "SKILL",
+     "SAP"
+    ],
+    [
+     "SKILL",
+     "Time management"
+    ],
+    [
+     "SKILL",
+     "Credit analysis"
+    ],
+    [
+     "EXPERIENCE_DATES",
+     "May 2017 - Present"
+    ],
+    [
+     "EXPERIENCE_DATES",
+     "Apr 2015 - Nov 2017"
+    ],
+    [
+     "EXPERIENCE_DATES",
+     "Jun 2013 - Apr 2015"
+    ],
+    [
+     "EXPERIENCE_DATES",
+     "Feb 2012 - Oct 2013"
+    ]
+   ],
+   "pretrained_trf": [
+    [
+     "PERSON",
+     "Lucas Fernandes"
+    ],
+    [
+     "ORG",
+     "Harrowgate Capital Advisors"
+    ],
+    [
+     "GPE",
+     "Indore"
+    ],
+    [
+     "DATE",
+     "May 2017"
+    ],
+    [
+     "CARDINAL",
+     "31"
+    ],
+    [
+     "DATE",
+     "monthly"
+    ],
+    [
+     "ORG",
+     "MIS"
+    ],
+    [
+     "PRODUCT",
+     "Excel"
+    ],
+    [
+     "PRODUCT",
+     "Power Query"
+    ],
+    [
+     "CARDINAL",
+     "37"
+    ],
+    [
+     "MONEY",
+     "about USD 85"
+    ],
+    [
+     "CARDINAL",
+     "32"
+    ],
+    [
+     "ORG",
+     "Treasury"
+    ],
+    [
+     "ORG",
+     "Corbel Insurance Brokers"
+    ],
+    [
+     "GPE",
+     "Coimbatore"
+    ],
+    [
+     "DATE",
+     "Apr 2015 - Nov 2017"
+    ],
+    [
+     "DATE",
+     "daily"
+    ],
+    [
+     "ORG",
+     "Treasury"
+    ],
+    [
+     "GPE",
+     "Hyderabad"
+    ],
+    [
+     "DATE",
+     "Jun 2013 - Apr 2015"
+    ],
+    [
+     "ORG",
+     "KPI"
+    ],
+    [
+     "DATE",
+     "month-end"
+    ],
+    [
+     "DATE",
+     "year-end"
+    ],
+    [
+     "CARDINAL",
+     "24"
+    ],
+    [
+     "CARDINAL",
+     "3"
+    ],
+    [
+     "ORG",
+     "SAP FICO"
+    ],
+    [
+     "ORG",
+     "Elmstone Manufacturing"
+    ],
+    [
+     "DATE",
+     "Feb 2012 - Oct 2013"
+    ],
+    [
+     "DATE",
+     "annual"
+    ],
+    [
+     "CARDINAL",
+     "23"
+    ],
+    [
+     "ORG",
+     "Riverton Technical University"
+    ],
+    [
+     "DATE",
+     "2011"
+    ],
+    [
+     "ORG",
+     "SAP FICO"
+    ],
+    [
+     "DATE",
+     "monthly"
+    ],
+    [
+     "PRODUCT",
+     "Power BI"
+    ]
+   ]
+  },
+  "HR_03": {
+   "pretrained_sm": [
+    [
+     "PERSON",
+     "ma Human"
+    ],
+    [
+     "ORG",
+     "Resource"
+    ],
+    [
+     "DATE",
+     "years"
+    ],
+    [
+     "GPE",
+     "Training"
+    ],
+    [
+     "PERSON",
+     "Salary"
+    ],
+    [
+     "GPE",
+     "Employee"
+    ],
+    [
+     "ORG",
+     "Sunningdale Tech"
+    ],
+    [
+     "ORG",
+     "Thailand) Co."
+    ],
+    [
+     "PERSON",
+     "09/2013"
+    ],
+    [
+     "PERSON",
+     "Transformed"
+    ],
+    [
+     "ORG",
+     "HR Organization"
+    ],
+    [
+     "PERSON",
+     "Sekisui s - lec"
+    ],
+    [
+     "ORG",
+     "ESIE"
+    ],
+    [
+     "GPE",
+     "Rayong"
+    ],
+    [
+     "PERSON",
+     "Glass"
+    ],
+    [
+     "ORG",
+     "General Administration"
+    ],
+    [
+     "DATE",
+     "1 year"
+    ],
+    [
+     "ORG",
+     "Purchasing and General Administration"
+    ],
+    [
+     "ORG",
+     "Maintain"
+    ],
+    [
+     "ORG",
+     "Training and Development"
+    ],
+    [
+     "PRODUCT",
+     "Identify"
+    ],
+    [
+     "PERSON",
+     "Monitor"
+    ],
+    [
+     "DATE",
+     "annual"
+    ],
+    [
+     "DATE",
+     "annual"
+    ],
+    [
+     "DATE",
+     "annual"
+    ],
+    [
+     "ORG",
+     "Oversea & Domestic"
+    ],
+    [
+     "ORG",
+     "Prepare"
+    ],
+    [
+     "ORG",
+     "Contributes"
+    ],
+    [
+     "ORG",
+     "General Administration"
+    ],
+    [
+     "ORG",
+     "Develop"
+    ],
+    [
+     "NORP",
+     "Establish"
+    ],
+    [
+     "PERSON",
+     "Respond"
+    ],
+    [
+     "ORG",
+     "Develop"
+    ],
+    [
+     "ORG",
+     "Manage"
+    ],
+    [
+     "ORG",
+     "Assess"
+    ],
+    [
+     "ORG",
+     "Oversee"
+    ],
+    [
+     "PERSON",
+     "Conduct"
+    ],
+    [
+     "WORK_OF_ART",
+     "Steel and Metal Worksheet"
+    ],
+    [
+     "DATE",
+     "2012"
+    ],
+    [
+     "ORG",
+     "National Institute of Development Administration"
+    ]
+   ],
+   "rule_based": [
+    [
+     "JOB_TITLE",
+     "HR MANAGER"
+    ],
+    [
+     "JOB_TITLE",
+     "Human Resources Manager"
+    ],
+    [
+     "SKILL",
+     "conflict management"
+    ],
+    [
+     "SKILL",
+     "employee training"
+    ],
+    [
+     "JOB_TITLE",
+     "Human Resources Generalist"
+    ],
+    [
+     "SKILL",
+     "training"
+    ],
+    [
+     "SKILL",
+     "orientation"
+    ],
+    [
+     "JOB_TITLE",
+     "Resource executive"
+    ],
+    [
+     "SKILL",
+     "Compensation"
+    ],
+    [
+     "SKILL",
+     "payroll"
+    ],
+    [
+     "SKILL",
+     "Performance management"
+    ],
+    [
+     "SKILL",
+     "Interviewing"
+    ],
+    [
+     "SKILL",
+     "Staffing"
+    ],
+    [
+     "SKILL",
+     "recruiting"
+    ],
+    [
+     "SKILL",
+     "Compensation"
+    ],
+    [
+     "SKILL",
+     "benefits administration"
+    ],
+    [
+     "SKILL",
+     "retention"
+    ],
+    [
+     "SKILL",
+     "Training and development"
+    ],
+    [
+     "SKILL",
+     "compensation"
+    ],
+    [
+     "SKILL",
+     "Employee relations"
+    ],
+    [
+     "JOB_TITLE",
+     "HR Manager"
+    ],
+    [
+     "SKILL",
+     "recruiting"
+    ],
+    [
+     "SKILL",
+     "Compensation"
+    ],
+    [
+     "SKILL",
+     "training"
+    ],
+    [
+     "SKILL",
+     "Recruitment"
+    ],
+    [
+     "SKILL",
+     "recruitment"
+    ],
+    [
+     "SKILL",
+     "recruitment"
+    ],
+    [
+     "SKILL",
+     "recruitment"
+    ],
+    [
+     "SKILL",
+     "orientation"
+    ],
+    [
+     "SKILL",
+     "Training and Development"
+    ],
+    [
+     "SKILL",
+     "training"
+    ],
+    [
+     "SKILL",
+     "Compensation"
+    ],
+    [
+     "SKILL",
+     "benefits"
+    ],
+    [
+     "SKILL",
+     "performance appraisal"
+    ],
+    [
+     "SKILL",
+     "administrative support"
+    ],
+    [
+     "SKILL",
+     "scheduling"
+    ],
+    [
+     "JOB_TITLE",
+     "Administrative Manager"
+    ],
+    [
+     "SKILL",
+     "personnel"
+    ],
+    [
+     "JOB_TITLE",
+     "General Manager"
+    ],
+    [
+     "JOB_TITLE",
+     "HR Director"
+    ]
+   ],
+   "pretrained_trf": [
+    [
+     "PERSON",
+     "ma Human"
+    ],
+    [
+     "DATE",
+     "04/2016 to Current"
+    ],
+    [
+     "ORG",
+     "Sunningdale Tech (Thailand) Co.,Ltd."
+    ],
+    [
+     "DATE",
+     "09/2013 to 04/2015"
+    ],
+    [
+     "ORG",
+     "HR"
+    ],
+    [
+     "ORG",
+     "HR Organization"
+    ],
+    [
+     "ORG",
+     "Sekisui s - lec"
+    ],
+    [
+     "GPE",
+     "Thailand"
+    ],
+    [
+     "ORG",
+     "ESIE"
+    ],
+    [
+     "GPE",
+     "Rayong"
+    ],
+    [
+     "DATE",
+     "11/2002 to 09/2013"
+    ],
+    [
+     "DATE",
+     "1 year"
+    ],
+    [
+     "ORG",
+     "Human Resource"
+    ],
+    [
+     "DATE",
+     "annual"
+    ],
+    [
+     "DATE",
+     "annual"
+    ],
+    [
+     "DATE",
+     "annual"
+    ],
+    [
+     "ORG",
+     "Oversea & Domestic"
+    ],
+    [
+     "DATE",
+     "2012"
+    ],
+    [
+     "ORG",
+     "National Institute of Development Administration"
+    ],
+    [
+     "ORG",
+     "NIDA"
+    ],
+    [
+     "DATE",
+     "2007"
+    ],
+    [
+     "GPE",
+     "USA"
+    ],
+    [
+     "DATE",
+     "2002"
+    ],
+    [
+     "ORG",
+     "Chulalongkorn University"
+    ],
+    [
+     "LAW",
+     "ISO 14001"
+    ],
+    [
+     "ORG",
+     "KPI"
+    ],
+    [
+     "WORK_OF_ART",
+     "Preventive Action By 8D"
+    ]
+   ]
+  },
+  "HLT_01": {
+   "pretrained_sm": [
+    [
+     "ORG",
+     "BEHAVIORAL HEALTHCARE HELP LINE"
+    ],
+    [
+     "ORG",
+     "Professional Overview"
+    ],
+    [
+     "DATE",
+     "18224"
+    ],
+    [
+     "PERSON",
+     "Strength"
+    ],
+    [
+     "ORG",
+     "Rapport"
+    ],
+    [
+     "ORG",
+     "Contract, Criminal, Tort"
+    ],
+    [
+     "ORG",
+     "Glendale College of Law"
+    ],
+    [
+     "ORG",
+     "University of Southern California Master of Social Work"
+    ],
+    [
+     "ORG",
+     "California State University"
+    ],
+    [
+     "PERSON",
+     "Psi Chi"
+    ],
+    [
+     "ORG",
+     "Golden Key National Honor Society"
+    ],
+    [
+     "PERSON",
+     "Tau Alpha Epsilon Honor"
+    ],
+    [
+     "DATE",
+     "10 years"
+    ],
+    [
+     "PERCENT",
+     "95%"
+    ],
+    [
+     "DATE",
+     "several consecutive years"
+    ],
+    [
+     "ORG",
+     "Physician Liaison Program"
+    ],
+    [
+     "PERSON",
+     "Elder Law"
+    ],
+    [
+     "ORG",
+     "Computer Skills"
+    ],
+    [
+     "ORG",
+     "Lotus"
+    ],
+    [
+     "ORG",
+     "PowerPoint"
+    ],
+    [
+     "PERSON",
+     "Visio"
+    ],
+    [
+     "ORG",
+     "Psychiatric Emergency Team"
+    ],
+    [
+     "CARDINAL",
+     "24/7/365"
+    ],
+    [
+     "ORG",
+     "Utilization Management"
+    ],
+    [
+     "PERSON",
+     "Bed Finding"
+    ],
+    [
+     "PERSON",
+     "Frequent Caller"
+    ],
+    [
+     "ORG",
+     "Social Work"
+    ],
+    [
+     "DATE",
+     "Month"
+    ],
+    [
+     "PERSON",
+     "Frequent Caller"
+    ],
+    [
+     "ORG",
+     "Department Administrators"
+    ],
+    [
+     "ORG",
+     "Southern California Quality"
+    ],
+    [
+     "DATE",
+     "monthly"
+    ],
+    [
+     "DATE",
+     "every 6 weeks"
+    ],
+    [
+     "DATE",
+     "03/1998 - 07/2002"
+    ],
+    [
+     "ORG",
+     "psychiatric and/or addiction"
+    ],
+    [
+     "DATE",
+     "monthly"
+    ],
+    [
+     "NORP",
+     "Physician"
+    ],
+    [
+     "PERSON",
+     "Liaison"
+    ],
+    [
+     "ORG",
+     "the Substance Abuse and Psychiatry"
+    ],
+    [
+     "PERSON",
+     "Brown Bag"
+    ]
+   ],
+   "rule_based": [
+    [
+     "SKILL",
+     "HEALTHCARE"
+    ],
+    [
+     "SKILL",
+     "Clinical"
+    ],
+    [
+     "SKILL",
+     "Clinical"
+    ],
+    [
+     "SKILL",
+     "Clinical supervision"
+    ],
+    [
+     "SKILL",
+     "training"
+    ],
+    [
+     "SKILL",
+     "process improvement"
+    ],
+    [
+     "DEGREE",
+     "Master of Social Work"
+    ],
+    [
+     "DEGREE",
+     "Bachelor of Arts"
+    ],
+    [
+     "SKILL",
+     "Clinical"
+    ],
+    [
+     "SKILL",
+     "Documentation"
+    ],
+    [
+     "SKILL",
+     "Documentation"
+    ],
+    [
+     "SKILL",
+     "documentation"
+    ],
+    [
+     "SKILL",
+     "quality assurance"
+    ],
+    [
+     "SKILL",
+     "documentation"
+    ],
+    [
+     "SKILL",
+     "documentation"
+    ],
+    [
+     "SKILL",
+     "Training"
+    ],
+    [
+     "SKILL",
+     "training"
+    ],
+    [
+     "SKILL",
+     "documentation"
+    ],
+    [
+     "SKILL",
+     "training"
+    ],
+    [
+     "SKILL",
+     "Marketing"
+    ],
+    [
+     "SKILL",
+     "Epic"
+    ],
+    [
+     "SKILL",
+     "Word"
+    ],
+    [
+     "SKILL",
+     "PowerPoint"
+    ],
+    [
+     "SKILL",
+     "Healthcare"
+    ],
+    [
+     "JOB_TITLE",
+     "Clinical supervisor"
+    ],
+    [
+     "SKILL",
+     "training"
+    ],
+    [
+     "SKILL",
+     "clinical"
+    ],
+    [
+     "SKILL",
+     "Social Work"
+    ],
+    [
+     "SKILL",
+     "training"
+    ],
+    [
+     "SKILL",
+     "training"
+    ],
+    [
+     "SKILL",
+     "payroll"
+    ],
+    [
+     "SKILL",
+     "scheduling"
+    ],
+    [
+     "SKILL",
+     "Clinical"
+    ],
+    [
+     "SKILL",
+     "crisis intervention"
+    ],
+    [
+     "SKILL",
+     "documentation"
+    ],
+    [
+     "SKILL",
+     "Clinical"
+    ],
+    [
+     "SKILL",
+     "case management"
+    ],
+    [
+     "JOB_TITLE",
+     "resource specialist"
+    ],
+    [
+     "SKILL",
+     "Social Work"
+    ],
+    [
+     "DEGREE",
+     "Associate in"
+    ]
+   ]
+  }
+ },
+ "transformer_ner_run_on": [
+  "ENG_05",
+  "HR_03",
+  "FIN_05"
+ ],
+ "notes": [
+  "No NER model was trained in this project; all models are pretrained or rule-based.",
+  "No gold-standard entity annotations exist for these resumes, so precision/recall of NER is not reported; outputs were inspected manually.",
+  "Pretrained ORG/PERSON labels are noisy on resumes (skills and section headers are often tagged as ORG/PERSON), which is why rule-based SKILL/DEGREE/JOB_TITLE entities were added."
+ ]
+}

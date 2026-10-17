@@ -1,0 +1,46 @@
+{
+ "model": "Fine-tuned roberta-base-spacy",
+ "base_model_requested": "roberta-base",
+ "base_model_used": "/home/claude/resume-analyzer-nlp/models/pretrained/roberta-base-spacy",
+ "hyperparameters": {
+  "model_name": "roberta-base",
+  "epochs": 4,
+  "lr": 2e-05,
+  "batch_size": 2,
+  "max_length": 512,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "freeze_embeddings": false,
+  "freeze_layers": 0,
+  "seed": 42,
+  "output_dir": "/home/claude/resume-analyzer-nlp/models/transformer_finetuned",
+  "smoke": false
+ },
+ "best_epoch": 4,
+ "results": {
+  "val": {
+   "n_samples": 20,
+   "accuracy": 0.55,
+   "macro_precision": 0.6167,
+   "macro_recall": 0.55,
+   "macro_f1": 0.5014,
+   "weighted_f1": 0.5014,
+   "loss": 1.43395
+  },
+  "test": {
+   "n_samples": 20,
+   "accuracy": 0.4,
+   "macro_precision": 0.45,
+   "macro_recall": 0.4,
+   "macro_f1": 0.3467,
+   "weighted_f1": 0.3467,
+   "loss": 1.48874
+  }
+ },
+ "n_resumes": {
+  "train": 60,
+  "val": 20,
+  "test": 20
+ },
+ "smoke_test": false
+}

@@ -1,0 +1,205 @@
+{
+ "sentence": "Experience with advanced material selection for rapid prototyping, advanced manufacturing, welding and 3D printing.",
+ "nltk": {
+  "version": "3.10.3",
+  "tokens": [
+   "Experience",
+   "with",
+   "advanced",
+   "material",
+   "selection",
+   "for",
+   "rapid",
+   "prototyping",
+   ",",
+   "advanced",
+   "manufacturing",
+   ",",
+   "welding",
+   "and",
+   "3D",
+   "printing",
+   "."
+  ],
+  "pos": [
+   [
+    "Experience",
+    "NN"
+   ],
+   [
+    "with",
+    "IN"
+   ],
+   [
+    "advanced",
+    "JJ"
+   ],
+   [
+    "material",
+    "NN"
+   ],
+   [
+    "selection",
+    "NN"
+   ],
+   [
+    "for",
+    "IN"
+   ],
+   [
+    "rapid",
+    "JJ"
+   ],
+   [
+    "prototyping",
+    "NN"
+   ],
+   [
+    ",",
+    ","
+   ],
+   [
+    "advanced",
+    "VBD"
+   ],
+   [
+    "manufacturing",
+    "NN"
+   ],
+   [
+    ",",
+    ","
+   ],
+   [
+    "welding",
+    "NN"
+   ],
+   [
+    "and",
+    "CC"
+   ],
+   [
+    "3D",
+    "CD"
+   ],
+   [
+    "printing",
+    "NN"
+   ],
+   [
+    ".",
+    "."
+   ]
+  ]
+ },
+ "spacy": {
+  "version": "3.8.16",
+  "model": "core_web_sm",
+  "lemmas": [
+   [
+    "Experience",
+    "experience"
+   ],
+   [
+    "with",
+    "with"
+   ],
+   [
+    "advanced",
+    "advanced"
+   ],
+   [
+    "material",
+    "material"
+   ],
+   [
+    "selection",
+    "selection"
+   ],
+   [
+    "for",
+    "for"
+   ],
+   [
+    "rapid",
+    "rapid"
+   ],
+   [
+    "prototyping",
+    "prototyping"
+   ],
+   [
+    ",",
+    ","
+   ],
+   [
+    "advanced",
+    "advanced"
+   ],
+   [
+    "manufacturing",
+    "manufacturing"
+   ],
+   [
+    ",",
+    ","
+   ],
+   [
+    "welding",
+    "welding"
+   ],
+   [
+    "and",
+    "and"
+   ],
+   [
+    "3D",
+    "3d"
+   ],
+   [
+    "printing",
+    "printing"
+   ],
+   [
+    ".",
+    "."
+   ]
+  ],
+  "entities": [],
+  "noun_chunks": [
+   "Experience",
+   "advanced material selection",
+   "rapid prototyping, advanced manufacturing",
+   "welding",
+   "3D printing"
+  ]
+ },
+ "transformers": {
+  "version": "5.19.0",
+  "task": "feature-extraction (local RoBERTa)",
+  "n_tokens": 21,
+  "dim": 768,
+  "note": "Hub not reachable (OSError); used local model"
+ },
+ "allennlp": "not available (ModuleNotFoundError). AllenNLP was archived by AI2 in 2022 and pins old torch/Python versions, so it is documented but not executed here.",
+ "cloud_platforms": [
+  {
+   "platform": "Google Cloud Natural Language API",
+   "features": "entities, sentiment, syntax, content classification",
+   "custom_models": "AutoML / Vertex AI",
+   "access": "REST/gRPC, API key or service account (billed)"
+  },
+  {
+   "platform": "AWS Comprehend",
+   "features": "entities, key phrases, sentiment, PII detection, language detection",
+   "custom_models": "custom classifier & custom entity recognizer",
+   "access": "boto3 SDK, IAM credentials (billed)"
+  },
+  {
+   "platform": "Azure AI Language (Text Analytics)",
+   "features": "NER, PII redaction, key phrases, sentiment, language",
+   "custom_models": "custom text classification / custom NER",
+   "access": "REST/SDK, endpoint + key (billed)"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "status": "PASS",
+ "total": 100,
+ "per_category": {
+  "Engineering": 20,
+  "HR": 20,
+  "Finance": 20,
+  "Healthcare": 20,
+  "Agriculture": 20
+ },
+ "per_category_by_source": {
+  "Engineering": {
+   "supplied_original": 5,
+   "synthetic": 15
+  },
+  "HR": {
+   "supplied_original": 5,
+   "synthetic": 15
+  },
+  "Finance": {
+   "supplied_original": 4,
+   "synthetic": 16
+  },
+  "Healthcare": {
+   "supplied_original": 3,
+   "synthetic": 17
+  },
+  "Agriculture": {
+   "supplied_original": 1,
+   "synthetic": 19
+  }
+ },
+ "words": {
+  "min": 225,
+  "max": 2070,
+  "mean": 426.6
+ },
+ "max_pairwise_similarity": 0.777,
+ "most_similar_pairs": [
+  {
+   "a": "SYN_AGR_18.pdf",
+   "b": "SYN_AGR_12.pdf",
+   "cosine": 0.777
+  },
+  {
+   "a": "SYN_AGR_18.pdf",
+   "b": "SYN_AGR_04.pdf",
+   "cosine": 0.769
+  },
+  {
+   "a": "SYN_AGR_14.pdf",
+   "b": "SYN_AGR_09.pdf",
+   "cosine": 0.767
+  },
+  {
+   "a": "SYN_AGR_15.pdf",
+   "b": "SYN_AGR_06.pdf",
+   "cosine": 0.74
+  },
+  {
+   "a": "SYN_AGR_12.pdf",
+   "b": "SYN_AGR_04.pdf",
+   "cosine": 0.74
+  }
+ ],
+ "fails": [],
+ "warnings": []
+}

@@ -1,0 +1,6 @@
+representation,dimensions,n_samples,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+"Bag of n-grams (1-2, counts)",18716,100,0.98,0.981,0.98,0.98,0.98
+TF-IDF (1-2 grams),18715,100,0.95,0.9557,0.95,0.9501,0.9501
+"Word2Vec (trained on corpus, mean)",100,100,0.98,0.981,0.98,0.98,0.98
+"GloVe 50-d (pretrained, mean)",50,100,0.98,0.9805,0.98,0.98,0.98
+Contextual roberta-base-spacy (mean-pooled),768,100,0.93,0.9311,0.93,0.9299,0.9299

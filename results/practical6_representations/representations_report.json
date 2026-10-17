@@ -1,0 +1,3332 @@
+{
+ "ngrams": {
+  "1-gram": {
+   "vocabulary_size": 1816,
+   "top": [
+    [
+     "management",
+     179
+    ],
+    [
+     "report",
+     151
+    ],
+    [
+     "experience",
+     142
+    ],
+    [
+     "prepare",
+     131
+    ],
+    [
+     "work",
+     130
+    ],
+    [
+     "control",
+     124
+    ],
+    [
+     "present",
+     122
+    ],
+    [
+     "test",
+     122
+    ],
+    [
+     "maintain",
+     119
+    ],
+    [
+     "system",
+     118
+    ],
+    [
+     "use",
+     116
+    ],
+    [
+     "year",
+     116
+    ]
+   ]
+  },
+  "2-gram": {
+   "vocabulary_size": 2771,
+   "top": [
+    [
+     "seed production",
+     27
+    ],
+    [
+     "ich gcp",
+     27
+    ],
+    [
+     "work experience",
+     26
+    ],
+    [
+     "core competency",
+     25
+    ],
+    [
+     "education training",
+     24
+    ],
+    [
+     "financial model",
+     23
+    ],
+    [
+     "employment history",
+     23
+    ],
+    [
+     "soil health",
+     23
+    ],
+    [
+     "attention detail",
+     23
+    ],
+    [
+     "professional experience",
+     23
+    ],
+    [
+     "training certification",
+     22
+    ],
+    [
+     "drip irrigation",
+     22
+    ]
+   ]
+  },
+  "3-gram": {
+   "vocabulary_size": 2184,
+   "top": [
+    [
+     "soil health card",
+     21
+    ],
+    [
+     "farmer producer company",
+     20
+    ],
+    [
+     "produce farmer farmer",
+     17
+    ],
+    [
+     "farmer farmer producer",
+     17
+    ],
+    [
+     "producer company handle",
+     17
+    ],
+    [
+     "drive ensured version",
+     16
+    ],
+    [
+     "accurate documentation share",
+     16
+    ],
+    [
+     "procure produce farmer",
+     16
+    ],
+    [
+     "ensured version control",
+     16
+    ],
+    [
+     "control key file",
+     16
+    ],
+    [
+     "maintain accurate documentation",
+     16
+    ],
+    [
+     "version control key",
+     16
+    ]
+   ]
+  },
+  "top_bigrams_per_category": {
+   "Agriculture": [
+    [
+     "seed production",
+     27
+    ],
+    [
+     "drip irrigation",
+     22
+    ],
+    [
+     "soil health",
+     22
+    ],
+    [
+     "post harvest",
+     21
+    ],
+    [
+     "producer company",
+     20
+    ],
+    [
+     "farmer producer",
+     20
+    ],
+    [
+     "health card",
+     20
+    ],
+    [
+     "farmer field",
+     18
+    ]
+   ],
+   "Engineering": [
+    [
+     "prepare single",
+     14
+    ],
+    [
+     "panel prepare",
+     14
+    ],
+    [
+     "diagram cable",
+     14
+    ],
+    [
+     "electrical panel",
+     14
+    ],
+    [
+     "design lt",
+     14
+    ],
+    [
+     "lt electrical",
+     14
+    ],
+    [
+     "cable schedule",
+     14
+    ],
+    [
+     "single line",
+     14
+    ]
+   ],
+   "Finance": [
+    [
+     "financial model",
+     23
+    ],
+    [
+     "internal control",
+     19
+    ],
+    [
+     "per month",
+     18
+    ],
+    [
+     "sap fico",
+     15
+    ],
+    [
+     "cash flow",
+     13
+    ],
+    [
+     "power bi",
+     13
+    ],
+    [
+     "excel model",
+     13
+    ],
+    [
+     "bank reconciliation",
+     13
+    ]
+   ],
+   "HR": [
+    [
+     "labour law",
+     20
+    ],
+    [
+     "manage full",
+     17
+    ],
+    [
+     "handle employee",
+     15
+    ],
+    [
+     "campus recruitment",
+     15
+    ],
+    [
+     "new hire",
+     13
+    ],
+    [
+     "sap successfactors",
+     13
+    ],
+    [
+     "applicant track",
+     11
+    ],
+    [
+     "final settlement",
+     11
+    ]
+   ],
+   "Healthcare": [
+    [
+     "ich gcp",
+     27
+    ],
+    [
+     "dental research",
+     17
+    ],
+    [
+     "association dental",
+     17
+    ],
+    [
+     "wound care",
+     16
+    ],
+    [
+     "nabh documentation",
+     14
+    ],
+    [
+     "bls acls",
+     13
+    ],
+    [
+     "responsibility include",
+     13
+    ],
+    [
+     "patient education",
+     13
+    ]
+   ]
+  }
+ },
+ "tfidf_top_terms": {
+  "AGR_01": [
+   [
+    "insect",
+    0.099
+   ],
+   [
+    "forest",
+    0.093
+   ],
+   [
+    "nest",
+    0.087
+   ],
+   [
+    "may august",
+    0.08
+   ],
+   [
+    "keystone",
+    0.08
+   ],
+   [
+    "keystone college",
+    0.08
+   ]
+  ],
+  "AGR_02": [
+   [
+    "production manager",
+    0.113
+   ],
+   [
+    "seed",
+    0.112
+   ],
+   [
+    "seed production",
+    0.099
+   ],
+   [
+    "farmer",
+    0.095
+   ],
+   [
+    "livestock management",
+    0.086
+   ],
+   [
+    "yield",
+    0.082
+   ]
+  ],
+  "AGR_03": [
+   [
+    "crop research",
+    0.125
+   ],
+   [
+    "research assistant",
+    0.12
+   ],
+   [
+    "crop",
+    0.105
+   ],
+   [
+    "soil",
+    0.099
+   ],
+   [
+    "farmer",
+    0.098
+   ],
+   [
+    "integrated_pest_management",
+    0.087
+   ]
+  ],
+  "AGR_04": [
+   [
+    "soil",
+    0.126
+   ],
+   [
+    "soil scientist",
+    0.124
+   ],
+   [
+    "farm",
+    0.121
+   ],
+   [
+    "scientist",
+    0.116
+   ],
+   [
+    "farmer",
+    0.098
+   ],
+   [
+    "crop",
+    0.098
+   ]
+  ],
+  "AGR_05": [
+   [
+    "business executive",
+    0.123
+   ],
+   [
+    "farmer",
+    0.114
+   ],
+   [
+    "agri business",
+    0.113
+   ],
+   [
+    "agri",
+    0.106
+   ],
+   [
+    "soil",
+    0.101
+   ],
+   [
+    "crop",
+    0.092
+   ]
+  ],
+  "ENG_01": [
+   [
+    "munition",
+    0.129
+   ],
+   [
+    "aircraft",
+    0.109
+   ],
+   [
+    "apply science",
+    0.109
+   ],
+   [
+    "apply",
+    0.105
+   ],
+   [
+    "actuator",
+    0.104
+   ],
+   [
+    "labview",
+    0.104
+   ]
+  ],
+  "ENG_02": [
+   [
+    "test equipment",
+    0.079
+   ],
+   [
+    "repair",
+    0.074
+   ],
+   [
+    "equipment",
+    0.07
+   ],
+   [
+    "fire",
+    0.065
+   ],
+   [
+    "troubleshoot",
+    0.064
+   ],
+   [
+    "material production",
+    0.061
+   ]
+  ],
+  "ENG_03": [
+   [
+    "january",
+    0.098
+   ],
+   [
+    "january january",
+    0.083
+   ],
+   [
+    "agile",
+    0.081
+   ],
+   [
+    "software_development",
+    0.081
+   ],
+   [
+    "computer science",
+    0.074
+   ],
+   [
+    "neural",
+    0.074
+   ]
+  ],
+  "ENG_04": [
+   [
+    "troubleshoot",
+    0.076
+   ],
+   [
+    "installation",
+    0.074
+   ],
+   [
+    "repair",
+    0.074
+   ],
+   [
+    "plc",
+    0.073
+   ],
+   [
+    "maintenance",
+    0.07
+   ],
+   [
+    "dc",
+    0.07
+   ]
+  ],
+  "ENG_05": [
+   [
+    "cad",
+    0.095
+   ],
+   [
+    "oil",
+    0.095
+   ],
+   [
+    "optimize",
+    0.087
+   ],
+   [
+    "automotive",
+    0.087
+   ],
+   [
+    "illinois institute",
+    0.077
+   ],
+   [
+    "engineering analysis",
+    0.077
+   ]
+  ],
+  "FIN_01": [
+   [
+    "accounting",
+    0.075
+   ],
+   [
+    "year end",
+    0.065
+   ],
+   [
+    "purchasing",
+    0.065
+   ],
+   [
+    "financials",
+    0.065
+   ],
+   [
+    "aspect",
+    0.061
+   ],
+   [
+    "corporate",
+    0.06
+   ]
+  ],
+  "FIN_02": [
+   [
+    "accounting",
+    0.084
+   ],
+   [
+    "medical_billing",
+    0.08
+   ],
+   [
+    "termination",
+    0.08
+   ],
+   [
+    "preparation",
+    0.079
+   ],
+   [
+    "inventory",
+    0.075
+   ],
+   [
+    "human resource",
+    0.075
+   ]
+  ],
+  "FIN_03": [
+   [
+    "dan",
+    0.107
+   ],
+   [
+    "perusahaan",
+    0.095
+   ],
+   [
+    "instansi",
+    0.095
+   ],
+   [
+    "instansi perusahaan",
+    0.095
+   ],
+   [
+    "job deskripsi",
+    0.076
+   ],
+   [
+    "junior auditor",
+    0.076
+   ]
+  ],
+  "FIN_04": [
+   [
+    "grant",
+    0.081
+   ],
+   [
+    "board director",
+    0.081
+   ],
+   [
+    "financial_statements",
+    0.072
+   ],
+   [
+    "new hampshire",
+    0.071
+   ],
+   [
+    "hampshire",
+    0.071
+   ],
+   [
+    "director",
+    0.068
+   ]
+  ],
+  "FIN_05": [
+   [
+    "credit analyst",
+    0.114
+   ],
+   [
+    "analyst",
+    0.099
+   ],
+   [
+    "treasury",
+    0.095
+   ],
+   [
+    "gstr",
+    0.086
+   ],
+   [
+    "treasury analyst",
+    0.083
+   ],
+   [
+    "cash",
+    0.08
+   ]
+  ],
+  "HR_01": [
+   [
+    "clerk",
+    0.101
+   ],
+   [
+    "clerical",
+    0.088
+   ],
+   [
+    "mail",
+    0.088
+   ],
+   [
+    "office clerk",
+    0.082
+   ],
+   [
+    "letter",
+    0.082
+   ],
+   [
+    "data_entry",
+    0.082
+   ]
+  ],
+  "HR_02": [
+   [
+    "osha",
+    0.096
+   ],
+   [
+    "leave",
+    0.095
+   ],
+   [
+    "fmla",
+    0.09
+   ],
+   [
+    "request coordinate",
+    0.09
+   ],
+   [
+    "term disability",
+    0.083
+   ],
+   [
+    "employee supervisor",
+    0.082
+   ]
+  ],
+  "HR_03": [
+   [
+    "purchase",
+    0.074
+   ],
+   [
+    "administrative",
+    0.07
+   ],
+   [
+    "general administration",
+    0.064
+   ],
+   [
+    "type",
+    0.064
+   ],
+   [
+    "general",
+    0.062
+   ],
+   [
+    "clarify",
+    0.061
+   ]
+  ],
+  "HR_04": [
+   [
+    "non immigrant",
+    0.094
+   ],
+   [
+    "immigrant",
+    0.094
+   ],
+   [
+    "performance evaluation",
+    0.086
+   ],
+   [
+    "njit",
+    0.086
+   ],
+   [
+    "annual performance",
+    0.086
+   ],
+   [
+    "uscis",
+    0.086
+   ]
+  ],
+  "HR_05": [
+   [
+    "eastern",
+    0.088
+   ],
+   [
+    "directory",
+    0.088
+   ],
+   [
+    "serve",
+    0.076
+   ],
+   [
+    "suite",
+    0.072
+   ],
+   [
+    "listing",
+    0.071
+   ],
+   [
+    "eastern star",
+    0.071
+   ]
+  ],
+  "HLT_01": [
+   [
+    "abuse",
+    0.077
+   ],
+   [
+    "resident",
+    0.071
+   ],
+   [
+    "substance",
+    0.068
+   ],
+   [
+    "therapy",
+    0.068
+   ],
+   [
+    "substance abuse",
+    0.068
+   ],
+   [
+    "adult",
+    0.065
+   ]
+  ],
+  "HLT_02": [
+   [
+    "sale",
+    0.088
+   ],
+   [
+    "brand",
+    0.074
+   ],
+   [
+    "territory",
+    0.073
+   ],
+   [
+    "florida",
+    0.073
+   ],
+   [
+    "formulary",
+    0.073
+   ],
+   [
+    "retail",
+    0.071
+   ]
+  ],
+  "HLT_03": [
+   [
+    "dental",
+    0.074
+   ],
+   [
+    "association dental",
+    0.072
+   ],
+   [
+    "dental research",
+    0.072
+   ],
+   [
+    "chemistry",
+    0.066
+   ],
+   [
+    "march",
+    0.066
+   ],
+   [
+    "scientific",
+    0.062
+   ]
+  ],
+  "HLT_04": [
+   [
+    "clinical_research coordinator",
+    0.144
+   ],
+   [
+    "clinical_research",
+    0.124
+   ],
+   [
+    "coordinator",
+    0.101
+   ],
+   [
+    "pharmacy",
+    0.097
+   ],
+   [
+    "visit",
+    0.088
+   ],
+   [
+    "clinical trial",
+    0.088
+   ]
+  ],
+  "HLT_05": [
+   [
+    "radiation",
+    0.095
+   ],
+   [
+    "radiation safety",
+    0.095
+   ],
+   [
+    "radiology technician",
+    0.095
+   ],
+   [
+    "cardiac",
+    0.094
+   ],
+   [
+    "life support",
+    0.091
+   ],
+   [
+    "acls",
+    0.088
+   ]
+  ],
+  "AGR_06": [
+   [
+    "production manager",
+    0.15
+   ],
+   [
+    "seed production",
+    0.131
+   ],
+   [
+    "mumbai nov",
+    0.129
+   ],
+   [
+    "seed",
+    0.129
+   ],
+   [
+    "farmer",
+    0.102
+   ],
+   [
+    "production",
+    0.096
+   ]
+  ],
+  "AGR_07": [
+   [
+    "agri",
+    0.117
+   ],
+   [
+    "agri business",
+    0.114
+   ],
+   [
+    "business executive",
+    0.108
+   ],
+   [
+    "farmer",
+    0.1
+   ],
+   [
+    "soil",
+    0.098
+   ],
+   [
+    "organic",
+    0.079
+   ]
+  ],
+  "AGR_08": [
+   [
+    "horticulture specialist",
+    0.11
+   ],
+   [
+    "soil",
+    0.102
+   ],
+   [
+    "crop",
+    0.101
+   ],
+   [
+    "horticulture",
+    0.101
+   ],
+   [
+    "irrigation",
+    0.096
+   ],
+   [
+    "farmer",
+    0.093
+   ]
+  ],
+  "AGR_09": [
+   [
+    "dairy farm",
+    0.165
+   ],
+   [
+    "farm supervisor",
+    0.165
+   ],
+   [
+    "farm",
+    0.131
+   ],
+   [
+    "supervisor",
+    0.115
+   ],
+   [
+    "dairy",
+    0.106
+   ],
+   [
+    "harvest",
+    0.098
+   ]
+  ],
+  "AGR_10": [
+   [
+    "science coimbatore",
+    0.115
+   ],
+   [
+    "greenhouse manager",
+    0.105
+   ],
+   [
+    "crop",
+    0.102
+   ],
+   [
+    "coimbatore jul",
+    0.099
+   ],
+   [
+    "greenhouse",
+    0.091
+   ],
+   [
+    "farmer",
+    0.091
+   ]
+  ],
+  "AGR_11": [
+   [
+    "horticulture specialist",
+    0.117
+   ],
+   [
+    "farmer",
+    0.108
+   ],
+   [
+    "farm",
+    0.108
+   ],
+   [
+    "soil",
+    0.096
+   ],
+   [
+    "irrigation",
+    0.09
+   ],
+   [
+    "horticulture",
+    0.087
+   ]
+  ],
+  "AGR_12": [
+   [
+    "irrigation engineer",
+    0.144
+   ],
+   [
+    "irrigation",
+    0.102
+   ],
+   [
+    "crop",
+    0.092
+   ],
+   [
+    "farmer",
+    0.092
+   ],
+   [
+    "farm",
+    0.092
+   ],
+   [
+    "harvest",
+    0.086
+   ]
+  ],
+  "AGR_13": [
+   [
+    "farmer",
+    0.103
+   ],
+   [
+    "soil",
+    0.101
+   ],
+   [
+    "agricultural",
+    0.097
+   ],
+   [
+    "crop",
+    0.091
+   ],
+   [
+    "business executive",
+    0.09
+   ],
+   [
+    "agricultural_extension",
+    0.089
+   ]
+  ],
+  "AGR_14": [
+   [
+    "agronomist",
+    0.105
+   ],
+   [
+    "crop",
+    0.103
+   ],
+   [
+    "soil",
+    0.097
+   ],
+   [
+    "integrated_pest_management",
+    0.085
+   ],
+   [
+    "pest",
+    0.082
+   ],
+   [
+    "irrigation",
+    0.08
+   ]
+  ],
+  "AGR_15": [
+   [
+    "crop research",
+    0.108
+   ],
+   [
+    "crop",
+    0.107
+   ],
+   [
+    "research assistant",
+    0.103
+   ],
+   [
+    "soil",
+    0.1
+   ],
+   [
+    "experience crop",
+    0.098
+   ],
+   [
+    "harvestline",
+    0.092
+   ]
+  ],
+  "AGR_16": [
+   [
+    "agricultural_extension officer",
+    0.139
+   ],
+   [
+    "agricultural_extension",
+    0.106
+   ],
+   [
+    "farmer",
+    0.103
+   ],
+   [
+    "crop",
+    0.096
+   ],
+   [
+    "soil",
+    0.085
+   ],
+   [
+    "seed",
+    0.084
+   ]
+  ],
+  "AGR_17": [
+   [
+    "plant_protection officer",
+    0.104
+   ],
+   [
+    "soil",
+    0.099
+   ],
+   [
+    "crop",
+    0.096
+   ],
+   [
+    "farmer",
+    0.09
+   ],
+   [
+    "pest",
+    0.076
+   ],
+   [
+    "producer",
+    0.075
+   ]
+  ],
+  "AGR_18": [
+   [
+    "production manager",
+    0.121
+   ],
+   [
+    "seed",
+    0.12
+   ],
+   [
+    "seed production",
+    0.12
+   ],
+   [
+    "crop",
+    0.111
+   ],
+   [
+    "farmer",
+    0.089
+   ],
+   [
+    "production",
+    0.088
+   ]
+  ],
+  "AGR_19": [
+   [
+    "agricultural field",
+    0.128
+   ],
+   [
+    "farmer",
+    0.107
+   ],
+   [
+    "field officer",
+    0.1
+   ],
+   [
+    "agricultural",
+    0.1
+   ],
+   [
+    "soil",
+    0.096
+   ],
+   [
+    "farm",
+    0.095
+   ]
+  ],
+  "AGR_20": [
+   [
+    "quality officer",
+    0.125
+   ],
+   [
+    "food_safety quality",
+    0.125
+   ],
+   [
+    "officer riverbend",
+    0.117
+   ],
+   [
+    "seed",
+    0.106
+   ],
+   [
+    "seed production",
+    0.102
+   ],
+   [
+    "farmer",
+    0.098
+   ]
+  ],
+  "ENG_06": [
+   [
+    "design engineer",
+    0.12
+   ],
+   [
+    "hvac",
+    0.11
+   ],
+   [
+    "hvac design",
+    0.108
+   ],
+   [
+    "engineer",
+    0.09
+   ],
+   [
+    "defect",
+    0.078
+   ],
+   [
+    "load",
+    0.078
+   ]
+  ],
+  "ENG_07": [
+   [
+    "reliability",
+    0.106
+   ],
+   [
+    "reliability engineer",
+    0.101
+   ],
+   [
+    "engineer",
+    0.089
+   ],
+   [
+    "root_cause_analysis",
+    0.07
+   ],
+   [
+    "embed",
+    0.07
+   ],
+   [
+    "rig",
+    0.068
+   ]
+  ],
+  "ENG_08": [
+   [
+    "engineer kestrel",
+    0.104
+   ],
+   [
+    "auto component",
+    0.095
+   ],
+   [
+    "kestrel auto",
+    0.095
+   ],
+   [
+    "embed software",
+    0.095
+   ],
+   [
+    "embed",
+    0.093
+   ],
+   [
+    "automation engineer",
+    0.089
+   ]
+  ],
+  "ENG_09": [
+   [
+    "validate",
+    0.088
+   ],
+   [
+    "catia",
+    0.087
+   ],
+   [
+    "drawing",
+    0.081
+   ],
+   [
+    "rig",
+    0.075
+   ],
+   [
+    "scada",
+    0.073
+   ],
+   [
+    "design catia",
+    0.071
+   ]
+  ],
+  "ENG_10": [
+   [
+    "production engineer",
+    0.114
+   ],
+   [
+    "root_cause_analysis",
+    0.105
+   ],
+   [
+    "defect",
+    0.092
+   ],
+   [
+    "cnc",
+    0.092
+   ],
+   [
+    "cnc machine",
+    0.092
+   ],
+   [
+    "engineer",
+    0.086
+   ]
+  ],
+  "ENG_11": [
+   [
+    "engineer",
+    0.093
+   ],
+   [
+    "process engineer",
+    0.088
+   ],
+   [
+    "weld",
+    0.078
+   ],
+   [
+    "cnc",
+    0.075
+   ],
+   [
+    "cnc machine",
+    0.075
+   ],
+   [
+    "defect",
+    0.075
+   ]
+  ],
+  "ENG_12": [
+   [
+    "process engineer",
+    0.12
+   ],
+   [
+    "fabrication pvt",
+    0.102
+   ],
+   [
+    "blueridge fabrication",
+    0.102
+   ],
+   [
+    "blueridge",
+    0.102
+   ],
+   [
+    "fabrication",
+    0.096
+   ],
+   [
+    "mechanical engineering",
+    0.088
+   ]
+  ],
+  "ENG_13": [
+   [
+    "production engineer",
+    0.117
+   ],
+   [
+    "engineer",
+    0.081
+   ],
+   [
+    "weld",
+    0.079
+   ],
+   [
+    "defect",
+    0.076
+   ],
+   [
+    "staad",
+    0.074
+   ],
+   [
+    "staad pro",
+    0.074
+   ]
+  ],
+  "ENG_14": [
+   [
+    "hvac",
+    0.093
+   ],
+   [
+    "mechanical_design engineer",
+    0.087
+   ],
+   [
+    "engineer",
+    0.082
+   ],
+   [
+    "design engineer",
+    0.082
+   ],
+   [
+    "drawing",
+    0.079
+   ],
+   [
+    "mechanical_design",
+    0.077
+   ]
+  ],
+  "ENG_15": [
+   [
+    "project engineer",
+    0.12
+   ],
+   [
+    "structural",
+    0.111
+   ],
+   [
+    "technical university",
+    0.083
+   ],
+   [
+    "riverton",
+    0.083
+   ],
+   [
+    "riverton technical",
+    0.083
+   ],
+   [
+    "site",
+    0.082
+   ]
+  ],
+  "ENG_16": [
+   [
+    "engineer",
+    0.093
+   ],
+   [
+    "cnc machine",
+    0.088
+   ],
+   [
+    "cnc",
+    0.088
+   ],
+   [
+    "staad",
+    0.085
+   ],
+   [
+    "staad pro",
+    0.085
+   ],
+   [
+    "pro",
+    0.082
+   ]
+  ],
+  "ENG_17": [
+   [
+    "reliability engineer",
+    0.102
+   ],
+   [
+    "orbisflow",
+    0.087
+   ],
+   [
+    "orbisflow pump",
+    0.087
+   ],
+   [
+    "reliability",
+    0.087
+   ],
+   [
+    "pump valve",
+    0.087
+   ],
+   [
+    "valve",
+    0.083
+   ]
+  ],
+  "ENG_18": [
+   [
+    "electrical_design engineer",
+    0.097
+   ],
+   [
+    "embed",
+    0.087
+   ],
+   [
+    "engineer",
+    0.083
+   ],
+   [
+    "electrical_design",
+    0.079
+   ],
+   [
+    "validate",
+    0.071
+   ],
+   [
+    "motor controller",
+    0.067
+   ]
+  ],
+  "ENG_19": [
+   [
+    "helix infra",
+    0.094
+   ],
+   [
+    "infra project",
+    0.094
+   ],
+   [
+    "engineer helix",
+    0.094
+   ],
+   [
+    "infra",
+    0.094
+   ],
+   [
+    "process engineer",
+    0.094
+   ],
+   [
+    "helix",
+    0.094
+   ]
+  ],
+  "ENG_20": [
+   [
+    "test engineer",
+    0.109
+   ],
+   [
+    "engineer solace",
+    0.089
+   ],
+   [
+    "hvac solution",
+    0.089
+   ],
+   [
+    "solace hvac",
+    0.089
+   ],
+   [
+    "solace",
+    0.089
+   ],
+   [
+    "engineer",
+    0.088
+   ]
+  ],
+  "FIN_06": [
+   [
+    "credit analyst",
+    0.113
+   ],
+   [
+    "analyst",
+    0.099
+   ],
+   [
+    "treasury",
+    0.094
+   ],
+   [
+    "gstr",
+    0.086
+   ],
+   [
+    "treasury analyst",
+    0.082
+   ],
+   [
+    "reconciliation",
+    0.081
+   ]
+  ],
+  "FIN_07": [
+   [
+    "finance manager",
+    0.12
+   ],
+   [
+    "variance_analysis",
+    0.107
+   ],
+   [
+    "financial model",
+    0.104
+   ],
+   [
+    "month end_close",
+    0.094
+   ],
+   [
+    "finance",
+    0.092
+   ],
+   [
+    "financial",
+    0.091
+   ]
+  ],
+  "FIN_08": [
+   [
+    "fp",
+    0.13
+   ],
+   [
+    "fp analyst",
+    0.13
+   ],
+   [
+    "analyst",
+    0.097
+   ],
+   [
+    "gstr",
+    0.085
+   ],
+   [
+    "financial",
+    0.08
+   ],
+   [
+    "payment",
+    0.073
+   ]
+  ],
+  "FIN_09": [
+   [
+    "treasury",
+    0.124
+   ],
+   [
+    "treasury analyst",
+    0.118
+   ],
+   [
+    "cash",
+    0.101
+   ],
+   [
+    "analyst",
+    0.092
+   ],
+   [
+    "cash flow",
+    0.078
+   ],
+   [
+    "credit appraisal",
+    0.078
+   ]
+  ],
+  "FIN_10": [
+   [
+    "treasury",
+    0.11
+   ],
+   [
+    "cash",
+    0.101
+   ],
+   [
+    "treasury analyst",
+    0.096
+   ],
+   [
+    "reconciliation",
+    0.083
+   ],
+   [
+    "appraisal",
+    0.078
+   ],
+   [
+    "cash flow",
+    0.078
+   ]
+  ],
+  "FIN_11": [
+   [
+    "accounts_payable executive",
+    0.123
+   ],
+   [
+    "accounts_payable",
+    0.09
+   ],
+   [
+    "gstr",
+    0.088
+   ],
+   [
+    "reconciliation",
+    0.083
+   ],
+   [
+    "harrowgate",
+    0.081
+   ],
+   [
+    "capital advisor",
+    0.081
+   ]
+  ],
+  "FIN_12": [
+   [
+    "credit analyst",
+    0.124
+   ],
+   [
+    "cash",
+    0.108
+   ],
+   [
+    "cash_management",
+    0.092
+   ],
+   [
+    "analyst",
+    0.087
+   ],
+   [
+    "credit",
+    0.087
+   ],
+   [
+    "ms_office credit_analysis",
+    0.085
+   ]
+  ],
+  "FIN_13": [
+   [
+    "treasury",
+    0.114
+   ],
+   [
+    "treasury analyst",
+    0.1
+   ],
+   [
+    "cash",
+    0.096
+   ],
+   [
+    "reconciliation",
+    0.086
+   ],
+   [
+    "erp",
+    0.078
+   ],
+   [
+    "analyst",
+    0.078
+   ]
+  ],
+  "FIN_14": [
+   [
+    "cost accountant",
+    0.128
+   ],
+   [
+    "accountant",
+    0.096
+   ],
+   [
+    "gstr",
+    0.091
+   ],
+   [
+    "reconciliation",
+    0.086
+   ],
+   [
+    "payment",
+    0.079
+   ],
+   [
+    "cost_accounting",
+    0.078
+   ]
+  ],
+  "FIN_15": [
+   [
+    "finance controller",
+    0.104
+   ],
+   [
+    "feb oct",
+    0.095
+   ],
+   [
+    "finance",
+    0.091
+   ],
+   [
+    "gstr",
+    0.084
+   ],
+   [
+    "reconciliation",
+    0.079
+   ],
+   [
+    "payment",
+    0.073
+   ]
+  ],
+  "FIN_16": [
+   [
+    "tax associate",
+    0.102
+   ],
+   [
+    "gstr",
+    0.096
+   ],
+   [
+    "variance_analysis",
+    0.091
+   ],
+   [
+    "month end_close",
+    0.08
+   ],
+   [
+    "tax",
+    0.08
+   ],
+   [
+    "associate",
+    0.078
+   ]
+  ],
+  "FIN_17": [
+   [
+    "tax associate",
+    0.121
+   ],
+   [
+    "gstr",
+    0.115
+   ],
+   [
+    "tax",
+    0.108
+   ],
+   [
+    "gst",
+    0.103
+   ],
+   [
+    "month end_close",
+    0.095
+   ],
+   [
+    "finance",
+    0.093
+   ]
+  ],
+  "FIN_18": [
+   [
+    "audit associate",
+    0.124
+   ],
+   [
+    "gstr",
+    0.117
+   ],
+   [
+    "audit",
+    0.095
+   ],
+   [
+    "statutory audit",
+    0.094
+   ],
+   [
+    "ind",
+    0.087
+   ],
+   [
+    "statutory",
+    0.087
+   ]
+  ],
+  "FIN_19": [
+   [
+    "investment analyst",
+    0.118
+   ],
+   [
+    "financial model",
+    0.103
+   ],
+   [
+    "model",
+    0.09
+   ],
+   [
+    "financial",
+    0.09
+   ],
+   [
+    "inr lakh",
+    0.087
+   ],
+   [
+    "valuation",
+    0.085
+   ]
+  ],
+  "FIN_20": [
+   [
+    "audit associate",
+    0.122
+   ],
+   [
+    "tax associate",
+    0.098
+   ],
+   [
+    "gst",
+    0.095
+   ],
+   [
+    "associate",
+    0.094
+   ],
+   [
+    "gstr",
+    0.093
+   ],
+   [
+    "saffron",
+    0.089
+   ]
+  ],
+  "HR_06": [
+   [
+    "operation executive",
+    0.119
+   ],
+   [
+    "hr operation",
+    0.114
+   ],
+   [
+    "employee",
+    0.112
+   ],
+   [
+    "professional shrm",
+    0.109
+   ],
+   [
+    "shrm",
+    0.102
+   ],
+   [
+    "talent_acquisition",
+    0.096
+   ]
+  ],
+  "HR_07": [
+   [
+    "recruitment lead",
+    0.149
+   ],
+   [
+    "campus",
+    0.128
+   ],
+   [
+    "recruitment",
+    0.124
+   ],
+   [
+    "campus recruitment",
+    0.12
+   ],
+   [
+    "experience campus",
+    0.112
+   ],
+   [
+    "hire",
+    0.098
+   ]
+  ],
+  "HR_08": [
+   [
+    "hr_generalist aurelia",
+    0.108
+   ],
+   [
+    "people operation",
+    0.092
+   ],
+   [
+    "operation associate",
+    0.088
+   ],
+   [
+    "hr_generalist",
+    0.088
+   ],
+   [
+    "aurelia hospitality",
+    0.084
+   ],
+   [
+    "aurelia",
+    0.084
+   ]
+  ],
+  "HR_09": [
+   [
+    "learn development",
+    0.092
+   ],
+   [
+    "hr_generalist",
+    0.092
+   ],
+   [
+    "employee",
+    0.086
+   ],
+   [
+    "learn",
+    0.081
+   ],
+   [
+    "onboarding",
+    0.077
+   ],
+   [
+    "hr",
+    0.073
+   ]
+  ],
+  "HR_10": [
+   [
+    "hr manager",
+    0.118
+   ],
+   [
+    "hr",
+    0.104
+   ],
+   [
+    "employee",
+    0.09
+   ],
+   [
+    "shrm",
+    0.089
+   ],
+   [
+    "employee_engagement",
+    0.087
+   ],
+   [
+    "attrition",
+    0.076
+   ]
+  ],
+  "HR_11": [
+   [
+    "employee",
+    0.094
+   ],
+   [
+    "operation executive",
+    0.089
+   ],
+   [
+    "hr operation",
+    0.085
+   ],
+   [
+    "labour law",
+    0.084
+   ],
+   [
+    "labour",
+    0.084
+   ],
+   [
+    "benefit",
+    0.082
+   ]
+  ],
+  "HR_12": [
+   [
+    "hr business",
+    0.136
+   ],
+   [
+    "business partner",
+    0.123
+   ],
+   [
+    "labour",
+    0.098
+   ],
+   [
+    "labour law",
+    0.098
+   ],
+   [
+    "hr",
+    0.094
+   ],
+   [
+    "partner",
+    0.093
+   ]
+  ],
+  "HR_13": [
+   [
+    "recruitment coordinator",
+    0.146
+   ],
+   [
+    "recruitment",
+    0.122
+   ],
+   [
+    "coordinator",
+    0.11
+   ],
+   [
+    "hire",
+    0.096
+   ],
+   [
+    "talent_acquisition",
+    0.084
+   ],
+   [
+    "campus",
+    0.082
+   ]
+  ],
+  "HR_14": [
+   [
+    "operation executive",
+    0.11
+   ],
+   [
+    "hr operation",
+    0.105
+   ],
+   [
+    "employee",
+    0.103
+   ],
+   [
+    "shrm",
+    0.094
+   ],
+   [
+    "payroll",
+    0.087
+   ],
+   [
+    "hr",
+    0.087
+   ]
+  ],
+  "HR_15": [
+   [
+    "trellis",
+    0.087
+   ],
+   [
+    "trellis edtech",
+    0.087
+   ],
+   [
+    "edtech",
+    0.087
+   ],
+   [
+    "employee",
+    0.083
+   ],
+   [
+    "hr_generalist",
+    0.083
+   ],
+   [
+    "labour",
+    0.078
+   ]
+  ],
+  "HR_16": [
+   [
+    "recruitment coordinator",
+    0.122
+   ],
+   [
+    "recruitment",
+    0.118
+   ],
+   [
+    "shrm",
+    0.092
+   ],
+   [
+    "hiring",
+    0.085
+   ],
+   [
+    "applicant",
+    0.08
+   ],
+   [
+    "end",
+    0.08
+   ]
+  ],
+  "HR_17": [
+   [
+    "recruitment lead",
+    0.149
+   ],
+   [
+    "recruitment",
+    0.131
+   ],
+   [
+    "campus recruitment",
+    0.121
+   ],
+   [
+    "campus",
+    0.117
+   ],
+   [
+    "employee_engagement",
+    0.088
+   ],
+   [
+    "hire",
+    0.086
+   ]
+  ],
+  "HR_18": [
+   [
+    "hr business",
+    0.127
+   ],
+   [
+    "business partner",
+    0.115
+   ],
+   [
+    "employee",
+    0.104
+   ],
+   [
+    "shrm",
+    0.103
+   ],
+   [
+    "hr",
+    0.096
+   ],
+   [
+    "hr_policies",
+    0.094
+   ]
+  ],
+  "HR_19": [
+   [
+    "employee",
+    0.093
+   ],
+   [
+    "prepared weekly",
+    0.093
+   ],
+   [
+    "operation executive",
+    0.088
+   ],
+   [
+    "item closure",
+    0.088
+   ],
+   [
+    "open action",
+    0.088
+   ],
+   [
+    "action item",
+    0.088
+   ]
+  ],
+  "HR_20": [
+   [
+    "people operation",
+    0.137
+   ],
+   [
+    "operation associate",
+    0.13
+   ],
+   [
+    "people",
+    0.112
+   ],
+   [
+    "employee_engagement",
+    0.086
+   ],
+   [
+    "associate",
+    0.085
+   ],
+   [
+    "fair",
+    0.082
+   ]
+  ],
+  "HLT_06": [
+   [
+    "icu",
+    0.115
+   ],
+   [
+    "hospital lucknow",
+    0.114
+   ],
+   [
+    "icu nurse",
+    0.114
+   ],
+   [
+    "nurse orchid",
+    0.105
+   ],
+   [
+    "nurse",
+    0.1
+   ],
+   [
+    "orchid",
+    0.093
+   ]
+  ],
+  "HLT_07": [
+   [
+    "radiology technician",
+    0.099
+   ],
+   [
+    "radiology",
+    0.088
+   ],
+   [
+    "laboratory test",
+    0.088
+   ],
+   [
+    "technician",
+    0.083
+   ],
+   [
+    "analyser",
+    0.079
+   ],
+   [
+    "wound care",
+    0.079
+   ]
+  ],
+  "HLT_08": [
+   [
+    "medical officer",
+    0.115
+   ],
+   [
+    "patient",
+    0.094
+   ],
+   [
+    "primary health",
+    0.082
+   ],
+   [
+    "greenmead",
+    0.082
+   ],
+   [
+    "greenmead primary",
+    0.082
+   ],
+   [
+    "health unit",
+    0.082
+   ]
+  ],
+  "HLT_09": [
+   [
+    "clinical_research coordinator",
+    0.141
+   ],
+   [
+    "clinical_research",
+    0.107
+   ],
+   [
+    "coordinator",
+    0.099
+   ],
+   [
+    "hospital",
+    0.089
+   ],
+   [
+    "clinical trial",
+    0.086
+   ],
+   [
+    "visit",
+    0.086
+   ]
+  ],
+  "HLT_10": [
+   [
+    "medical officer",
+    0.106
+   ],
+   [
+    "patient",
+    0.103
+   ],
+   [
+    "child",
+    0.094
+   ],
+   [
+    "public health",
+    0.09
+   ],
+   [
+    "public",
+    0.08
+   ],
+   [
+    "icd",
+    0.074
+   ]
+  ],
+  "HLT_11": [
+   [
+    "nurse",
+    0.108
+   ],
+   [
+    "staff nurse",
+    0.107
+   ],
+   [
+    "patient",
+    0.105
+   ],
+   [
+    "nursing",
+    0.103
+   ],
+   [
+    "infection",
+    0.092
+   ],
+   [
+    "operative",
+    0.089
+   ]
+  ],
+  "HLT_12": [
+   [
+    "coder",
+    0.155
+   ],
+   [
+    "medical coder",
+    0.149
+   ],
+   [
+    "medical",
+    0.102
+   ],
+   [
+    "patient",
+    0.101
+   ],
+   [
+    "care",
+    0.082
+   ],
+   [
+    "hospital",
+    0.081
+   ]
+  ],
+  "HLT_13": [
+   [
+    "medical laboratory",
+    0.117
+   ],
+   [
+    "technologist",
+    0.101
+   ],
+   [
+    "feb sep",
+    0.101
+   ],
+   [
+    "laboratory technologist",
+    0.101
+   ],
+   [
+    "medical",
+    0.093
+   ],
+   [
+    "greenmead",
+    0.089
+   ]
+  ],
+  "HLT_14": [
+   [
+    "pharmacist",
+    0.105
+   ],
+   [
+    "patient",
+    0.093
+   ],
+   [
+    "pharmacy",
+    0.093
+   ],
+   [
+    "physiotherapy",
+    0.093
+   ],
+   [
+    "visit",
+    0.084
+   ],
+   [
+    "patient education",
+    0.084
+   ]
+  ],
+  "HLT_15": [
+   [
+    "technologist",
+    0.127
+   ],
+   [
+    "laboratory technologist",
+    0.127
+   ],
+   [
+    "medical laboratory",
+    0.119
+   ],
+   [
+    "clearpath clinical_research",
+    0.102
+   ],
+   [
+    "clearpath",
+    0.102
+   ],
+   [
+    "medical",
+    0.095
+   ]
+  ],
+  "HLT_16": [
+   [
+    "clinical_research",
+    0.137
+   ],
+   [
+    "clinical_research coordinator",
+    0.135
+   ],
+   [
+    "clearpath clinical_research",
+    0.117
+   ],
+   [
+    "clearpath",
+    0.117
+   ],
+   [
+    "coordinator",
+    0.095
+   ],
+   [
+    "pharmacy",
+    0.091
+   ]
+  ],
+  "HLT_17": [
+   [
+    "radiology technician",
+    0.121
+   ],
+   [
+    "radiology",
+    0.108
+   ],
+   [
+    "child",
+    0.101
+   ],
+   [
+    "technician",
+    0.101
+   ],
+   [
+    "patient",
+    0.08
+   ],
+   [
+    "vital_signs",
+    0.078
+   ]
+  ],
+  "HLT_18": [
+   [
+    "patient",
+    0.11
+   ],
+   [
+    "health officer",
+    0.106
+   ],
+   [
+    "public health",
+    0.096
+   ],
+   [
+    "public",
+    0.086
+   ],
+   [
+    "rehabilitation",
+    0.083
+   ],
+   [
+    "child",
+    0.081
+   ]
+  ],
+  "HLT_19": [
+   [
+    "public health",
+    0.131
+   ],
+   [
+    "health officer",
+    0.128
+   ],
+   [
+    "public",
+    0.117
+   ],
+   [
+    "patient",
+    0.116
+   ],
+   [
+    "saanvi",
+    0.098
+   ],
+   [
+    "cardiac institute",
+    0.098
+   ]
+  ],
+  "HLT_20": [
+   [
+    "nurse",
+    0.099
+   ],
+   [
+    "staff nurse",
+    0.098
+   ],
+   [
+    "patient",
+    0.096
+   ],
+   [
+    "woman",
+    0.092
+   ],
+   [
+    "woman hospital",
+    0.092
+   ],
+   [
+    "orchid woman",
+    0.092
+   ]
+  ]
+ },
+ "word2vec_most_similar": {
+  "payroll": [
+   [
+    "payouts",
+    0.603
+   ],
+   [
+    "separate",
+    0.572
+   ],
+   [
+    "pf",
+    0.568
+   ],
+   [
+    "talent_acquisition",
+    0.566
+   ],
+   [
+    "trainer",
+    0.543
+   ],
+   [
+    "submit",
+    0.54
+   ]
+  ],
+  "nurse": [
+   [
+    "wound",
+    0.682
+   ],
+   [
+    "infection_control",
+    0.672
+   ],
+   [
+    "icu",
+    0.663
+   ],
+   [
+    "orchid",
+    0.656
+   ],
+   [
+    "woman",
+    0.646
+   ],
+   [
+    "coder",
+    0.623
+   ]
+  ],
+  "engineering": [
+   [
+    "mechanical",
+    0.603
+   ],
+   [
+    "cad/cam",
+    0.539
+   ],
+   [
+    "principle",
+    0.532
+   ],
+   [
+    "aerospace",
+    0.53
+   ],
+   [
+    "pneumatic",
+    0.515
+   ],
+   [
+    "narsee",
+    0.508
+   ]
+  ],
+  "accounting": [
+   [
+    "laude",
+    0.62
+   ],
+   [
+    "cum",
+    0.586
+   ],
+   [
+    "towards",
+    0.55
+   ],
+   [
+    "phoenix",
+    0.535
+   ],
+   [
+    "possess",
+    0.53
+   ],
+   [
+    "restructure",
+    0.523
+   ]
+  ],
+  "patient": [
+   [
+    "rural",
+    0.613
+   ],
+   [
+    "diabetic",
+    0.602
+   ],
+   [
+    "diabetes",
+    0.599
+   ],
+   [
+    "orthopaedic",
+    0.599
+   ],
+   [
+    "infection-control",
+    0.593
+   ],
+   [
+    "renal",
+    0.592
+   ]
+  ],
+  "budget": [
+   [
+    "roll",
+    0.571
+   ],
+   [
+    "mi",
+    0.567
+   ],
+   [
+    "c++",
+    0.567
+   ],
+   [
+    "forecast",
+    0.563
+   ],
+   [
+    "projection",
+    0.558
+   ],
+   [
+    "financials",
+    0.558
+   ]
+  ],
+  "employee": [
+   [
+    "exit",
+    0.589
+   ],
+   [
+    "grievance",
+    0.573
+   ],
+   [
+    "pf",
+    0.572
+   ],
+   [
+    "settlement",
+    0.562
+   ],
+   [
+    "separate",
+    0.557
+   ],
+   [
+    "payouts",
+    0.545
+   ]
+  ],
+  "design": [
+   [
+    "lt",
+    0.535
+   ],
+   [
+    "rehabilitation",
+    0.468
+   ],
+   [
+    "drip-irrigation",
+    0.462
+   ],
+   [
+    "deliver",
+    0.444
+   ],
+   [
+    "sheet-metal",
+    0.44
+   ],
+   [
+    "acres",
+    0.44
+   ]
+  ]
+ },
+ "glove": {
+  "vectors": "glove-wiki-gigaword-50 (400k words, 50-d)",
+  "token_coverage": 0.955,
+  "most_similar": {
+   "payroll": [
+    [
+     "salaries",
+     0.821
+    ],
+    [
+     "salary",
+     0.813
+    ],
+    [
+     "payrolls",
+     0.8
+    ],
+    [
+     "paychecks",
+     0.778
+    ],
+    [
+     "income",
+     0.774
+    ],
+    [
+     "savings",
+     0.763
+    ]
+   ],
+   "nurse": [
+    [
+     "doctor",
+     0.798
+    ],
+    [
+     "nurses",
+     0.775
+    ],
+    [
+     "dentist",
+     0.773
+    ],
+    [
+     "pregnant",
+     0.746
+    ],
+    [
+     "pediatrician",
+     0.745
+    ],
+    [
+     "therapist",
+     0.74
+    ]
+   ],
+   "accounting": [
+    [
+     "audit",
+     0.771
+    ],
+    [
+     "auditors",
+     0.765
+    ],
+    [
+     "auditing",
+     0.759
+    ],
+    [
+     "transactions",
+     0.745
+    ],
+    [
+     "financial",
+     0.74
+    ],
+    [
+     "accounts",
+     0.729
+    ]
+   ],
+   "agronomy": [
+    [
+     "entomology",
+     0.799
+    ],
+    [
+     "microbiology",
+     0.778
+    ],
+    [
+     "zoology",
+     0.748
+    ],
+    [
+     "kinesiology",
+     0.746
+    ],
+    [
+     "horticulture",
+     0.739
+    ],
+    [
+     "bioengineering",
+     0.738
+    ]
+   ]
+  }
+ },
+ "contextual": {
+  "model": "/home/claude/resume-analyzer-nlp/models/pretrained/roberta-base-spacy",
+  "pooling": "mean over first 512 tokens",
+  "dim": 768,
+  "context_demo": {
+   "sentences": [
+    [
+     "She provided patient care in the oncology unit.",
+     "care"
+    ],
+    [
+     "Customer care and account management for retail clients.",
+     "care"
+    ],
+    [
+     "Managed the hospital's annual operating budget.",
+     "budget"
+    ]
+   ],
+   "cos(care_medical, care_customer)": 0.5651,
+   "note": "a static embedding (Word2Vec/GloVe) would give cosine 1.0 for the same word"
+  }
+ },
+ "comparison_5fold_logreg": [
+  {
+   "representation": "Bag of n-grams (1-2, counts)",
+   "dimensions": 18716,
+   "n_samples": 100,
+   "accuracy": 0.98,
+   "macro_precision": 0.981,
+   "macro_recall": 0.98,
+   "macro_f1": 0.98,
+   "weighted_f1": 0.98
+  },
+  {
+   "representation": "TF-IDF (1-2 grams)",
+   "dimensions": 18715,
+   "n_samples": 100,
+   "accuracy": 0.95,
+   "macro_precision": 0.9557,
+   "macro_recall": 0.95,
+   "macro_f1": 0.9501,
+   "weighted_f1": 0.9501
+  },
+  {
+   "representation": "Word2Vec (trained on corpus, mean)",
+   "dimensions": 100,
+   "n_samples": 100,
+   "accuracy": 0.98,
+   "macro_precision": 0.981,
+   "macro_recall": 0.98,
+   "macro_f1": 0.98,
+   "weighted_f1": 0.98
+  },
+  {
+   "representation": "GloVe 50-d (pretrained, mean)",
+   "dimensions": 50,
+   "n_samples": 100,
+   "accuracy": 0.98,
+   "macro_precision": 0.9805,
+   "macro_recall": 0.98,
+   "macro_f1": 0.98,
+   "weighted_f1": 0.98
+  },
+  {
+   "representation": "Contextual roberta-base-spacy (mean-pooled)",
+   "dimensions": 768,
+   "n_samples": 100,
+   "accuracy": 0.93,
+   "macro_precision": 0.9311,
+   "macro_recall": 0.93,
+   "macro_f1": 0.9299,
+   "weighted_f1": 0.9299
+  }
+ ]
+}

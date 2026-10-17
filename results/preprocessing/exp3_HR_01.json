@@ -1,0 +1,370 @@
+{
+ "token_counts": {
+  "whitespace": 694,
+  "regex": 698,
+  "nltk": 860,
+  "spacy": 876,
+  "skill_aware": 839
+ },
+ "first_tokens": {
+  "whitespace": [
+   "hr",
+   "personnel",
+   "assistant",
+   "summary",
+   "i",
+   "am",
+   "a",
+   "u.s.",
+   "citizen",
+   "who",
+   "is",
+   "authorized",
+   "to",
+   "work",
+   "in",
+   "the",
+   "us",
+   "for",
+   "any",
+   "employer.",
+   "i",
+   "have",
+   "worked",
+   "8",
+   "years"
+  ],
+  "regex": [
+   "hr",
+   "personnel",
+   "assistant",
+   "summary",
+   "i",
+   "am",
+   "a",
+   "u.s",
+   "citizen",
+   "who",
+   "is",
+   "authorized",
+   "to",
+   "work",
+   "in",
+   "the",
+   "us",
+   "for",
+   "any",
+   "employer",
+   "i",
+   "have",
+   "worked",
+   "8",
+   "years"
+  ],
+  "nltk": [
+   "hr",
+   "personnel",
+   "assistant",
+   "summary",
+   "i",
+   "am",
+   "a",
+   "u.s.",
+   "citizen",
+   "who",
+   "is",
+   "authorized",
+   "to",
+   "work",
+   "in",
+   "the",
+   "us",
+   "for",
+   "any",
+   "employer",
+   ".",
+   "i",
+   "have",
+   "worked",
+   "8"
+  ],
+  "spacy": [
+   "hr",
+   "personnel",
+   "assistant",
+   "summary",
+   "i",
+   "am",
+   "a",
+   "u.s",
+   ".",
+   "citizen",
+   "who",
+   "is",
+   "authorized",
+   "to",
+   "work",
+   "in",
+   "the",
+   "us",
+   "for",
+   "any",
+   "employer",
+   ".",
+   "i",
+   "have",
+   "worked"
+  ]
+ },
+ "skill_aware_first_tokens": [
+  "hr",
+  "personnel",
+  "assistant",
+  "summary",
+  "i",
+  "am",
+  "a",
+  "u.s.",
+  "citizen",
+  "who",
+  "is",
+  "authorized",
+  "to",
+  "work",
+  "in",
+  "the",
+  "us",
+  "for",
+  "any",
+  "employer",
+  ".",
+  "i",
+  "have",
+  "worked",
+  "8",
+  "years",
+  "as",
+  "an",
+  "office",
+  "clerk",
+  ",",
+  "2",
+  "years",
+  "as",
+  "a",
+  "student",
+  "intern/office",
+  "assistant",
+  ",",
+  "and"
+ ],
+ "multiword_skill_tokens": [
+  "administrative_support",
+  "customer_service",
+  "data_entry",
+  "file_management",
+  "human_resources",
+  "inventory_management",
+  "microsoft_word",
+  "ms_excel"
+ ],
+ "demo": {
+  "nltk_word_tokenize": [
+   "skilled",
+   "in",
+   "human",
+   "resource",
+   "management",
+   ",",
+   "data",
+   "entry",
+   ",",
+   "machine",
+   "learning",
+   "and",
+   "financial",
+   "analysis",
+   "(",
+   "c++",
+   ",",
+   "r",
+   "&",
+   "d",
+   ")",
+   "."
+  ],
+  "skill_aware": [
+   "skilled",
+   "in",
+   "human_resource_management",
+   ",",
+   "data_entry",
+   ",",
+   "machine_learning",
+   "and",
+   "financial_analysis",
+   "(",
+   "c++",
+   ",",
+   "r",
+   "&",
+   "d",
+   ")",
+   "."
+  ]
+ },
+ "extracted_skills": [
+  {
+   "skill": "personnel",
+   "domain": "HR",
+   "count": 5
+  },
+  {
+   "skill": "data entry",
+   "domain": "HR",
+   "count": 4
+  },
+  {
+   "skill": "administrative support",
+   "domain": "HR",
+   "count": 4
+  },
+  {
+   "skill": "auditing",
+   "domain": "Finance",
+   "count": 4
+  },
+  {
+   "skill": "outlook",
+   "domain": "General",
+   "count": 3
+  },
+  {
+   "skill": "powerpoint",
+   "domain": "General",
+   "count": 3
+  },
+  {
+   "skill": "peoplesoft",
+   "domain": "HR",
+   "count": 3
+  },
+  {
+   "skill": "documentation",
+   "domain": "General",
+   "count": 3
+  },
+  {
+   "skill": "scheduling",
+   "domain": "General",
+   "count": 3
+  },
+  {
+   "skill": "file management",
+   "domain": "HR",
+   "count": 2
+  },
+  {
+   "skill": "inventory management",
+   "domain": "General",
+   "count": 2
+  },
+  {
+   "skill": "microsoft word",
+   "domain": "General",
+   "count": 2
+  },
+  {
+   "skill": "ms excel",
+   "domain": "General",
+   "count": 2
+  },
+  {
+   "skill": "customer service",
+   "domain": "General",
+   "count": 2
+  },
+  {
+   "skill": "human resources",
+   "domain": "HR",
+   "count": 2
+  },
+  {
+   "skill": "audit",
+   "domain": "Finance",
+   "count": 2
+  },
+  {
+   "skill": "sales",
+   "domain": "General",
+   "count": 1
+  },
+  {
+   "skill": "word",
+   "domain": "General",
+   "count": 1
+  }
+ ],
+ "top_noun_phrases": [
+  [
+   "administrative support",
+   4
+  ],
+  [
+   "office clerk",
+   2
+  ],
+  [
+   "advert id",
+   2
+  ],
+  [
+   "microsoft word",
+   2
+  ],
+  [
+   "ms excel",
+   2
+  ],
+  [
+   "ms outlook",
+   2
+  ],
+  [
+   "ms powerpoint",
+   2
+  ],
+  [
+   "data entry",
+   2
+  ],
+  [
+   "legal documents",
+   2
+  ],
+  [
+   "mail clerk",
+   2
+  ],
+  [
+   "clerical support",
+   2
+  ],
+  [
+   "hr personnel",
+   1
+  ],
+  [
+   "u.s. citizen",
+   1
+  ],
+  [
+   "2 years",
+   1
+  ],
+  [
+   "student \n intern office assistant",
+   1
+  ]
+ ]
+}

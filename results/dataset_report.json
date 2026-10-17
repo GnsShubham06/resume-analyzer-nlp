@@ -1,0 +1,55 @@
+{
+  "files_found": 100,
+  "valid_resumes": 100,
+  "pilot_size": 25,
+  "full_dataset_size": 100,
+  "target_total": 100,
+  "target_met": true,
+  "pilot_equals_full_dataset": false,
+  "exact_duplicates": 0,
+  "near_duplicates": 0,
+  "max_pairwise_similarity": 0.7901,
+  "review_required": [],
+  "per_category": [
+    {
+      "category": "Engineering",
+      "available_valid": 20,
+      "target": 20,
+      "shortfall": 0,
+      "pilot": 5,
+      "flagged_for_review": 0
+    },
+    {
+      "category": "HR",
+      "available_valid": 20,
+      "target": 20,
+      "shortfall": 0,
+      "pilot": 5,
+      "flagged_for_review": 0
+    },
+    {
+      "category": "Finance",
+      "available_valid": 20,
+      "target": 20,
+      "shortfall": 0,
+      "pilot": 5,
+      "flagged_for_review": 0
+    },
+    {
+      "category": "Healthcare",
+      "available_valid": 20,
+      "target": 20,
+      "shortfall": 0,
+      "pilot": 5,
+      "flagged_for_review": 0
+    },
+    {
+      "category": "Agriculture",
+      "available_valid": 20,
+      "target": 20,
+      "shortfall": 0,
+      "pilot": 5,
+      "flagged_for_review": 0
+    }
+  ]
+}

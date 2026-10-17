@@ -1,0 +1,83 @@
+
+=== [AGR_01] Environmental Biologist and experienced researcher with expertise in data collection and study.
+POS (NLTK): Environmental/JJ Biologist/NNP and/CC experienced/VBD researcher/NN with/IN expertise/NN in/IN data/NNS collection/NN and/CC study/NN ./.
+Chunks: [NP Environmental Biologist]; [VP experienced researcher with expertise in data collection]; [NP researcher]; [PP with expertise]; [NP expertise]; [PP in data collection]; [NP data collection]; [NP study]
+Chunk tree: (S (NP Environmental/JJ Biologist/NNP) and/CC (VP experienced/VBD (NP researcher/NN) (PP with/IN (NP expertise/NN)) (PP in/IN (NP data/NNS collection/NN))) and/CC (NP study/NN) ./.)
+Dependencies: Environmental<-amod-Biologist, Biologist<-ROOT-Biologist, and<-cc-Biologist, experienced<-conj-Biologist, researcher<-dobj-experienced, with<-prep-experienced, expertise<-pobj-with, in<-prep-expertise, data<-compound-collection, collection<-pobj-in, and<-cc-collection, study<-conj-collection, .<-punct-Biologist
+CFG over POS tags: no parse (sentence structure not covered by the small grammar)
+
+=== [AGR_02] Ensured food-safety compliance and residue testing for export-grade grapes.
+POS (NLTK): Ensured/VBN food-safety/NN compliance/NN and/CC residue/JJ testing/VBG for/IN export-grade/JJ grapes/NNS ./.
+Chunks: [NP Ensured food-safety compliance]; [VP testing for export-grade grapes]; [PP for export-grade grapes]; [NP export-grade grapes]
+Chunk tree: (S (NP Ensured/VBN food-safety/NN compliance/NN) and/CC residue/JJ (VP testing/VBG (PP for/IN (NP export-grade/JJ grapes/NNS))) ./.)
+Dependencies: Ensured<-ROOT-Ensured, food<-compound-safety, -<-punct-safety, safety<-compound-compliance, compliance<-nmod-testing, and<-cc-compliance, residue<-conj-compliance, testing<-dobj-Ensured, for<-prep-testing, export<-compound-grade, -<-punct-grade, grade<-compound-grapes, grapes<-pobj-for, .<-punct-Ensured
+CFG over POS tags: no parse (sentence structure not covered by the small grammar)
+
+=== [AGR_03] Recorded experimental data and performed statistical analysis of trial results in R.
+POS (NLTK): Recorded/VBN experimental/JJ data/NNS and/CC performed/VBD statistical/JJ analysis/NN of/IN trial/NN results/NNS in/IN R/NNP ./.
+Chunks: [NP Recorded experimental data]; [VP performed statistical analysis of trial results in R]; [NP statistical analysis]; [PP of trial results]; [NP trial results]; [PP in R]; [NP R]
+Chunk tree: (S (NP Recorded/VBN experimental/JJ data/NNS) and/CC (VP performed/VBD (NP statistical/JJ analysis/NN) (PP of/IN (NP trial/NN results/NNS)) (PP in/IN (NP R/NNP))) ./.)
+Dependencies: Recorded<-amod-data, experimental<-amod-data, data<-ROOT-data, and<-cc-data, performed<-conj-data, statistical<-amod-analysis, analysis<-dobj-performed, of<-prep-analysis, trial<-compound-results, results<-pobj-of, in<-prep-performed, R.<-pobj-in
+CFG over POS tags: 4 parse(s) found
+(S
+  (VP (V VBN:Recorded) (NP (NOM (ADJP (JJ JJ:experimental)) (NOM (N NNS:data)))))
+  (CC CC:and)
+  (VP
+    (V VBD:performed)
+    (S
+      (NP
+        (NP
+          (NP (NOM (ADJP (JJ JJ:statistical)) (NOM (N NN:analysis))))
+          (PP (P IN:of) (NP (NOM (N NN:trial) (NOM (N NNS:results))))))
+        (PP (P IN:in) (NP (NOM (N NNP:R)))))
+      (PUNCT .:.))))
+
+=== [AGR_04] Reported pest outbreaks to the district agriculture office and recommended control measures.
+POS (NLTK): Reported/VBN pest/JJS outbreaks/NNS to/TO the/DT district/NN agriculture/NN office/NN and/CC recommended/VBD control/NN measures/NNS ./.
+Chunks: [NP Reported pest outbreaks]; [NP the district agriculture office]; [VP recommended control measures]; [NP control measures]
+Chunk tree: (S (NP Reported/VBN pest/JJS outbreaks/NNS) to/TO (NP the/DT district/NN agriculture/NN office/NN) and/CC (VP recommended/VBD (NP control/NN measures/NNS)) ./.)
+Dependencies: Reported<-ROOT-Reported, pest<-xcomp-Reported, outbreaks<-dobj-pest, to<-prep-pest, the<-det-office, district<-compound-office, agriculture<-compound-office, office<-pobj-to, and<-cc-pest, recommended<-conj-pest, control<-compound-measures, measures<-dobj-recommended, .<-punct-Reported
+CFG over POS tags: 5 parse(s) found
+(S
+  (VP
+    (V VBN:Reported)
+    (NP (NOM (ADJP (JJ JJS:pest)) (NOM (N NNS:outbreaks))))
+    (PP
+      (P TO:to)
+      (NP (DET DT:the) (NOM (N NN:district) (NOM (N NN:agriculture) (NOM (N NN:office)))))))
+  (CC CC:and)
+  (VP (V VBD:recommended) (S (NP (NOM (N NN:control) (NOM (N NNS:measures)))) (PUNCT .:.))))
+
+=== [AGR_05] Prepared crop calendars and weekly weather-based advisories for kharif and rabi seasons.
+POS (NLTK): Prepared/NNP crop/NN calendars/NNS and/CC weekly/JJ weather-based/JJ advisories/NNS for/IN kharif/NN and/CC rabi/JJ seasons/NNS ./.
+Chunks: [NP Prepared crop calendars]; [NP weekly weather-based advisories]; [PP for kharif]; [NP kharif]; [NP rabi seasons]
+Chunk tree: (S (NP Prepared/NNP crop/NN calendars/NNS) and/CC (NP weekly/JJ weather-based/JJ advisories/NNS) (PP for/IN (NP kharif/NN)) and/CC (NP rabi/JJ seasons/NNS) ./.)
+Dependencies: Prepared<-amod-calendars, crop<-compound-calendars, calendars<-ROOT-calendars, and<-cc-calendars, weekly<-amod-advisories, weather<-npadvmod-based, -<-punct-based, based<-amod-advisories, advisories<-conj-calendars, for<-prep-advisories, kharif<-nmod-seasons, and<-cc-kharif, rabi<-conj-kharif, seasons<-pobj-for, .<-punct-calendars
+CFG over POS tags: 10 parse(s) found
+(S
+  (NP
+    (NP
+      (NP
+        (NP (NOM (N NNP:Prepared) (NOM (N NN:crop) (NOM (N NNS:calendars)))))
+        (CC CC:and)
+        (NP (NOM (ADJP (JJ JJ:weekly) (ADJP (JJ JJ:weather-based))) (NOM (N NNS:advisories)))))
+      (PP (P IN:for) (NP (NOM (N NN:kharif)))))
+    (CC CC:and)
+    (NP (NOM (ADJP (JJ JJ:rabi)) (NOM (N NNS:seasons)))))
+  (PUNCT .:.))
+
+=== [ENG_01] Responsible for testing various seat structures to meet specific certification requirements.
+POS (NLTK): Responsible/JJ for/IN testing/VBG various/JJ seat/NN structures/NNS to/TO meet/VB specific/JJ certification/NN requirements/NNS ./.
+Chunks: [PP for testing various seat structures]; [NP testing various seat structures]; [VP meet specific certification requirements]; [NP specific certification requirements]
+Chunk tree: (S Responsible/JJ (PP for/IN (NP testing/VBG various/JJ seat/NN structures/NNS)) to/TO (VP meet/VB (NP specific/JJ certification/NN requirements/NNS)) ./.)
+Dependencies: Responsible<-ROOT-Responsible, for<-prep-Responsible, testing<-pcomp-for, various<-amod-structures, seat<-compound-structures, structures<-dobj-testing, to<-aux-meet, meet<-advcl-testing, specific<-amod-requirements, certification<-compound-requirements, requirements<-dobj-meet, .<-punct-Responsible
+CFG over POS tags: no parse (sentence structure not covered by the small grammar)
+
+=== Word-level CFG for a real phrase from ENG_01: 'maintain and calibrate test instruments' -> 1 parse(s)
+(S
+  (VP
+    (VP (V maintain))
+    (CC and)
+    (VP (V calibrate) (NP (ADJ test) (N instruments)))))
+
+POS-level CFG coverage on 600 real resume sentences: 265 parsed (44.2%)

@@ -1,0 +1,4 @@
+platform,features,custom_models,access
+Google Cloud Natural Language API,"entities, sentiment, syntax, content classification",AutoML / Vertex AI,"REST/gRPC, API key or service account (billed)"
+AWS Comprehend,"entities, key phrases, sentiment, PII detection, language detection",custom classifier & custom entity recognizer,"boto3 SDK, IAM credentials (billed)"
+Azure AI Language (Text Analytics),"NER, PII redaction, key phrases, sentiment, language",custom text classification / custom NER,"REST/SDK, endpoint + key (billed)"

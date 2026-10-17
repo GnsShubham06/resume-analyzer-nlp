@@ -1,0 +1,43 @@
+{
+ "n_sentences": {
+  "naive_nltk_joined": 44,
+  "resume_aware_nltk": 77,
+  "resume_aware_spacy": 77
+ },
+ "first_sentences_resume_aware": [
+  "HR PERSONNEL ASSISTANT",
+  "Summary",
+  "I am a U.S. citizen who is authorized to work in the US for any employer.",
+  "I have worked 8 years as an Office Clerk, 2 years as a Student",
+  "Intern/Office Assistant, and 4 years as a Contractor.",
+  "I am applying for the Data Entry Clerk position (Advert ID# 224278 Advert ID# 224278).",
+  "My skills and experiences include: Administrative Support, Auditing, File Management, Meeting Facilitation, Office Materials Management, &",
+  "Inventory Management.",
+  "Highlights",
+  "COMPUTER SKILLS: Microsoft Word, MS Excel, MS Outlook, MS PowerPoint, PeopleSoft.",
+  "TYPING SKILLS: 40-60 WPM.",
+  "ADDITIONAL SKILLS: Administrative Support, Auditing, Clerical, Copy, Customer Service, Data Entry, Delivery, Documentation, Fax, File",
+  "Management, Letters, Meeting Facilitation, Organizational Skills, Proofreading, Receptionist, Research, Scanning, Scheduling, Secretarial,",
+  "Telephone Skills, Office Equipment Maintenance, and Inventory Management.",
+  "Experience"
+ ],
+ "first_sentences_naive": [
+  "HR PERSONNEL ASSISTANT Summary I am a U.S. citizen who is authorized to work in the US for any employer.",
+  "I have worked 8 years as an Office Clerk, 2 years as a Student Intern/Office Assistant, and 4 years as a Contractor.",
+  "I am applying for the Data Entry Clerk position (Advert ID# 224278 Advert ID# 224278).",
+  "My skills and experiences include: Administrative Support, Auditing, File Management, Meeting Facilitation, Office Materials Management, & Inventory Management.",
+  "Highlights COMPUTER SKILLS: Microsoft Word, MS Excel, MS Outlook, MS PowerPoint, PeopleSoft."
+ ],
+ "contractions": {
+  "real_resume_lines_with_apostrophes": [
+   {
+    "before": "Bachelor's of Arts : Political Science and Law 2007 Montclair State University , , US Bachelor's of Arts Degree in Political Science",
+    "after": "Bachelor's of Arts : Political Science and Law 2007 Montclair State University , , US Bachelor's of Arts Degree in Political Science"
+   }
+  ],
+  "demo_sentence": {
+   "before": "I'm a detail-oriented HR generalist. I've managed onboarding and I'd like a role where I can't stop learning.",
+   "after": "I am a detail-oriented HR generalist. I have managed onboarding and I would like a role where I cannot stop learning."
+  }
+ }
+}

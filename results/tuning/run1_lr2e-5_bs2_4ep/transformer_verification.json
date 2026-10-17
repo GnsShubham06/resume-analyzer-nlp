@@ -1,0 +1,82 @@
+{
+ "model_requested": "roberta-base",
+ "model_used": "/home/claude/resume-analyzer-nlp/models/pretrained/roberta-base-spacy",
+ "fallback": "'roberta-base' could not be downloaded (OSError: Hugging Face Hub unreachable); used the local RoBERTa-base converted from spaCy en_core_web_trf: /home/claude/resume-analyzer-nlp/models/pretrained/roberta-base-spacy",
+ "pretrained_loading": {
+  "newly_initialised_tensors": [
+   "classifier.dense.bias",
+   "classifier.dense.weight",
+   "classifier.out_proj.bias",
+   "classifier.out_proj.weight"
+  ],
+  "unexpected_keys": [],
+  "meaning": "every tensor except the new classification head was loaded from the pretrained checkpoint"
+ },
+ "parameters": {
+  "total_parameters": 124649477,
+  "trainable_parameters": 124649477,
+  "frozen_parameters": 0,
+  "trainable_percent": 100.0,
+  "frozen_embeddings": false,
+  "frozen_encoder_layers": 0
+ },
+ "weight_change_after_first_optimizer_step": {
+  "optimizer_step": 2,
+  "learning_rate_used": 1.6666666666666667e-06,
+  "new classification head": {
+   "parameter": "classifier.out_proj.weight",
+   "shape": [
+    5,
+    768
+   ],
+   "max_abs_change": 1.6689300537109375e-06,
+   "mean_abs_change": 1.3625248129756073e-06,
+   "changed": true,
+   "requires_grad": true
+  },
+  "pretrained top encoder layer": {
+   "parameter": "roberta.encoder.layer.11.attention.self.query.weight",
+   "shape": [
+    768,
+    768
+   ],
+   "max_abs_change": 1.6689300537109375e-06,
+   "mean_abs_change": 1.0861767805181444e-06,
+   "changed": true,
+   "requires_grad": true
+  }
+ },
+ "weight_change_after_training": {
+  "pretrained_tensors_compared": 197,
+  "tensors_changed_by_training": 197,
+  "largest_single_weight_change": 0.0009582322090864182
+ },
+ "training": {
+  "device": "cpu",
+  "epochs_run": 4,
+  "optimizer_steps": 120,
+  "train_seconds": 797.1,
+  "best_epoch": 4,
+  "first_batch_loss": 1.67617,
+  "last_batch_loss": 1.39337
+ },
+ "checkpoint": {
+  "directory": "/home/claude/resume-analyzer-nlp/models/transformer_finetuned",
+  "files": [
+   "config.json",
+   "label_map.json",
+   "model.safetensors",
+   "tokenizer.json",
+   "tokenizer_config.json"
+  ]
+ },
+ "reload_check": {
+  "reloaded_from": "/home/claude/resume-analyzer-nlp/models/transformer_finetuned",
+  "val_macro_f1_reloaded": 0.5014,
+  "val_loss_reloaded": 1.43395,
+  "val_macro_f1_at_save": 0.5014,
+  "val_loss_at_save": 1.43395,
+  "identical": true
+ },
+ "smoke_test": false
+}

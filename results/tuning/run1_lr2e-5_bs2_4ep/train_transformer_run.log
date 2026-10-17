@@ -1,0 +1,56 @@
+[fallback] 'roberta-base' could not be downloaded (OSError: Hugging Face Hub unreachable); used the local RoBERTa-base converted from spaCy en_core_web_trf: /home/claude/resume-analyzer-nlp/models/pretrained/roberta-base-spacy
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1990.52it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: /home/claude/resume-analyzer-nlp/models/pretrained/roberta-base-spacy
+Key                        | Status  | 
+---------------------------+---------+-
+classifier.dense.weight    | MISSING | 
+classifier.out_proj.weight | MISSING | 
+classifier.out_proj.bias   | MISSING | 
+classifier.dense.bias      | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+loaded pretrained '/home/claude/resume-analyzer-nlp/models/pretrained/roberta-base-spacy'. Newly initialised (task head only): ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+parameters: total 124,649,477, trainable 124,649,477 (100.0%)
+{'train': '60 resumes', 'val': '20 resumes', 'test': '20 resumes'}
+  epoch 1 batch 5/30 loss 1.5319
+  epoch 1 batch 10/30 loss 1.4243
+  epoch 1 batch 15/30 loss 1.4555
+  epoch 1 batch 20/30 loss 1.9518
+  epoch 1 batch 25/30 loss 1.7326
+  epoch 1 batch 30/30 loss 1.5773
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.02it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.02it/s]
+epoch 1: train_loss=1.6687 val_loss=1.6046 val_acc=0.200 val_macroF1=0.067 <- saved
+  epoch 2 batch 5/30 loss 1.6974
+  epoch 2 batch 10/30 loss 1.6231
+  epoch 2 batch 15/30 loss 1.4384
+  epoch 2 batch 20/30 loss 1.5272
+  epoch 2 batch 25/30 loss 1.7248
+  epoch 2 batch 30/30 loss 1.6362
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.43it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.43it/s]
+epoch 2: train_loss=1.5960 val_loss=1.5747 val_acc=0.250 val_macroF1=0.150 <- saved
+  epoch 3 batch 5/30 loss 1.6155
+  epoch 3 batch 10/30 loss 1.4592
+  epoch 3 batch 15/30 loss 1.4265
+  epoch 3 batch 20/30 loss 1.8128
+  epoch 3 batch 25/30 loss 1.4648
+  epoch 3 batch 30/30 loss 1.3412
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.08s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.08s/it]
+epoch 3: train_loss=1.5505 val_loss=1.5000 val_acc=0.500 val_macroF1=0.412 <- saved
+  epoch 4 batch 5/30 loss 1.4110
+  epoch 4 batch 10/30 loss 1.4744
+  epoch 4 batch 15/30 loss 1.4932
+  epoch 4 batch 20/30 loss 1.6105
+  epoch 4 batch 25/30 loss 1.5520
+  epoch 4 batch 30/30 loss 1.3934
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.20it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.20it/s]
+epoch 4: train_loss=1.4469 val_loss=1.4340 val_acc=0.550 val_macroF1=0.501 <- saved
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 6920.61it/s]
+
+weight change after the first optimizer.step():
+  new classification head              classifier.out_proj.weight: max |change| = 1.669e-06  changed=True
+  pretrained top encoder layer         roberta.encoder.layer.11.attention.self.query.weight: max |change| = 1.669e-06  changed=True
+tensors changed by training: 197 / 197
+best epoch (validation): 4; checkpoint: /home/claude/resume-analyzer-nlp/models/transformer_finetuned; reload identical: True
+TEST (used once, best checkpoint): accuracy=0.400 macroF1=0.347
+logs: /home/claude/resume-analyzer-nlp/results/transformer_training_log.csv, /home/claude/resume-analyzer-nlp/results/transformer_verification.json

@@ -1,0 +1,10 @@
+word,lemma,pos,tag,morph_features,porter_stem,prefix,derivational_suffix,inflectional_suffix,segmentation
+BEHAVIORAL,BEHAVIORAL,PROPN,NNP,Number=Sing,behavior,,al,,behavior + -al
+HEALTHCARE,HEALTHCARE,PROPN,NNP,Number=Sing,healthcar,,,,healthcare
+HELP,help,VERB,VBP,Tense=Pres|VerbForm=Fin,help,,,,help
+LINE,line,NOUN,NN,Number=Sing,line,,,,line
+AND,and,CCONJ,CC,ConjType=Cmp,and,,,,and
+PSYCHIATRIC,PSYCHIATRIC,PROPN,NNP,Number=Sing,psychiatr,,,,psychiatric
+EMERGENCY,EMERGENCY,PROPN,NNP,Number=Sing,emerg,,,,emergency
+TEAM,TEAM,PROPN,NNP,Number=Sing,team,,,,team
+SUPERVISOR,SUPERVISOR,VERB,VBD,Tense=Past|VerbForm=Fin,supervisor,super,or,,super- + vis + -or

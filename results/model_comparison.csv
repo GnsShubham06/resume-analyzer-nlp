@@ -1,0 +1,13 @@
+model,split,resumes,n_samples,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+TF-IDF + Logistic Regression,test,all,20,0.9,0.92,0.9,0.8984,0.8984
+TF-IDF + Logistic Regression,test,supplied_original,5,0.6,0.4,0.6,0.4667,0.4667
+TF-IDF + Logistic Regression,test,synthetic,15,1.0,1.0,1.0,1.0,1.0
+TF-IDF + Logistic Regression,val,all,20,0.95,0.96,0.95,0.9492,0.9492
+TF-IDF + Logistic Regression,val,supplied_original,4,0.75,0.625,0.75,0.6667,0.6667
+TF-IDF + Logistic Regression,val,synthetic,16,1.0,1.0,1.0,1.0,1.0
+Fine-tuned transformer,test,all,20,1.0,1.0,1.0,1.0,1.0
+Fine-tuned transformer,test,supplied_original,5,1.0,1.0,1.0,1.0,1.0
+Fine-tuned transformer,test,synthetic,15,1.0,1.0,1.0,1.0,1.0
+Fine-tuned transformer,val,all,20,1.0,1.0,1.0,1.0,1.0
+Fine-tuned transformer,val,supplied_original,4,1.0,1.0,1.0,1.0,1.0
+Fine-tuned transformer,val,synthetic,16,1.0,1.0,1.0,1.0,1.0

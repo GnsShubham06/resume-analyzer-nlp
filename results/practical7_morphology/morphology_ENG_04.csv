@@ -1,0 +1,17 @@
+word,lemma,pos,tag,morph_features,porter_stem,prefix,derivational_suffix,inflectional_suffix,segmentation
+A,a,DET,DT,Definite=Ind|PronType=Art,a,,,,a
+results,result,NOUN,NNS,Number=Plur,result,,,s,result + -s
+driven,drive,VERB,VBD,Tense=Past|VerbForm=Fin,driven,,,,driven
+Controls,Controls,PROPN,NNP,Number=Sing,control,,,,controls
+Engineer,Engineer,PROPN,NNP,Number=Sing,engin,,er,,engine + -er
+and,and,CCONJ,CC,ConjType=Cmp,and,,,,and
+Project,Project,PROPN,NNP,Number=Sing,project,,,,project
+Manager,Manager,PROPN,NNP,Number=Sing,manag,,er,,manag + -er
+with,with,ADP,IN,-,with,,,,with
+over,over,ADP,IN,-,over,,,,over
+20,20,NUM,CD,NumType=Card,20,,,,20
+years,year,NOUN,NNS,Number=Plur,year,,,s,year + -s
+of,of,ADP,IN,-,of,,,,of
+experience,experience,NOUN,NN,Number=Sing,experi,,ence,,experi + -ence
+in,in,ADP,IN,-,in,,,,in
+manufacturing,manufacturing,NOUN,NN,Number=Sing,manufactur,,,,manufacturing

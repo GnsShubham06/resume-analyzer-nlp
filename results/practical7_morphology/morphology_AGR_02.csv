@@ -1,0 +1,17 @@
+word,lemma,pos,tag,morph_features,porter_stem,prefix,derivational_suffix,inflectional_suffix,segmentation
+Agronomy,agronomy,NOUN,NN,Number=Sing,agronomi,,,,agronomy
+graduate,graduate,NOUN,NN,Number=Sing,graduat,,,,graduate
+with,with,ADP,IN,-,with,,,,with
+14,14,NUM,CD,NumType=Card,14,,,,14
+years,year,NOUN,NNS,Number=Plur,year,,,s,year + -s
+of,of,ADP,IN,-,of,,,,of
+dairy,dairy,NOUN,NN,Number=Sing,dairi,,,,dairy
+and,and,CCONJ,CC,ConjType=Cmp,and,,,,and
+livestock,livestock,NOUN,NN,Number=Sing,livestock,,,,livestock
+management,management,NOUN,NN,Number=Sing,manag,,ment,,manage + -ment
+focused,focus,VERB,VBD,Tense=Past|VerbForm=Fin,focus,,,ed,focus + -ed
+on,on,ADP,IN,-,on,,,,on
+higher,high,ADJ,JJR,Degree=Cmp,higher,,er,,high + -er
+yields,yield,NOUN,NNS,Number=Plur,yield,,,s,yield + -s
+with,with,ADP,IN,-,with,,,,with
+lower,low,ADJ,JJR,Degree=Cmp,lower,,,,lower

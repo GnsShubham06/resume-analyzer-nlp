@@ -1,0 +1,1976 @@
+{
+ "sentences": [
+  {
+   "resume_id": "AGR_01",
+   "sentence": "Environmental Biologist and experienced researcher with expertise in data collection and study.",
+   "pos": {
+    "nltk": [
+     [
+      "Environmental",
+      "JJ"
+     ],
+     [
+      "Biologist",
+      "NNP"
+     ],
+     [
+      "and",
+      "CC"
+     ],
+     [
+      "experienced",
+      "VBD"
+     ],
+     [
+      "researcher",
+      "NN"
+     ],
+     [
+      "with",
+      "IN"
+     ],
+     [
+      "expertise",
+      "NN"
+     ],
+     [
+      "in",
+      "IN"
+     ],
+     [
+      "data",
+      "NNS"
+     ],
+     [
+      "collection",
+      "NN"
+     ],
+     [
+      "and",
+      "CC"
+     ],
+     [
+      "study",
+      "NN"
+     ],
+     [
+      ".",
+      "."
+     ]
+    ],
+    "spacy": [
+     [
+      "Environmental",
+      "JJ",
+      "ADJ"
+     ],
+     [
+      "Biologist",
+      "NNP",
+      "PROPN"
+     ],
+     [
+      "and",
+      "CC",
+      "CCONJ"
+     ],
+     [
+      "experienced",
+      "JJ",
+      "ADJ"
+     ],
+     [
+      "researcher",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "with",
+      "IN",
+      "ADP"
+     ],
+     [
+      "expertise",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "in",
+      "IN",
+      "ADP"
+     ],
+     [
+      "data",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "collection",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "and",
+      "CC",
+      "CCONJ"
+     ],
+     [
+      "study",
+      "NN",
+      "NOUN"
+     ],
+     [
+      ".",
+      ".",
+      "PUNCT"
+     ]
+    ]
+   },
+   "chunks": [
+    [
+     "NP",
+     "Environmental Biologist"
+    ],
+    [
+     "VP",
+     "experienced researcher with expertise in data collection"
+    ],
+    [
+     "NP",
+     "researcher"
+    ],
+    [
+     "PP",
+     "with expertise"
+    ],
+    [
+     "NP",
+     "expertise"
+    ],
+    [
+     "PP",
+     "in data collection"
+    ],
+    [
+     "NP",
+     "data collection"
+    ],
+    [
+     "NP",
+     "study"
+    ]
+   ],
+   "iob": [
+    [
+     "Environmental",
+     "JJ",
+     "B-NP"
+    ],
+    [
+     "Biologist",
+     "NNP",
+     "I-NP"
+    ],
+    [
+     "and",
+     "CC",
+     "O"
+    ],
+    [
+     "experienced",
+     "VBD",
+     "O"
+    ],
+    [
+     "researcher",
+     "NN",
+     "B-NP"
+    ],
+    [
+     "with",
+     "IN",
+     "O"
+    ],
+    [
+     "expertise",
+     "NN",
+     "B-NP"
+    ],
+    [
+     "in",
+     "IN",
+     "O"
+    ],
+    [
+     "data",
+     "NNS",
+     "B-NP"
+    ],
+    [
+     "collection",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "and",
+     "CC",
+     "O"
+    ],
+    [
+     "study",
+     "NN",
+     "B-NP"
+    ],
+    [
+     ".",
+     ".",
+     "O"
+    ]
+   ],
+   "dependency": [
+    {
+     "token": "Environmental",
+     "dep": "amod",
+     "head": "Biologist",
+     "pos": "ADJ",
+     "children": []
+    },
+    {
+     "token": "Biologist",
+     "dep": "ROOT",
+     "head": "Biologist",
+     "pos": "PROPN",
+     "children": [
+      "Environmental",
+      "and",
+      "experienced",
+      "."
+     ]
+    },
+    {
+     "token": "and",
+     "dep": "cc",
+     "head": "Biologist",
+     "pos": "CCONJ",
+     "children": []
+    },
+    {
+     "token": "experienced",
+     "dep": "conj",
+     "head": "Biologist",
+     "pos": "ADJ",
+     "children": [
+      "researcher",
+      "with"
+     ]
+    },
+    {
+     "token": "researcher",
+     "dep": "dobj",
+     "head": "experienced",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "with",
+     "dep": "prep",
+     "head": "experienced",
+     "pos": "ADP",
+     "children": [
+      "expertise"
+     ]
+    },
+    {
+     "token": "expertise",
+     "dep": "pobj",
+     "head": "with",
+     "pos": "NOUN",
+     "children": [
+      "in"
+     ]
+    },
+    {
+     "token": "in",
+     "dep": "prep",
+     "head": "expertise",
+     "pos": "ADP",
+     "children": [
+      "collection"
+     ]
+    },
+    {
+     "token": "data",
+     "dep": "compound",
+     "head": "collection",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "collection",
+     "dep": "pobj",
+     "head": "in",
+     "pos": "NOUN",
+     "children": [
+      "data",
+      "and",
+      "study"
+     ]
+    },
+    {
+     "token": "and",
+     "dep": "cc",
+     "head": "collection",
+     "pos": "CCONJ",
+     "children": []
+    },
+    {
+     "token": "study",
+     "dep": "conj",
+     "head": "collection",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": ".",
+     "dep": "punct",
+     "head": "Biologist",
+     "pos": "PUNCT",
+     "children": []
+    }
+   ],
+   "cfg_status": "no parse (sentence structure not covered by the small grammar)",
+   "cfg_tree": null
+  },
+  {
+   "resume_id": "AGR_02",
+   "sentence": "Ensured food-safety compliance and residue testing for export-grade grapes.",
+   "pos": {
+    "nltk": [
+     [
+      "Ensured",
+      "VBN"
+     ],
+     [
+      "food-safety",
+      "NN"
+     ],
+     [
+      "compliance",
+      "NN"
+     ],
+     [
+      "and",
+      "CC"
+     ],
+     [
+      "residue",
+      "JJ"
+     ],
+     [
+      "testing",
+      "VBG"
+     ],
+     [
+      "for",
+      "IN"
+     ],
+     [
+      "export-grade",
+      "JJ"
+     ],
+     [
+      "grapes",
+      "NNS"
+     ],
+     [
+      ".",
+      "."
+     ]
+    ],
+    "spacy": [
+     [
+      "Ensured",
+      "VBN",
+      "VERB"
+     ],
+     [
+      "food",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "-",
+      "HYPH",
+      "PUNCT"
+     ],
+     [
+      "safety",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "compliance",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "and",
+      "CC",
+      "CCONJ"
+     ],
+     [
+      "residue",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "testing",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "for",
+      "IN",
+      "ADP"
+     ],
+     [
+      "export",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "-",
+      "HYPH",
+      "PUNCT"
+     ],
+     [
+      "grade",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "grapes",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      ".",
+      ".",
+      "PUNCT"
+     ]
+    ]
+   },
+   "chunks": [
+    [
+     "NP",
+     "Ensured food-safety compliance"
+    ],
+    [
+     "VP",
+     "testing for export-grade grapes"
+    ],
+    [
+     "PP",
+     "for export-grade grapes"
+    ],
+    [
+     "NP",
+     "export-grade grapes"
+    ]
+   ],
+   "iob": [
+    [
+     "Ensured",
+     "VBN",
+     "B-NP"
+    ],
+    [
+     "food-safety",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "compliance",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "and",
+     "CC",
+     "O"
+    ],
+    [
+     "residue",
+     "JJ",
+     "O"
+    ],
+    [
+     "testing",
+     "VBG",
+     "O"
+    ],
+    [
+     "for",
+     "IN",
+     "O"
+    ],
+    [
+     "export-grade",
+     "JJ",
+     "B-NP"
+    ],
+    [
+     "grapes",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     ".",
+     ".",
+     "O"
+    ]
+   ],
+   "dependency": [
+    {
+     "token": "Ensured",
+     "dep": "ROOT",
+     "head": "Ensured",
+     "pos": "VERB",
+     "children": [
+      "testing",
+      "."
+     ]
+    },
+    {
+     "token": "food",
+     "dep": "compound",
+     "head": "safety",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "-",
+     "dep": "punct",
+     "head": "safety",
+     "pos": "PUNCT",
+     "children": []
+    },
+    {
+     "token": "safety",
+     "dep": "compound",
+     "head": "compliance",
+     "pos": "NOUN",
+     "children": [
+      "food",
+      "-"
+     ]
+    },
+    {
+     "token": "compliance",
+     "dep": "nmod",
+     "head": "testing",
+     "pos": "NOUN",
+     "children": [
+      "safety",
+      "and",
+      "residue"
+     ]
+    },
+    {
+     "token": "and",
+     "dep": "cc",
+     "head": "compliance",
+     "pos": "CCONJ",
+     "children": []
+    },
+    {
+     "token": "residue",
+     "dep": "conj",
+     "head": "compliance",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "testing",
+     "dep": "dobj",
+     "head": "Ensured",
+     "pos": "NOUN",
+     "children": [
+      "compliance",
+      "for"
+     ]
+    },
+    {
+     "token": "for",
+     "dep": "prep",
+     "head": "testing",
+     "pos": "ADP",
+     "children": [
+      "grapes"
+     ]
+    },
+    {
+     "token": "export",
+     "dep": "compound",
+     "head": "grade",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "-",
+     "dep": "punct",
+     "head": "grade",
+     "pos": "PUNCT",
+     "children": []
+    },
+    {
+     "token": "grade",
+     "dep": "compound",
+     "head": "grapes",
+     "pos": "NOUN",
+     "children": [
+      "export",
+      "-"
+     ]
+    },
+    {
+     "token": "grapes",
+     "dep": "pobj",
+     "head": "for",
+     "pos": "NOUN",
+     "children": [
+      "grade"
+     ]
+    },
+    {
+     "token": ".",
+     "dep": "punct",
+     "head": "Ensured",
+     "pos": "PUNCT",
+     "children": []
+    }
+   ],
+   "cfg_status": "no parse (sentence structure not covered by the small grammar)",
+   "cfg_tree": null
+  },
+  {
+   "resume_id": "AGR_03",
+   "sentence": "Recorded experimental data and performed statistical analysis of trial results in R.",
+   "pos": {
+    "nltk": [
+     [
+      "Recorded",
+      "VBN"
+     ],
+     [
+      "experimental",
+      "JJ"
+     ],
+     [
+      "data",
+      "NNS"
+     ],
+     [
+      "and",
+      "CC"
+     ],
+     [
+      "performed",
+      "VBD"
+     ],
+     [
+      "statistical",
+      "JJ"
+     ],
+     [
+      "analysis",
+      "NN"
+     ],
+     [
+      "of",
+      "IN"
+     ],
+     [
+      "trial",
+      "NN"
+     ],
+     [
+      "results",
+      "NNS"
+     ],
+     [
+      "in",
+      "IN"
+     ],
+     [
+      "R",
+      "NNP"
+     ],
+     [
+      ".",
+      "."
+     ]
+    ],
+    "spacy": [
+     [
+      "Recorded",
+      "JJ",
+      "ADJ"
+     ],
+     [
+      "experimental",
+      "JJ",
+      "ADJ"
+     ],
+     [
+      "data",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      "and",
+      "CC",
+      "CCONJ"
+     ],
+     [
+      "performed",
+      "VBN",
+      "VERB"
+     ],
+     [
+      "statistical",
+      "JJ",
+      "ADJ"
+     ],
+     [
+      "analysis",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "of",
+      "IN",
+      "ADP"
+     ],
+     [
+      "trial",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "results",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      "in",
+      "IN",
+      "ADP"
+     ],
+     [
+      "R.",
+      "NNP",
+      "PROPN"
+     ]
+    ]
+   },
+   "chunks": [
+    [
+     "NP",
+     "Recorded experimental data"
+    ],
+    [
+     "VP",
+     "performed statistical analysis of trial results in R"
+    ],
+    [
+     "NP",
+     "statistical analysis"
+    ],
+    [
+     "PP",
+     "of trial results"
+    ],
+    [
+     "NP",
+     "trial results"
+    ],
+    [
+     "PP",
+     "in R"
+    ],
+    [
+     "NP",
+     "R"
+    ]
+   ],
+   "iob": [
+    [
+     "Recorded",
+     "VBN",
+     "B-NP"
+    ],
+    [
+     "experimental",
+     "JJ",
+     "I-NP"
+    ],
+    [
+     "data",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     "and",
+     "CC",
+     "O"
+    ],
+    [
+     "performed",
+     "VBD",
+     "O"
+    ],
+    [
+     "statistical",
+     "JJ",
+     "B-NP"
+    ],
+    [
+     "analysis",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "of",
+     "IN",
+     "O"
+    ],
+    [
+     "trial",
+     "NN",
+     "B-NP"
+    ],
+    [
+     "results",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     "in",
+     "IN",
+     "O"
+    ],
+    [
+     "R",
+     "NNP",
+     "B-NP"
+    ],
+    [
+     ".",
+     ".",
+     "O"
+    ]
+   ],
+   "dependency": [
+    {
+     "token": "Recorded",
+     "dep": "amod",
+     "head": "data",
+     "pos": "ADJ",
+     "children": []
+    },
+    {
+     "token": "experimental",
+     "dep": "amod",
+     "head": "data",
+     "pos": "ADJ",
+     "children": []
+    },
+    {
+     "token": "data",
+     "dep": "ROOT",
+     "head": "data",
+     "pos": "NOUN",
+     "children": [
+      "Recorded",
+      "experimental",
+      "and",
+      "performed"
+     ]
+    },
+    {
+     "token": "and",
+     "dep": "cc",
+     "head": "data",
+     "pos": "CCONJ",
+     "children": []
+    },
+    {
+     "token": "performed",
+     "dep": "conj",
+     "head": "data",
+     "pos": "VERB",
+     "children": [
+      "analysis",
+      "in"
+     ]
+    },
+    {
+     "token": "statistical",
+     "dep": "amod",
+     "head": "analysis",
+     "pos": "ADJ",
+     "children": []
+    },
+    {
+     "token": "analysis",
+     "dep": "dobj",
+     "head": "performed",
+     "pos": "NOUN",
+     "children": [
+      "statistical",
+      "of"
+     ]
+    },
+    {
+     "token": "of",
+     "dep": "prep",
+     "head": "analysis",
+     "pos": "ADP",
+     "children": [
+      "results"
+     ]
+    },
+    {
+     "token": "trial",
+     "dep": "compound",
+     "head": "results",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "results",
+     "dep": "pobj",
+     "head": "of",
+     "pos": "NOUN",
+     "children": [
+      "trial"
+     ]
+    },
+    {
+     "token": "in",
+     "dep": "prep",
+     "head": "performed",
+     "pos": "ADP",
+     "children": [
+      "R."
+     ]
+    },
+    {
+     "token": "R.",
+     "dep": "pobj",
+     "head": "in",
+     "pos": "PROPN",
+     "children": []
+    }
+   ],
+   "cfg_status": "4 parse(s) found",
+   "cfg_tree": "(S\n  (VP (V VBN:Recorded) (NP (NOM (ADJP (JJ JJ:experimental)) (NOM (N NNS:data)))))\n  (CC CC:and)\n  (VP\n    (V VBD:performed)\n    (S\n      (NP\n        (NP\n          (NP (NOM (ADJP (JJ JJ:statistical)) (NOM (N NN:analysis))))\n          (PP (P IN:of) (NP (NOM (N NN:trial) (NOM (N NNS:results))))))\n        (PP (P IN:in) (NP (NOM (N NNP:R)))))\n      (PUNCT .:.))))"
+  },
+  {
+   "resume_id": "AGR_04",
+   "sentence": "Reported pest outbreaks to the district agriculture office and recommended control measures.",
+   "pos": {
+    "nltk": [
+     [
+      "Reported",
+      "VBN"
+     ],
+     [
+      "pest",
+      "JJS"
+     ],
+     [
+      "outbreaks",
+      "NNS"
+     ],
+     [
+      "to",
+      "TO"
+     ],
+     [
+      "the",
+      "DT"
+     ],
+     [
+      "district",
+      "NN"
+     ],
+     [
+      "agriculture",
+      "NN"
+     ],
+     [
+      "office",
+      "NN"
+     ],
+     [
+      "and",
+      "CC"
+     ],
+     [
+      "recommended",
+      "VBD"
+     ],
+     [
+      "control",
+      "NN"
+     ],
+     [
+      "measures",
+      "NNS"
+     ],
+     [
+      ".",
+      "."
+     ]
+    ],
+    "spacy": [
+     [
+      "Reported",
+      "VBN",
+      "VERB"
+     ],
+     [
+      "pest",
+      "VBP",
+      "VERB"
+     ],
+     [
+      "outbreaks",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      "to",
+      "IN",
+      "ADP"
+     ],
+     [
+      "the",
+      "DT",
+      "DET"
+     ],
+     [
+      "district",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "agriculture",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "office",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "and",
+      "CC",
+      "CCONJ"
+     ],
+     [
+      "recommended",
+      "VBD",
+      "VERB"
+     ],
+     [
+      "control",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "measures",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      ".",
+      ".",
+      "PUNCT"
+     ]
+    ]
+   },
+   "chunks": [
+    [
+     "NP",
+     "Reported pest outbreaks"
+    ],
+    [
+     "NP",
+     "the district agriculture office"
+    ],
+    [
+     "VP",
+     "recommended control measures"
+    ],
+    [
+     "NP",
+     "control measures"
+    ]
+   ],
+   "iob": [
+    [
+     "Reported",
+     "VBN",
+     "B-NP"
+    ],
+    [
+     "pest",
+     "JJS",
+     "I-NP"
+    ],
+    [
+     "outbreaks",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     "to",
+     "TO",
+     "O"
+    ],
+    [
+     "the",
+     "DT",
+     "B-NP"
+    ],
+    [
+     "district",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "agriculture",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "office",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "and",
+     "CC",
+     "O"
+    ],
+    [
+     "recommended",
+     "VBD",
+     "O"
+    ],
+    [
+     "control",
+     "NN",
+     "B-NP"
+    ],
+    [
+     "measures",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     ".",
+     ".",
+     "O"
+    ]
+   ],
+   "dependency": [
+    {
+     "token": "Reported",
+     "dep": "ROOT",
+     "head": "Reported",
+     "pos": "VERB",
+     "children": [
+      "pest",
+      "."
+     ]
+    },
+    {
+     "token": "pest",
+     "dep": "xcomp",
+     "head": "Reported",
+     "pos": "VERB",
+     "children": [
+      "outbreaks",
+      "to",
+      "and",
+      "recommended"
+     ]
+    },
+    {
+     "token": "outbreaks",
+     "dep": "dobj",
+     "head": "pest",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "to",
+     "dep": "prep",
+     "head": "pest",
+     "pos": "ADP",
+     "children": [
+      "office"
+     ]
+    },
+    {
+     "token": "the",
+     "dep": "det",
+     "head": "office",
+     "pos": "DET",
+     "children": []
+    },
+    {
+     "token": "district",
+     "dep": "compound",
+     "head": "office",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "agriculture",
+     "dep": "compound",
+     "head": "office",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "office",
+     "dep": "pobj",
+     "head": "to",
+     "pos": "NOUN",
+     "children": [
+      "the",
+      "district",
+      "agriculture"
+     ]
+    },
+    {
+     "token": "and",
+     "dep": "cc",
+     "head": "pest",
+     "pos": "CCONJ",
+     "children": []
+    },
+    {
+     "token": "recommended",
+     "dep": "conj",
+     "head": "pest",
+     "pos": "VERB",
+     "children": [
+      "measures"
+     ]
+    },
+    {
+     "token": "control",
+     "dep": "compound",
+     "head": "measures",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "measures",
+     "dep": "dobj",
+     "head": "recommended",
+     "pos": "NOUN",
+     "children": [
+      "control"
+     ]
+    },
+    {
+     "token": ".",
+     "dep": "punct",
+     "head": "Reported",
+     "pos": "PUNCT",
+     "children": []
+    }
+   ],
+   "cfg_status": "5 parse(s) found",
+   "cfg_tree": "(S\n  (VP\n    (V VBN:Reported)\n    (NP (NOM (ADJP (JJ JJS:pest)) (NOM (N NNS:outbreaks))))\n    (PP (P TO:to) (NP (DET DT:the) (NOM (N NN:district) (NOM (N NN:agriculture) (NOM (N NN:office)))))))\n  (CC CC:and)\n  (VP (V VBD:recommended) (S (NP (NOM (N NN:control) (NOM (N NNS:measures)))) (PUNCT .:.))))"
+  },
+  {
+   "resume_id": "AGR_05",
+   "sentence": "Prepared crop calendars and weekly weather-based advisories for kharif and rabi seasons.",
+   "pos": {
+    "nltk": [
+     [
+      "Prepared",
+      "NNP"
+     ],
+     [
+      "crop",
+      "NN"
+     ],
+     [
+      "calendars",
+      "NNS"
+     ],
+     [
+      "and",
+      "CC"
+     ],
+     [
+      "weekly",
+      "JJ"
+     ],
+     [
+      "weather-based",
+      "JJ"
+     ],
+     [
+      "advisories",
+      "NNS"
+     ],
+     [
+      "for",
+      "IN"
+     ],
+     [
+      "kharif",
+      "NN"
+     ],
+     [
+      "and",
+      "CC"
+     ],
+     [
+      "rabi",
+      "JJ"
+     ],
+     [
+      "seasons",
+      "NNS"
+     ],
+     [
+      ".",
+      "."
+     ]
+    ],
+    "spacy": [
+     [
+      "Prepared",
+      "VBN",
+      "VERB"
+     ],
+     [
+      "crop",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "calendars",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      "and",
+      "CC",
+      "CCONJ"
+     ],
+     [
+      "weekly",
+      "JJ",
+      "ADJ"
+     ],
+     [
+      "weather",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "-",
+      "HYPH",
+      "PUNCT"
+     ],
+     [
+      "based",
+      "VBN",
+      "VERB"
+     ],
+     [
+      "advisories",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      "for",
+      "IN",
+      "ADP"
+     ],
+     [
+      "kharif",
+      "NNP",
+      "PROPN"
+     ],
+     [
+      "and",
+      "CC",
+      "CCONJ"
+     ],
+     [
+      "rabi",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      "seasons",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      ".",
+      ".",
+      "PUNCT"
+     ]
+    ]
+   },
+   "chunks": [
+    [
+     "NP",
+     "Prepared crop calendars"
+    ],
+    [
+     "NP",
+     "weekly weather-based advisories"
+    ],
+    [
+     "PP",
+     "for kharif"
+    ],
+    [
+     "NP",
+     "kharif"
+    ],
+    [
+     "NP",
+     "rabi seasons"
+    ]
+   ],
+   "iob": [
+    [
+     "Prepared",
+     "NNP",
+     "B-NP"
+    ],
+    [
+     "crop",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "calendars",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     "and",
+     "CC",
+     "O"
+    ],
+    [
+     "weekly",
+     "JJ",
+     "B-NP"
+    ],
+    [
+     "weather-based",
+     "JJ",
+     "I-NP"
+    ],
+    [
+     "advisories",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     "for",
+     "IN",
+     "O"
+    ],
+    [
+     "kharif",
+     "NN",
+     "B-NP"
+    ],
+    [
+     "and",
+     "CC",
+     "O"
+    ],
+    [
+     "rabi",
+     "JJ",
+     "B-NP"
+    ],
+    [
+     "seasons",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     ".",
+     ".",
+     "O"
+    ]
+   ],
+   "dependency": [
+    {
+     "token": "Prepared",
+     "dep": "amod",
+     "head": "calendars",
+     "pos": "VERB",
+     "children": []
+    },
+    {
+     "token": "crop",
+     "dep": "compound",
+     "head": "calendars",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "calendars",
+     "dep": "ROOT",
+     "head": "calendars",
+     "pos": "NOUN",
+     "children": [
+      "Prepared",
+      "crop",
+      "and",
+      "advisories",
+      "."
+     ]
+    },
+    {
+     "token": "and",
+     "dep": "cc",
+     "head": "calendars",
+     "pos": "CCONJ",
+     "children": []
+    },
+    {
+     "token": "weekly",
+     "dep": "amod",
+     "head": "advisories",
+     "pos": "ADJ",
+     "children": []
+    },
+    {
+     "token": "weather",
+     "dep": "npadvmod",
+     "head": "based",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "-",
+     "dep": "punct",
+     "head": "based",
+     "pos": "PUNCT",
+     "children": []
+    },
+    {
+     "token": "based",
+     "dep": "amod",
+     "head": "advisories",
+     "pos": "VERB",
+     "children": [
+      "weather",
+      "-"
+     ]
+    },
+    {
+     "token": "advisories",
+     "dep": "conj",
+     "head": "calendars",
+     "pos": "NOUN",
+     "children": [
+      "weekly",
+      "based",
+      "for"
+     ]
+    },
+    {
+     "token": "for",
+     "dep": "prep",
+     "head": "advisories",
+     "pos": "ADP",
+     "children": [
+      "seasons"
+     ]
+    },
+    {
+     "token": "kharif",
+     "dep": "nmod",
+     "head": "seasons",
+     "pos": "PROPN",
+     "children": [
+      "and",
+      "rabi"
+     ]
+    },
+    {
+     "token": "and",
+     "dep": "cc",
+     "head": "kharif",
+     "pos": "CCONJ",
+     "children": []
+    },
+    {
+     "token": "rabi",
+     "dep": "conj",
+     "head": "kharif",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "seasons",
+     "dep": "pobj",
+     "head": "for",
+     "pos": "NOUN",
+     "children": [
+      "kharif"
+     ]
+    },
+    {
+     "token": ".",
+     "dep": "punct",
+     "head": "calendars",
+     "pos": "PUNCT",
+     "children": []
+    }
+   ],
+   "cfg_status": "10 parse(s) found",
+   "cfg_tree": "(S\n  (NP\n    (NP\n      (NP\n        (NP (NOM (N NNP:Prepared) (NOM (N NN:crop) (NOM (N NNS:calendars)))))\n        (CC CC:and)\n        (NP (NOM (ADJP (JJ JJ:weekly) (ADJP (JJ JJ:weather-based))) (NOM (N NNS:advisories)))))\n      (PP (P IN:for) (NP (NOM (N NN:kharif)))))\n    (CC CC:and)\n    (NP (NOM (ADJP (JJ JJ:rabi)) (NOM (N NNS:seasons)))))\n  (PUNCT .:.))"
+  },
+  {
+   "resume_id": "ENG_01",
+   "sentence": "Responsible for testing various seat structures to meet specific certification requirements.",
+   "pos": {
+    "nltk": [
+     [
+      "Responsible",
+      "JJ"
+     ],
+     [
+      "for",
+      "IN"
+     ],
+     [
+      "testing",
+      "VBG"
+     ],
+     [
+      "various",
+      "JJ"
+     ],
+     [
+      "seat",
+      "NN"
+     ],
+     [
+      "structures",
+      "NNS"
+     ],
+     [
+      "to",
+      "TO"
+     ],
+     [
+      "meet",
+      "VB"
+     ],
+     [
+      "specific",
+      "JJ"
+     ],
+     [
+      "certification",
+      "NN"
+     ],
+     [
+      "requirements",
+      "NNS"
+     ],
+     [
+      ".",
+      "."
+     ]
+    ],
+    "spacy": [
+     [
+      "Responsible",
+      "JJ",
+      "ADJ"
+     ],
+     [
+      "for",
+      "IN",
+      "ADP"
+     ],
+     [
+      "testing",
+      "VBG",
+      "VERB"
+     ],
+     [
+      "various",
+      "JJ",
+      "ADJ"
+     ],
+     [
+      "seat",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "structures",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      "to",
+      "TO",
+      "PART"
+     ],
+     [
+      "meet",
+      "VB",
+      "VERB"
+     ],
+     [
+      "specific",
+      "JJ",
+      "ADJ"
+     ],
+     [
+      "certification",
+      "NN",
+      "NOUN"
+     ],
+     [
+      "requirements",
+      "NNS",
+      "NOUN"
+     ],
+     [
+      ".",
+      ".",
+      "PUNCT"
+     ]
+    ]
+   },
+   "chunks": [
+    [
+     "PP",
+     "for testing various seat structures"
+    ],
+    [
+     "NP",
+     "testing various seat structures"
+    ],
+    [
+     "VP",
+     "meet specific certification requirements"
+    ],
+    [
+     "NP",
+     "specific certification requirements"
+    ]
+   ],
+   "iob": [
+    [
+     "Responsible",
+     "JJ",
+     "O"
+    ],
+    [
+     "for",
+     "IN",
+     "O"
+    ],
+    [
+     "testing",
+     "VBG",
+     "B-NP"
+    ],
+    [
+     "various",
+     "JJ",
+     "I-NP"
+    ],
+    [
+     "seat",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "structures",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     "to",
+     "TO",
+     "O"
+    ],
+    [
+     "meet",
+     "VB",
+     "O"
+    ],
+    [
+     "specific",
+     "JJ",
+     "B-NP"
+    ],
+    [
+     "certification",
+     "NN",
+     "I-NP"
+    ],
+    [
+     "requirements",
+     "NNS",
+     "I-NP"
+    ],
+    [
+     ".",
+     ".",
+     "O"
+    ]
+   ],
+   "dependency": [
+    {
+     "token": "Responsible",
+     "dep": "ROOT",
+     "head": "Responsible",
+     "pos": "ADJ",
+     "children": [
+      "for",
+      "."
+     ]
+    },
+    {
+     "token": "for",
+     "dep": "prep",
+     "head": "Responsible",
+     "pos": "ADP",
+     "children": [
+      "testing"
+     ]
+    },
+    {
+     "token": "testing",
+     "dep": "pcomp",
+     "head": "for",
+     "pos": "VERB",
+     "children": [
+      "structures",
+      "meet"
+     ]
+    },
+    {
+     "token": "various",
+     "dep": "amod",
+     "head": "structures",
+     "pos": "ADJ",
+     "children": []
+    },
+    {
+     "token": "seat",
+     "dep": "compound",
+     "head": "structures",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "structures",
+     "dep": "dobj",
+     "head": "testing",
+     "pos": "NOUN",
+     "children": [
+      "various",
+      "seat"
+     ]
+    },
+    {
+     "token": "to",
+     "dep": "aux",
+     "head": "meet",
+     "pos": "PART",
+     "children": []
+    },
+    {
+     "token": "meet",
+     "dep": "advcl",
+     "head": "testing",
+     "pos": "VERB",
+     "children": [
+      "to",
+      "requirements"
+     ]
+    },
+    {
+     "token": "specific",
+     "dep": "amod",
+     "head": "requirements",
+     "pos": "ADJ",
+     "children": []
+    },
+    {
+     "token": "certification",
+     "dep": "compound",
+     "head": "requirements",
+     "pos": "NOUN",
+     "children": []
+    },
+    {
+     "token": "requirements",
+     "dep": "dobj",
+     "head": "meet",
+     "pos": "NOUN",
+     "children": [
+      "specific",
+      "certification"
+     ]
+    },
+    {
+     "token": ".",
+     "dep": "punct",
+     "head": "Responsible",
+     "pos": "PUNCT",
+     "children": []
+    }
+   ],
+   "cfg_status": "no parse (sentence structure not covered by the small grammar)",
+   "cfg_tree": null
+  }
+ ],
+ "cfg_pos_coverage": {
+  "sentences_tried": 600,
+  "parsed": 265,
+  "coverage_pct": 44.2
+ },
+ "lexical_cfg": {
+  "sentence": "maintain and calibrate test instruments",
+  "n_parses": 1,
+  "trees": [
+   "(S\n  (VP\n    (VP (V maintain))\n    (CC and)\n    (VP (V calibrate) (NP (ADJ test) (N instruments)))))"
+  ]
+ }
+}

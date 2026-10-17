@@ -1,0 +1,1112 @@
+{
+ "examples": [
+  {
+   "resume_id": "HR_02",
+   "sentence": "excellent time-management skills, team player, open and honest communicator, effective at maintaining confidentiality and multi-tasker.",
+   "analysis": [
+    {
+     "word": "excellent",
+     "lemma": "excellent",
+     "pos": "ADJ",
+     "tag": "JJ",
+     "morph_features": "Degree=Pos",
+     "porter_stem": "excel",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "excellent"
+    },
+    {
+     "word": "time",
+     "lemma": "time",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "time",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "time"
+    },
+    {
+     "word": "management",
+     "lemma": "management",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "manag",
+     "prefix": "",
+     "derivational_suffix": "ment",
+     "inflectional_suffix": "",
+     "segmentation": "manage + -ment"
+    },
+    {
+     "word": "skills",
+     "lemma": "skill",
+     "pos": "NOUN",
+     "tag": "NNS",
+     "morph_features": "Number=Plur",
+     "porter_stem": "skill",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "s",
+     "segmentation": "skill + -s"
+    },
+    {
+     "word": "team",
+     "lemma": "team",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "team",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "team"
+    },
+    {
+     "word": "player",
+     "lemma": "player",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "player",
+     "prefix": "",
+     "derivational_suffix": "er",
+     "inflectional_suffix": "",
+     "segmentation": "play + -er"
+    },
+    {
+     "word": "open",
+     "lemma": "open",
+     "pos": "ADJ",
+     "tag": "JJ",
+     "morph_features": "Degree=Pos",
+     "porter_stem": "open",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "open"
+    },
+    {
+     "word": "and",
+     "lemma": "and",
+     "pos": "CCONJ",
+     "tag": "CC",
+     "morph_features": "ConjType=Cmp",
+     "porter_stem": "and",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "and"
+    },
+    {
+     "word": "honest",
+     "lemma": "honest",
+     "pos": "ADJ",
+     "tag": "JJ",
+     "morph_features": "Degree=Pos",
+     "porter_stem": "honest",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "honest"
+    },
+    {
+     "word": "communicator",
+     "lemma": "communicator",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "commun",
+     "prefix": "",
+     "derivational_suffix": "or",
+     "inflectional_suffix": "",
+     "segmentation": "communicat + -or"
+    },
+    {
+     "word": "effective",
+     "lemma": "effective",
+     "pos": "ADJ",
+     "tag": "JJ",
+     "morph_features": "Degree=Pos",
+     "porter_stem": "effect",
+     "prefix": "",
+     "derivational_suffix": "ive",
+     "inflectional_suffix": "",
+     "segmentation": "effect + -ive"
+    },
+    {
+     "word": "at",
+     "lemma": "at",
+     "pos": "ADP",
+     "tag": "IN",
+     "morph_features": "-",
+     "porter_stem": "at",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "at"
+    },
+    {
+     "word": "maintaining",
+     "lemma": "maintain",
+     "pos": "VERB",
+     "tag": "VBG",
+     "morph_features": "Aspect=Prog|Tense=Pres|VerbForm=Part",
+     "porter_stem": "maintain",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "ing",
+     "segmentation": "maintain + -ing"
+    },
+    {
+     "word": "confidentiality",
+     "lemma": "confidentiality",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "confidenti",
+     "prefix": "",
+     "derivational_suffix": "ity",
+     "inflectional_suffix": "",
+     "segmentation": "confidential + -ity"
+    },
+    {
+     "word": "and",
+     "lemma": "and",
+     "pos": "CCONJ",
+     "tag": "CC",
+     "morph_features": "ConjType=Cmp",
+     "porter_stem": "and",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "and"
+    },
+    {
+     "word": "multi",
+     "lemma": "multi",
+     "pos": "ADJ",
+     "tag": "JJ",
+     "morph_features": "Degree=Pos",
+     "porter_stem": "multi",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "multi"
+    },
+    {
+     "word": "tasker",
+     "lemma": "tasker",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "tasker",
+     "prefix": "",
+     "derivational_suffix": "er",
+     "inflectional_suffix": "",
+     "segmentation": "task + -er"
+    }
+   ]
+  },
+  {
+   "resume_id": "ENG_04",
+   "sentence": "A results driven Controls Engineer and Project Manager with over 20 years of experience in manufacturing.",
+   "analysis": [
+    {
+     "word": "A",
+     "lemma": "a",
+     "pos": "DET",
+     "tag": "DT",
+     "morph_features": "Definite=Ind|PronType=Art",
+     "porter_stem": "a",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "a"
+    },
+    {
+     "word": "results",
+     "lemma": "result",
+     "pos": "NOUN",
+     "tag": "NNS",
+     "morph_features": "Number=Plur",
+     "porter_stem": "result",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "s",
+     "segmentation": "result + -s"
+    },
+    {
+     "word": "driven",
+     "lemma": "drive",
+     "pos": "VERB",
+     "tag": "VBD",
+     "morph_features": "Tense=Past|VerbForm=Fin",
+     "porter_stem": "driven",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "driven"
+    },
+    {
+     "word": "Controls",
+     "lemma": "Controls",
+     "pos": "PROPN",
+     "tag": "NNP",
+     "morph_features": "Number=Sing",
+     "porter_stem": "control",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "controls"
+    },
+    {
+     "word": "Engineer",
+     "lemma": "Engineer",
+     "pos": "PROPN",
+     "tag": "NNP",
+     "morph_features": "Number=Sing",
+     "porter_stem": "engin",
+     "prefix": "",
+     "derivational_suffix": "er",
+     "inflectional_suffix": "",
+     "segmentation": "engine + -er"
+    },
+    {
+     "word": "and",
+     "lemma": "and",
+     "pos": "CCONJ",
+     "tag": "CC",
+     "morph_features": "ConjType=Cmp",
+     "porter_stem": "and",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "and"
+    },
+    {
+     "word": "Project",
+     "lemma": "Project",
+     "pos": "PROPN",
+     "tag": "NNP",
+     "morph_features": "Number=Sing",
+     "porter_stem": "project",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "project"
+    },
+    {
+     "word": "Manager",
+     "lemma": "Manager",
+     "pos": "PROPN",
+     "tag": "NNP",
+     "morph_features": "Number=Sing",
+     "porter_stem": "manag",
+     "prefix": "",
+     "derivational_suffix": "er",
+     "inflectional_suffix": "",
+     "segmentation": "manag + -er"
+    },
+    {
+     "word": "with",
+     "lemma": "with",
+     "pos": "ADP",
+     "tag": "IN",
+     "morph_features": "-",
+     "porter_stem": "with",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "with"
+    },
+    {
+     "word": "over",
+     "lemma": "over",
+     "pos": "ADP",
+     "tag": "IN",
+     "morph_features": "-",
+     "porter_stem": "over",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "over"
+    },
+    {
+     "word": "20",
+     "lemma": "20",
+     "pos": "NUM",
+     "tag": "CD",
+     "morph_features": "NumType=Card",
+     "porter_stem": "20",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "20"
+    },
+    {
+     "word": "years",
+     "lemma": "year",
+     "pos": "NOUN",
+     "tag": "NNS",
+     "morph_features": "Number=Plur",
+     "porter_stem": "year",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "s",
+     "segmentation": "year + -s"
+    },
+    {
+     "word": "of",
+     "lemma": "of",
+     "pos": "ADP",
+     "tag": "IN",
+     "morph_features": "-",
+     "porter_stem": "of",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "of"
+    },
+    {
+     "word": "experience",
+     "lemma": "experience",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "experi",
+     "prefix": "",
+     "derivational_suffix": "ence",
+     "inflectional_suffix": "",
+     "segmentation": "experi + -ence"
+    },
+    {
+     "word": "in",
+     "lemma": "in",
+     "pos": "ADP",
+     "tag": "IN",
+     "morph_features": "-",
+     "porter_stem": "in",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "in"
+    },
+    {
+     "word": "manufacturing",
+     "lemma": "manufacturing",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "manufactur",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "manufacturing"
+    }
+   ]
+  },
+  {
+   "resume_id": "FIN_03",
+   "sentence": "A versatile, highly motivated, adaptable, and responsible accounting graduate.",
+   "analysis": [
+    {
+     "word": "A",
+     "lemma": "a",
+     "pos": "DET",
+     "tag": "DT",
+     "morph_features": "Definite=Ind|PronType=Art",
+     "porter_stem": "a",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "a"
+    },
+    {
+     "word": "versatile",
+     "lemma": "versatile",
+     "pos": "ADJ",
+     "tag": "JJ",
+     "morph_features": "Degree=Pos",
+     "porter_stem": "versatil",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "versatile"
+    },
+    {
+     "word": "highly",
+     "lemma": "highly",
+     "pos": "ADV",
+     "tag": "RB",
+     "morph_features": "-",
+     "porter_stem": "highli",
+     "prefix": "",
+     "derivational_suffix": "ly",
+     "inflectional_suffix": "",
+     "segmentation": "high + -ly"
+    },
+    {
+     "word": "motivated",
+     "lemma": "motivated",
+     "pos": "ADJ",
+     "tag": "JJ",
+     "morph_features": "Degree=Pos",
+     "porter_stem": "motiv",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "motivated"
+    },
+    {
+     "word": "adaptable",
+     "lemma": "adaptable",
+     "pos": "ADJ",
+     "tag": "JJ",
+     "morph_features": "Degree=Pos",
+     "porter_stem": "adapt",
+     "prefix": "",
+     "derivational_suffix": "able",
+     "inflectional_suffix": "",
+     "segmentation": "adapt + -able"
+    },
+    {
+     "word": "and",
+     "lemma": "and",
+     "pos": "CCONJ",
+     "tag": "CC",
+     "morph_features": "ConjType=Cmp",
+     "porter_stem": "and",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "and"
+    },
+    {
+     "word": "responsible",
+     "lemma": "responsible",
+     "pos": "ADJ",
+     "tag": "JJ",
+     "morph_features": "Degree=Pos",
+     "porter_stem": "respons",
+     "prefix": "",
+     "derivational_suffix": "ible",
+     "inflectional_suffix": "",
+     "segmentation": "respons + -ible"
+    },
+    {
+     "word": "accounting",
+     "lemma": "accounting",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "account",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "accounting"
+    },
+    {
+     "word": "graduate",
+     "lemma": "graduate",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "graduat",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "graduate"
+    }
+   ]
+  },
+  {
+   "resume_id": "HLT_01",
+   "sentence": "BEHAVIORAL HEALTHCARE HELP LINE AND PSYCHIATRIC EMERGENCY TEAM SUPERVISOR",
+   "analysis": [
+    {
+     "word": "BEHAVIORAL",
+     "lemma": "BEHAVIORAL",
+     "pos": "PROPN",
+     "tag": "NNP",
+     "morph_features": "Number=Sing",
+     "porter_stem": "behavior",
+     "prefix": "",
+     "derivational_suffix": "al",
+     "inflectional_suffix": "",
+     "segmentation": "behavior + -al"
+    },
+    {
+     "word": "HEALTHCARE",
+     "lemma": "HEALTHCARE",
+     "pos": "PROPN",
+     "tag": "NNP",
+     "morph_features": "Number=Sing",
+     "porter_stem": "healthcar",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "healthcare"
+    },
+    {
+     "word": "HELP",
+     "lemma": "help",
+     "pos": "VERB",
+     "tag": "VBP",
+     "morph_features": "Tense=Pres|VerbForm=Fin",
+     "porter_stem": "help",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "help"
+    },
+    {
+     "word": "LINE",
+     "lemma": "line",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "line",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "line"
+    },
+    {
+     "word": "AND",
+     "lemma": "and",
+     "pos": "CCONJ",
+     "tag": "CC",
+     "morph_features": "ConjType=Cmp",
+     "porter_stem": "and",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "and"
+    },
+    {
+     "word": "PSYCHIATRIC",
+     "lemma": "PSYCHIATRIC",
+     "pos": "PROPN",
+     "tag": "NNP",
+     "morph_features": "Number=Sing",
+     "porter_stem": "psychiatr",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "psychiatric"
+    },
+    {
+     "word": "EMERGENCY",
+     "lemma": "EMERGENCY",
+     "pos": "PROPN",
+     "tag": "NNP",
+     "morph_features": "Number=Sing",
+     "porter_stem": "emerg",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "emergency"
+    },
+    {
+     "word": "TEAM",
+     "lemma": "TEAM",
+     "pos": "PROPN",
+     "tag": "NNP",
+     "morph_features": "Number=Sing",
+     "porter_stem": "team",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "team"
+    },
+    {
+     "word": "SUPERVISOR",
+     "lemma": "SUPERVISOR",
+     "pos": "VERB",
+     "tag": "VBD",
+     "morph_features": "Tense=Past|VerbForm=Fin",
+     "porter_stem": "supervisor",
+     "prefix": "super",
+     "derivational_suffix": "or",
+     "inflectional_suffix": "",
+     "segmentation": "super- + vis + -or"
+    }
+   ]
+  },
+  {
+   "resume_id": "AGR_02",
+   "sentence": "Agronomy graduate with 14 years of dairy and livestock management, focused on higher yields with lower",
+   "analysis": [
+    {
+     "word": "Agronomy",
+     "lemma": "agronomy",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "agronomi",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "agronomy"
+    },
+    {
+     "word": "graduate",
+     "lemma": "graduate",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "graduat",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "graduate"
+    },
+    {
+     "word": "with",
+     "lemma": "with",
+     "pos": "ADP",
+     "tag": "IN",
+     "morph_features": "-",
+     "porter_stem": "with",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "with"
+    },
+    {
+     "word": "14",
+     "lemma": "14",
+     "pos": "NUM",
+     "tag": "CD",
+     "morph_features": "NumType=Card",
+     "porter_stem": "14",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "14"
+    },
+    {
+     "word": "years",
+     "lemma": "year",
+     "pos": "NOUN",
+     "tag": "NNS",
+     "morph_features": "Number=Plur",
+     "porter_stem": "year",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "s",
+     "segmentation": "year + -s"
+    },
+    {
+     "word": "of",
+     "lemma": "of",
+     "pos": "ADP",
+     "tag": "IN",
+     "morph_features": "-",
+     "porter_stem": "of",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "of"
+    },
+    {
+     "word": "dairy",
+     "lemma": "dairy",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "dairi",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "dairy"
+    },
+    {
+     "word": "and",
+     "lemma": "and",
+     "pos": "CCONJ",
+     "tag": "CC",
+     "morph_features": "ConjType=Cmp",
+     "porter_stem": "and",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "and"
+    },
+    {
+     "word": "livestock",
+     "lemma": "livestock",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "livestock",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "livestock"
+    },
+    {
+     "word": "management",
+     "lemma": "management",
+     "pos": "NOUN",
+     "tag": "NN",
+     "morph_features": "Number=Sing",
+     "porter_stem": "manag",
+     "prefix": "",
+     "derivational_suffix": "ment",
+     "inflectional_suffix": "",
+     "segmentation": "manage + -ment"
+    },
+    {
+     "word": "focused",
+     "lemma": "focus",
+     "pos": "VERB",
+     "tag": "VBD",
+     "morph_features": "Tense=Past|VerbForm=Fin",
+     "porter_stem": "focus",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "ed",
+     "segmentation": "focus + -ed"
+    },
+    {
+     "word": "on",
+     "lemma": "on",
+     "pos": "ADP",
+     "tag": "IN",
+     "morph_features": "-",
+     "porter_stem": "on",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "on"
+    },
+    {
+     "word": "higher",
+     "lemma": "high",
+     "pos": "ADJ",
+     "tag": "JJR",
+     "morph_features": "Degree=Cmp",
+     "porter_stem": "higher",
+     "prefix": "",
+     "derivational_suffix": "er",
+     "inflectional_suffix": "",
+     "segmentation": "high + -er"
+    },
+    {
+     "word": "yields",
+     "lemma": "yield",
+     "pos": "NOUN",
+     "tag": "NNS",
+     "morph_features": "Number=Plur",
+     "porter_stem": "yield",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "s",
+     "segmentation": "yield + -s"
+    },
+    {
+     "word": "with",
+     "lemma": "with",
+     "pos": "ADP",
+     "tag": "IN",
+     "morph_features": "-",
+     "porter_stem": "with",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "with"
+    },
+    {
+     "word": "lower",
+     "lemma": "low",
+     "pos": "ADJ",
+     "tag": "JJR",
+     "morph_features": "Degree=Cmp",
+     "porter_stem": "lower",
+     "prefix": "",
+     "derivational_suffix": "",
+     "inflectional_suffix": "",
+     "segmentation": "lower"
+    }
+   ]
+  }
+ ],
+ "corpus": {
+  "top_morph_features": [
+   [
+    "Number=Sing",
+    17664
+   ],
+   [
+    "Number=Plur",
+    4608
+   ],
+   [
+    "VerbForm=Part",
+    2682
+   ],
+   [
+    "Degree=Pos",
+    2581
+   ],
+   [
+    "Tense=Past",
+    2562
+   ],
+   [
+    "ConjType=Cmp",
+    2421
+   ],
+   [
+    "Aspect=Perf",
+    1838
+   ],
+   [
+    "Tense=Pres",
+    1117
+   ],
+   [
+    "VerbForm=Fin",
+    1008
+   ],
+   [
+    "PronType=Art",
+    929
+   ],
+   [
+    "Aspect=Prog",
+    843
+   ],
+   [
+    "VerbForm=Inf",
+    579
+   ],
+   [
+    "Definite=Def",
+    557
+   ],
+   [
+    "Definite=Ind",
+    372
+   ],
+   [
+    "Person=3",
+    198
+   ]
+  ],
+  "verb_tags": [
+   [
+    "VBN",
+    1837
+   ],
+   [
+    "VBG",
+    843
+   ],
+   [
+    "VBD",
+    712
+   ],
+   [
+    "VB",
+    573
+   ],
+   [
+    "VBZ",
+    131
+   ],
+   [
+    "VBP",
+    97
+   ]
+  ],
+  "derivational_suffixes": [
+   [
+    "-ment",
+    989
+   ],
+   [
+    "-al",
+    958
+   ],
+   [
+    "-ation",
+    952
+   ],
+   [
+    "-er",
+    945
+   ],
+   [
+    "-or",
+    394
+   ],
+   [
+    "-ity",
+    326
+   ],
+   [
+    "-ical",
+    310
+   ],
+   [
+    "-ance",
+    287
+   ],
+   [
+    "-ly",
+    281
+   ],
+   [
+    "-ive",
+    190
+   ],
+   [
+    "-ence",
+    165
+   ],
+   [
+    "-ship",
+    112
+   ]
+  ],
+  "inflectional_suffixes": [
+   [
+    "-s",
+    2917
+   ],
+   [
+    "-ed",
+    2374
+   ],
+   [
+    "-es",
+    1196
+   ],
+   [
+    "-ing",
+    765
+   ]
+  ],
+  "largest_lemma_families": [
+   [
+    "be",
+    [
+     "am",
+     "are",
+     "be",
+     "been",
+     "being",
+     "is",
+     "was",
+     "were"
+    ]
+   ],
+   [
+    "write",
+    [
+     "write",
+     "writes",
+     "writing",
+     "written",
+     "wrote"
+    ]
+   ],
+   [
+    "drive",
+    [
+     "drive",
+     "driven",
+     "drives",
+     "driving",
+     "drove"
+    ]
+   ],
+   [
+    "conduct",
+    [
+     "conduct",
+     "conducted",
+     "conducting",
+     "conducts"
+    ]
+   ],
+   [
+    "ensure",
+    [
+     "ensure",
+     "ensured",
+     "ensures",
+     "ensuring"
+    ]
+   ],
+   [
+    "report",
+    [
+     "report",
+     "reported",
+     "reporting",
+     "reports"
+    ]
+   ],
+   [
+    "operate",
+    [
+     "operate",
+     "operated",
+     "operates",
+     "operating"
+    ]
+   ],
+   [
+    "maintain",
+    [
+     "maintain",
+     "maintained",
+     "maintaining",
+     "maintains"
+    ]
+   ],
+   [
+    "support",
+    [
+     "support",
+     "supported",
+     "supporting",
+     "supports"
+    ]
+   ],
+   [
+    "perform",
+    [
+     "perform",
+     "performed",
+     "performing",
+     "performs"
+    ]
+   ],
+   [
+    "analyze",
+    [
+     "analyze",
+     "analyzed",
+     "analyzes",
+     "analyzing"
+    ]
+   ],
+   [
+    "test",
+    [
+     "test",
+     "tested",
+     "testing",
+     "tests"
+    ]
+   ]
+  ]
+ }
+}

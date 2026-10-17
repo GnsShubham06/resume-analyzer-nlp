@@ -1,0 +1,449 @@
+{
+ "senses": {
+  "plant": [
+   {
+    "synset": "plant.n.01",
+    "definition": "buildings for carrying on industrial labor"
+   },
+   {
+    "synset": "plant.n.02",
+    "definition": "(botany) a living organism lacking the power of locomotion"
+   },
+   {
+    "synset": "plant.n.03",
+    "definition": "an actor situated in the audience whose acting is rehearsed but seems spontaneous to the audience"
+   },
+   {
+    "synset": "plant.n.04",
+    "definition": "something planted secretly for discovery by another"
+   }
+  ],
+  "care": [
+   {
+    "synset": "care.n.01",
+    "definition": "the work of providing treatment for or attending to someone or something"
+   },
+   {
+    "synset": "caution.n.03",
+    "definition": "judiciousness in avoiding harm or danger"
+   },
+   {
+    "synset": "concern.n.02",
+    "definition": "an anxious feeling"
+   },
+   {
+    "synset": "care.n.04",
+    "definition": "a cause for feeling concern"
+   }
+  ],
+  "account": [
+   {
+    "synset": "history.n.02",
+    "definition": "a record or narrative description of past events"
+   },
+   {
+    "synset": "report.n.03",
+    "definition": "a short account of the news"
+   },
+   {
+    "synset": "account.n.03",
+    "definition": "a formal contractual relationship established to provide for regular banking or brokerage or business services"
+   },
+   {
+    "synset": "explanation.n.01",
+    "definition": "a statement that makes something comprehensible by describing the relevant structure or operation or circumstances etc."
+   }
+  ],
+  "engineer": [
+   {
+    "synset": "engineer.n.01",
+    "definition": "a person who uses scientific knowledge to solve practical problems"
+   },
+   {
+    "synset": "engineer.n.02",
+    "definition": "the operator of a railway locomotive"
+   },
+   {
+    "synset": "engineer.v.01",
+    "definition": "design as an engineer"
+   },
+   {
+    "synset": "mastermind.v.01",
+    "definition": "plan and direct (a complex undertaking)"
+   }
+  ],
+  "record": [
+   {
+    "synset": "record.n.01",
+    "definition": "anything (such as a document or a phonograph record or a photograph) providing permanent evidence of or information about past events"
+   },
+   {
+    "synset": "phonograph_record.n.01",
+    "definition": "sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove"
+   },
+   {
+    "synset": "record.n.03",
+    "definition": "the number of wins versus losses and ties a team has had"
+   },
+   {
+    "synset": "record.n.04",
+    "definition": "the sum of recognized accomplishments"
+   }
+  ]
+ },
+ "synonyms_hypernyms": [
+  {
+   "word": "payroll",
+   "sense": "payroll.n.01",
+   "synonyms": [
+    "payroll department",
+    "paysheet"
+   ],
+   "hypernym_path": [
+    "entity",
+    "abstraction",
+    "communication",
+    "document",
+    "record",
+    "register",
+    "payroll"
+   ]
+  },
+  {
+   "word": "audit",
+   "sense": "audited_account.n.01",
+   "synonyms": [
+    "audited account"
+   ],
+   "hypernym_path": [
+    "entity",
+    "abstraction",
+    "communication",
+    "document",
+    "record",
+    "register",
+    "accounting",
+    "audited_account"
+   ]
+  },
+  {
+   "word": "patient",
+   "sense": "patient.n.01",
+   "synonyms": [
+    "affected role",
+    "patient role"
+   ],
+   "hypernym_path": [
+    "entity",
+    "physical_entity",
+    "object",
+    "whole",
+    "living_thing",
+    "organism",
+    "person",
+    "unfortunate",
+    "sick_person",
+    "patient"
+   ]
+  },
+  {
+   "word": "crop",
+   "sense": "crop.n.01",
+   "synonyms": [
+    "harvest"
+   ],
+   "hypernym_path": [
+    "entity",
+    "abstraction",
+    "psychological_feature",
+    "event",
+    "group_action",
+    "transaction",
+    "commerce",
+    "commercial_enterprise",
+    "industry",
+    "production",
+    "output",
+    "crop"
+   ]
+  },
+  {
+   "word": "welding",
+   "sense": "welding.n.01",
+   "synonyms": [],
+   "hypernym_path": [
+    "entity",
+    "abstraction",
+    "psychological_feature",
+    "event",
+    "act",
+    "action",
+    "change",
+    "change_of_integrity",
+    "joining",
+    "fastening",
+    "welding"
+   ]
+  },
+  {
+   "word": "recruitment",
+   "sense": "recruitment.n.01",
+   "synonyms": [
+    "enlisting"
+   ],
+   "hypernym_path": [
+    "entity",
+    "abstraction",
+    "psychological_feature",
+    "event",
+    "act",
+    "action",
+    "accomplishment",
+    "recruitment"
+   ]
+  },
+  {
+   "word": "budget",
+   "sense": "budget.n.01",
+   "synonyms": [],
+   "hypernym_path": [
+    "entity",
+    "abstraction",
+    "measure",
+    "system_of_measurement",
+    "standard",
+    "medium_of_exchange",
+    "money",
+    "fund",
+    "budget"
+   ]
+  },
+  {
+   "word": "pesticide",
+   "sense": "pesticide.n.01",
+   "synonyms": [],
+   "hypernym_path": [
+    "entity",
+    "physical_entity",
+    "matter",
+    "substance",
+    "material",
+    "chemical",
+    "pesticide"
+   ]
+  },
+  {
+   "word": "nurse",
+   "sense": "nurse.n.01",
+   "synonyms": [
+    "nanny",
+    "nursemaid"
+   ],
+   "hypernym_path": [
+    "entity",
+    "physical_entity",
+    "object",
+    "whole",
+    "living_thing",
+    "organism",
+    "person",
+    "adult",
+    "professional",
+    "health_professional",
+    "nurse"
+   ]
+  },
+  {
+   "word": "accountant",
+   "sense": "accountant.n.01",
+   "synonyms": [
+    "comptroller",
+    "controller"
+   ],
+   "hypernym_path": [
+    "entity",
+    "physical_entity",
+    "object",
+    "whole",
+    "living_thing",
+    "organism",
+    "person",
+    "capitalist",
+    "businessperson",
+    "accountant"
+   ]
+  }
+ ],
+ "job_title_similarity": {
+  "engineer": {
+   "engineer": 0.75,
+   "technician": 0.67,
+   "accountant": 0.67,
+   "auditor": 0.71,
+   "nurse": 0.63,
+   "physician": 0.6,
+   "recruiter": 0.63,
+   "manager": 0.63,
+   "farmer": 0.71,
+   "biologist": 0.71
+  },
+  "technician": {
+   "engineer": 0.67,
+   "technician": 1.0,
+   "accountant": 0.6,
+   "auditor": 0.63,
+   "nurse": 0.57,
+   "physician": 0.55,
+   "recruiter": 0.57,
+   "manager": 0.57,
+   "farmer": 0.63,
+   "biologist": 0.63
+  },
+  "accountant": {
+   "engineer": 0.67,
+   "technician": 0.6,
+   "accountant": 1.0,
+   "auditor": 0.63,
+   "nurse": 0.57,
+   "physician": 0.55,
+   "recruiter": 0.86,
+   "manager": 0.57,
+   "farmer": 0.63,
+   "biologist": 0.63
+  },
+  "auditor": {
+   "engineer": 0.71,
+   "technician": 0.63,
+   "accountant": 0.63,
+   "auditor": 1.0,
+   "nurse": 0.6,
+   "physician": 0.57,
+   "recruiter": 0.6,
+   "manager": 0.6,
+   "farmer": 0.67,
+   "biologist": 0.67
+  },
+  "nurse": {
+   "engineer": 0.63,
+   "technician": 0.57,
+   "accountant": 0.57,
+   "auditor": 0.6,
+   "nurse": 1.0,
+   "physician": 0.87,
+   "recruiter": 0.55,
+   "manager": 0.55,
+   "farmer": 0.6,
+   "biologist": 0.6
+  },
+  "physician": {
+   "engineer": 0.6,
+   "technician": 0.55,
+   "accountant": 0.55,
+   "auditor": 0.57,
+   "nurse": 0.87,
+   "physician": 1.0,
+   "recruiter": 0.52,
+   "manager": 0.52,
+   "farmer": 0.57,
+   "biologist": 0.57
+  },
+  "recruiter": {
+   "engineer": 0.63,
+   "technician": 0.57,
+   "accountant": 0.86,
+   "auditor": 0.6,
+   "nurse": 0.55,
+   "physician": 0.52,
+   "recruiter": 1.0,
+   "manager": 0.55,
+   "farmer": 0.6,
+   "biologist": 0.6
+  },
+  "manager": {
+   "engineer": 0.63,
+   "technician": 0.57,
+   "accountant": 0.57,
+   "auditor": 0.6,
+   "nurse": 0.55,
+   "physician": 0.52,
+   "recruiter": 0.55,
+   "manager": 1.0,
+   "farmer": 0.6,
+   "biologist": 0.6
+  },
+  "farmer": {
+   "engineer": 0.71,
+   "technician": 0.63,
+   "accountant": 0.63,
+   "auditor": 0.67,
+   "nurse": 0.6,
+   "physician": 0.57,
+   "recruiter": 0.6,
+   "manager": 0.6,
+   "farmer": 1.0,
+   "biologist": 0.67
+  },
+  "biologist": {
+   "engineer": 0.71,
+   "technician": 0.63,
+   "accountant": 0.63,
+   "auditor": 0.67,
+   "nurse": 0.6,
+   "physician": 0.57,
+   "recruiter": 0.6,
+   "manager": 0.6,
+   "farmer": 0.67,
+   "biologist": 1.0
+  }
+ },
+ "lesk": [
+  {
+   "resume_id": "AGR_01",
+   "word": "care",
+   "sentence": "Participate in multidisciplinary plan of care.",
+   "sense": "care.n.01",
+   "definition": "the work of providing treatment for or attending to someone or something"
+  },
+  {
+   "resume_id": "AGR_01",
+   "word": "charge",
+   "sentence": "I was a charge nurse in all except the GAC and ED.",
+   "sense": "charge.n.04",
+   "definition": "the quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons"
+  },
+  {
+   "resume_id": "AGR_02",
+   "word": "plant",
+   "sentence": "Identification and Delineation Knowledgeable about invasive insects and plant hosts",
+   "sense": "plant.n.01",
+   "definition": "buildings for carrying on industrial labor"
+  },
+  {
+   "resume_id": "AGR_04",
+   "word": "service",
+   "sentence": "monolithic architecture to service based architecture.",
+   "sense": "service.n.04",
+   "definition": "a company or agency that performs a public service; subject to government regulation"
+  },
+  {
+   "resume_id": "ENG_04",
+   "word": "record",
+   "sentence": "engineering, Programming, quality, quality control, radio, Record keeping, repairs, repairing, Safety, safety codes, SCADA, Siemens PLC,",
+   "sense": "record.n.01",
+   "definition": "anything (such as a document or a phonograph record or a photograph) providing permanent evidence of or information about past events"
+  },
+  {
+   "resume_id": "FIN_01",
+   "word": "account",
+   "sentence": "Oversaw client relations, new account development, and customer service.",
+   "sense": "report.n.03",
+   "definition": "a short account of the news"
+  }
+ ],
+ "semantic_profile_agreement": {
+  "agree_all": 11,
+  "n": 25,
+  "agree_unflagged": 10,
+  "n_unflagged": 18
+ }
+}

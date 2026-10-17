@@ -1,0 +1,10 @@
+word,lemma,pos,tag,morph_features,porter_stem,prefix,derivational_suffix,inflectional_suffix,segmentation
+A,a,DET,DT,Definite=Ind|PronType=Art,a,,,,a
+versatile,versatile,ADJ,JJ,Degree=Pos,versatil,,,,versatile
+highly,highly,ADV,RB,-,highli,,ly,,high + -ly
+motivated,motivated,ADJ,JJ,Degree=Pos,motiv,,,,motivated
+adaptable,adaptable,ADJ,JJ,Degree=Pos,adapt,,able,,adapt + -able
+and,and,CCONJ,CC,ConjType=Cmp,and,,,,and
+responsible,responsible,ADJ,JJ,Degree=Pos,respons,,ible,,respons + -ible
+accounting,accounting,NOUN,NN,Number=Sing,account,,,,accounting
+graduate,graduate,NOUN,NN,Number=Sing,graduat,,,,graduate

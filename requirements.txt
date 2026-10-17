@@ -1,0 +1,24 @@
+# Tested with Python 3.13 (CPU). Google Colab (Python 3.10-3.12) also works.
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+pdfplumber>=0.10
+pymupdf>=1.23
+python-docx>=1.0
+nltk>=3.8
+spacy>=3.7,<3.9
+contractions>=0.1.73
+langdetect>=1.0.9
+gensim>=4.3
+torch>=2.1
+transformers>=4.41          # tested with 5.19; v4.41+ also supported
+accelerate>=0.26
+joblib>=1.3
+reportlab>=4.0           # synthetic resume PDFs + viva guide PDF
+streamlit>=1.46          # width="stretch" in st.dataframe
+# spaCy models (installed separately):
+#   python -m spacy download en_core_web_sm
+#   optional / offline RoBERTa source: python -m spacy download en_core_web_trf
+#   (needs: pip install spacy-curated-transformers)

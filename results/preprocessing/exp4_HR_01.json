@@ -1,0 +1,213 @@
+{
+ "tokens": 631,
+ "after_stopwords": 496,
+ "stopword_reduction_pct": 21.4,
+ "vocabulary_size": {
+  "original": 282,
+  "porter": 237,
+  "lancaster": 230,
+  "wordnet_lemma": 253
+ },
+ "table_head": [
+  {
+   "token": "hr",
+   "porter": "hr",
+   "snowball": "hr",
+   "lancaster": "hr",
+   "wordnet_lemma": "hr",
+   "spacy_lemma": "hr"
+  },
+  {
+   "token": "personnel",
+   "porter": "personnel",
+   "snowball": "personnel",
+   "lancaster": "personnel",
+   "wordnet_lemma": "personnel",
+   "spacy_lemma": "personnel"
+  },
+  {
+   "token": "assistant",
+   "porter": "assist",
+   "snowball": "assist",
+   "lancaster": "assist",
+   "wordnet_lemma": "assistant",
+   "spacy_lemma": "assistant"
+  },
+  {
+   "token": "summary",
+   "porter": "summari",
+   "snowball": "summari",
+   "lancaster": "sum",
+   "wordnet_lemma": "summary",
+   "spacy_lemma": "summary"
+  },
+  {
+   "token": "citizen",
+   "porter": "citizen",
+   "snowball": "citizen",
+   "lancaster": "cit",
+   "wordnet_lemma": "citizen",
+   "spacy_lemma": "citizen"
+  },
+  {
+   "token": "authorized",
+   "porter": "author",
+   "snowball": "author",
+   "lancaster": "auth",
+   "wordnet_lemma": "authorize",
+   "spacy_lemma": "authorize"
+  },
+  {
+   "token": "work",
+   "porter": "work",
+   "snowball": "work",
+   "lancaster": "work",
+   "wordnet_lemma": "work",
+   "spacy_lemma": "work"
+  },
+  {
+   "token": "us",
+   "porter": "us",
+   "snowball": "us",
+   "lancaster": "us",
+   "wordnet_lemma": "u",
+   "spacy_lemma": "us"
+  },
+  {
+   "token": "employer",
+   "porter": "employ",
+   "snowball": "employ",
+   "lancaster": "employ",
+   "wordnet_lemma": "employer",
+   "spacy_lemma": "employer"
+  },
+  {
+   "token": "worked",
+   "porter": "work",
+   "snowball": "work",
+   "lancaster": "work",
+   "wordnet_lemma": "worked",
+   "spacy_lemma": "work"
+  },
+  {
+   "token": "years",
+   "porter": "year",
+   "snowball": "year",
+   "lancaster": "year",
+   "wordnet_lemma": "year",
+   "spacy_lemma": "year"
+  },
+  {
+   "token": "office",
+   "porter": "offic",
+   "snowball": "offic",
+   "lancaster": "off",
+   "wordnet_lemma": "office",
+   "spacy_lemma": "office"
+  },
+  {
+   "token": "clerk",
+   "porter": "clerk",
+   "snowball": "clerk",
+   "lancaster": "clerk",
+   "wordnet_lemma": "clerk",
+   "spacy_lemma": "clerk"
+  },
+  {
+   "token": "years",
+   "porter": "year",
+   "snowball": "year",
+   "lancaster": "year",
+   "wordnet_lemma": "year",
+   "spacy_lemma": "year"
+  },
+  {
+   "token": "student",
+   "porter": "student",
+   "snowball": "student",
+   "lancaster": "stud",
+   "wordnet_lemma": "student",
+   "spacy_lemma": "student"
+  },
+  {
+   "token": "assistant",
+   "porter": "assist",
+   "snowball": "assist",
+   "lancaster": "assist",
+   "wordnet_lemma": "assistant",
+   "spacy_lemma": "assistant"
+  },
+  {
+   "token": "years",
+   "porter": "year",
+   "snowball": "year",
+   "lancaster": "year",
+   "wordnet_lemma": "year",
+   "spacy_lemma": "year"
+  },
+  {
+   "token": "contractor",
+   "porter": "contractor",
+   "snowball": "contractor",
+   "lancaster": "contract",
+   "wordnet_lemma": "contractor",
+   "spacy_lemma": "contractor"
+  },
+  {
+   "token": "applying",
+   "porter": "appli",
+   "snowball": "appli",
+   "lancaster": "apply",
+   "wordnet_lemma": "apply",
+   "spacy_lemma": "apply"
+  },
+  {
+   "token": "data_entry",
+   "porter": "data_entry",
+   "snowball": "data_entry",
+   "lancaster": "data_entry",
+   "wordnet_lemma": "data_entry",
+   "spacy_lemma": "data_entry"
+  },
+  {
+   "token": "clerk",
+   "porter": "clerk",
+   "snowball": "clerk",
+   "lancaster": "clerk",
+   "wordnet_lemma": "clerk",
+   "spacy_lemma": "clerk"
+  },
+  {
+   "token": "position",
+   "porter": "posit",
+   "snowball": "posit",
+   "lancaster": "posit",
+   "wordnet_lemma": "position",
+   "spacy_lemma": "position"
+  },
+  {
+   "token": "advert",
+   "porter": "advert",
+   "snowball": "advert",
+   "lancaster": "advert",
+   "wordnet_lemma": "advert",
+   "spacy_lemma": "advert"
+  },
+  {
+   "token": "id",
+   "porter": "id",
+   "snowball": "id",
+   "lancaster": "id",
+   "wordnet_lemma": "id",
+   "spacy_lemma": "i"
+  },
+  {
+   "token": "advert",
+   "porter": "advert",
+   "snowball": "advert",
+   "lancaster": "advert",
+   "wordnet_lemma": "advert",
+   "spacy_lemma": "d"
+  }
+ ]
+}

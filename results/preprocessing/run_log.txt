@@ -1,0 +1,119 @@
+
+================ EXPERIMENT 1: exp1_cleaning_normalization (input: HR_01) ================
+
+--- Exp1 HTML: BEFORE ---
+<html><body><h2>HR PERSONNEL ASSISTANT</h2><p>Summary</p><p>I am a U.S. citizen who is authorized to work in the US for any employer. I have worked 8 years as an Office Clerk, 2 years as a Student</p><p>Intern/Office Assistant, and 4 years as a Contractor. I am applying for the Data Entry Clerk posi
+--- Exp1 HTML: AFTER ---
+   HR PERSONNEL ASSISTANT
+ Summary
+ I am a U.S. citizen who is authorized to work in the US for any employer. I have worked 8 years as an Office Clerk, 2 years as a Student
+ Intern/Office Assistant, and 4 years as a Contractor. I am applying for the Data Entry Clerk position (Advert ID# 224278 Adver
+
+--- Exp1 full cleaning: BEFORE ---
+HR PERSONNEL ASSISTANT
+Summary
+I am a U.S. citizen who is authorized to work in the US for any employer. I have worked 8 years as an Office Clerk, 2 years as a Student
+Intern/Office Assistant, and 4 years as a Contractor. I am applying for the Data Entry Clerk position (Advert ID# 224278 Advert ID# 224278).
+My skills and experiences include: Administrative Support, Auditing, File Management, Meeting Facilitation, Office Materials Management, &
+Inventory Management.
+Highlights
+COMPUTER SKILLS: Microsoft Word, MS Excel, MS Outlook, MS PowerPoint, PeopleSoft. TYPING SKILLS: 40-60 WPM.
+ADDITIONAL 
+--- Exp1 full cleaning: AFTER ---
+hr personnel assistant
+summary
+i am a u.s. citizen who is authorized to work in the us for any employer. i have worked 8 years as an office clerk, 2 years as a student
+intern/office assistant, and 4 years as a contractor. i am applying for the data entry clerk position (advert id# 224278 advert id# 224278).
+my skills and experiences include: administrative support, auditing, file management, meeting facilitation, office materials management, &
+inventory management.
+highlights
+computer skills: microsoft word, ms excel, ms outlook, ms powerpoint, peoplesoft. typing skills: 40-60 wpm.
+additional 
+
+Number handling: {
+ "input": "Over twenty-five years of experience, managed fifty three staff and a $15M budget since 2009.",
+ "words_to_numbers": "Over 25 years of experience, managed 53 staff and a $15M budget since 2009.",
+ "remove_numbers": "Over years of experience, managed staff and a $15M budget since .",
+ "remove_numbers_keep_years": "Over years of experience, managed staff and a $15M budget since 2009."
+}
+
+================ EXPERIMENT 2: exp2_sentences_contractions (input: HR_01) ================
+/usr/local/lib/python3.13/dist-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+Exp2 sentence counts: naive (newlines ignored)=44, resume-aware NLTK=77, spaCy=77
+  • HR PERSONNEL ASSISTANT
+  • Summary
+  • I am a U.S. citizen who is authorized to work in the US for any employer.
+  • I have worked 8 years as an Office Clerk, 2 years as a Student
+  • Intern/Office Assistant, and 4 years as a Contractor.
+  • I am applying for the Data Entry Clerk position (Advert ID# 224278 Advert ID# 224278).
+  • My skills and experiences include: Administrative Support, Auditing, File Management, Meeting Facilitation, Office Materials Management, &
+  • Inventory Management.
+Contractions: {
+ "real_resume_lines_with_apostrophes": [
+  {
+   "before": "Bachelor's of Arts : Political Science and Law 2007 Montclair State University , , US Bachelor's of Arts Degree in Political Science",
+   "after": "Bachelor's of Arts : Political Science and Law 2007 Montclair State University , , US Bachelor's of Arts Degree in Political Science"
+  }
+ ],
+ "demo_sentence": {
+  "before": "I'm a detail-oriented HR generalist. I've managed onboarding and I'd like a role where I can't stop learning.",
+  "after": "I am a detail-oriented HR generalist. I have managed onboarding and I would like a role where I cannot stop learning."
+ }
+}
+
+================ EXPERIMENT 3: exp3_tokenization_skills (input: HR_01) ================
+
+Exp3 token counts: {'whitespace': 694, 'regex': 698, 'nltk': 860, 'spacy': 876} skill-aware: 839
+Multi-word skills kept as one token: ['administrative_support', 'customer_service', 'data_entry', 'file_management', 'human_resources', 'inventory_management', 'microsoft_word', 'ms_excel']
+Demo: {"nltk_word_tokenize": ["skilled", "in", "human", "resource", "management", ",", "data", "entry", ",", "machine", "learning", "and", "financial", "analysis", "(", "c++", ",", "r", "&", "d", ")", "."], "skill_aware": ["skilled", "in", "human_resource_management", ",", "data_entry", ",", "machine_learning", "and", "financial_analysis", "(", "c++", ",", "r", "&", "d", ")", "."]}
+Dictionary skills: ['personnel', 'data entry', 'administrative support', 'auditing', 'outlook', 'powerpoint', 'peoplesoft', 'documentation', 'scheduling', 'file management', 'inventory management', 'microsoft word', 'ms excel', 'customer service', 'human resources', 'audit', 'sales', 'word']
+Top noun phrases: [('administrative support', 4), ('office clerk', 2), ('advert id', 2), ('microsoft word', 2), ('ms excel', 2), ('ms outlook', 2), ('ms powerpoint', 2), ('data entry', 2), ('legal documents', 2), ('mail clerk', 2)]
+
+================ EXPERIMENT 4: exp4_stopwords_stem_lemma (input: HR_01) ================
+
+Exp4: {'tokens': 631, 'after_stopwords': 496, 'stopword_reduction_pct': 21.4, 'vocabulary_size': {'original': 282, 'porter': 237, 'lancaster': 230, 'wordnet_lemma': 253}}
+         token      porter    snowball   lancaster wordnet_lemma spacy_lemma
+0           hr          hr          hr          hr            hr          hr
+1    personnel   personnel   personnel   personnel     personnel   personnel
+2    assistant      assist      assist      assist     assistant   assistant
+3      summary     summari     summari         sum       summary     summary
+4      citizen     citizen     citizen         cit       citizen     citizen
+5   authorized      author      author        auth     authorize   authorize
+6         work        work        work        work          work        work
+7           us          us          us          us             u          us
+8     employer      employ      employ      employ      employer    employer
+9       worked        work        work        work        worked        work
+10       years        year        year        year          year        year
+11      office       offic       offic         off        office      office
+12       clerk       clerk       clerk       clerk         clerk       clerk
+13       years        year        year        year          year        year
+14     student     student     student        stud       student     student
+15   assistant      assist      assist      assist     assistant   assistant
+16       years        year        year        year          year        year
+17  contractor  contractor  contractor    contract    contractor  contractor
+18    applying       appli       appli       apply         apply       apply
+19  data_entry  data_entry  data_entry  data_entry    data_entry  data_entry
+
+================ EXPERIMENT 5: exp5_noise_anonymization_script (input: HR_01) ================
+
+Exp5 noise: ['Company Name City , State HR Personnel Assistant 03/2013 to 04/2014', 'Company Name City , State Assistant Store Clerk 05/2011 to 01/2012', 'Company Name City , State Office Clerk/ Federal Contractor 06/2008 to 10/2009'] -> ['  HR Personnel Assistant 03/2013 to 04/2014', '  Assistant Store Clerk 05/2011 to 01/2012', '  Office Clerk/ Federal Contractor 06/2008 to 10/2009']
+Anonymization demo (synthetic contact header + real resume text):
+ [NAME]
+[EMAIL] | [PHONE] | [ADDRESS], Springfield [ADDRESS]
+[URL]
+HR PERSONNEL ASSISTANT
+Summary
+I am a U.S. citizen who is authorized to work in the US for any employer. I have worked 8 years as an Office Clerk, 2 years as a Student
+Intern/Office Assistant, and 4 years as a Contractor. I am applying for the Data Entry Clerk position (Advert ID# 224278 Advert ID# 
+Script validation (real): {'latin_ratio': 1.0, 'scripts': {'LATIN': 4215}, 'language': 'en', 'language_prob': 1.0, 'valid_english_latin': True, 'non_english_lines': {}, 'mixed_language': False}
+Script validation (mixed-script demo): {'latin_ratio': 0.9059, 'scripts': {'LATIN': 77, 'DEVANAGARI': 8}, 'language': 'id', 'language_prob': 1.0, 'valid_english_latin': False, 'non_english_lines': {'id': 1}, 'mixed_language': False}
+
+Preprocessing comparison (first rows):
+   resume_id     category  raw_chars  cleaned_chars  raw_whitespace_tokens  nltk_tokens  alnum_tokens_no_stopwords  classification_tokens(lemma,skill-aware)  unique_raw_tokens  unique_classification_tokens  multiword_skill_tokens  skills_extracted
+0    AGR_01  Agriculture       5247           5083                    737          825                        504                                       496                389                           294                       2                 9
+1    AGR_02  Agriculture       5023           4825                    703          732                        516                                       492                410                           343                       9                15
+2    AGR_03  Agriculture       4603           4419                    615          672                        429                                       429                347                           250                      11                15
+3    AGR_04  Agriculture       8603           8269                   1197         1354                        824                                       836                511                           370                       1                15
+4    AGR_05  Agriculture       5358           5196                    817          858                        468                                       454                404                           268                       2                 4
