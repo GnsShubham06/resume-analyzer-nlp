@@ -1,0 +1,870 @@
+{
+ "file": "data/raw/Engineering/10985403.pdf",
+ "status": "ok",
+ "n_pages": 2,
+ "n_characters": 4680,
+ "anonymization": {
+  "[EMAIL]": 0,
+  "[URL]": 0,
+  "[PHONE]": 0,
+  "[ADDRESS]": 0,
+  "[NAME]": 3
+ },
+ "language_validation": {
+  "latin_ratio": 1.0,
+  "scripts": {
+   "LATIN": 3698
+  },
+  "language": "en",
+  "language_prob": 1.0,
+  "valid_english_latin": true,
+  "non_english_lines": {},
+  "mixed_language": false
+ },
+ "skills": [
+  {
+   "skill": "manufacturing",
+   "domain": "Engineering",
+   "count": 6
+  },
+  {
+   "skill": "cad",
+   "domain": "Engineering",
+   "count": 5
+  },
+  {
+   "skill": "cam",
+   "domain": "Engineering",
+   "count": 3
+  },
+  {
+   "skill": "finite element analysis",
+   "domain": "Engineering",
+   "count": 3
+  },
+  {
+   "skill": "autocad",
+   "domain": "Engineering",
+   "count": 3
+  },
+  {
+   "skill": "welding",
+   "domain": "Engineering",
+   "count": 3
+  },
+  {
+   "skill": "solidworks",
+   "domain": "Engineering",
+   "count": 2
+  },
+  {
+   "skill": "autodesk inventor",
+   "domain": "Engineering",
+   "count": 2
+  },
+  {
+   "skill": "catia",
+   "domain": "Engineering",
+   "count": 2
+  },
+  {
+   "skill": "ansys",
+   "domain": "Engineering",
+   "count": 2
+  },
+  {
+   "skill": "bill of materials",
+   "domain": "Engineering",
+   "count": 2
+  },
+  {
+   "skill": "prototyping",
+   "domain": "Engineering",
+   "count": 2
+  },
+  {
+   "skill": "aerospace",
+   "domain": "Engineering",
+   "count": 2
+  },
+  {
+   "skill": "mechanical design",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "product design",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "ptc creo",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "cae",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "hypermesh",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "abaqus",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "tolerance analysis",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "design optimization",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "sheet metal",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "design for manufacturing",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "dfmea",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "3d printing",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "gd&t",
+   "domain": "Engineering",
+   "count": 1
+  },
+  {
+   "skill": "training",
+   "domain": "General",
+   "count": 1
+  },
+  {
+   "skill": "machine learning",
+   "domain": "Engineering",
+   "count": 1
+  }
+ ],
+ "education": {
+  "degrees": [
+   "Bachelor of Technology"
+  ],
+  "institutions": [
+   "Aerospace Engineering Illinois Institute of Technology",
+   "Mechanical Engineering Narsee Monjee Institute of Management Studies"
+  ],
+  "qualifications": []
+ },
+ "job_titles": [
+  "Mechanical Engineering Intern",
+  "Manufacturing Engineering Intern"
+ ],
+ "organizations": [
+  "MECHANICAL ENGINEERING INTERN",
+  "CAE Softwares",
+  "Analysis (",
+  "Industrial Robotic Assembly",
+  "Illinois Institute of Technology",
+  "OptiStruct",
+  "Reliability Engineering Analysis",
+  "Chicago Sept - Dec 2015",
+  "Taguchi",
+  "FMEA",
+  "Narsee Monjee Institute of Management Studies",
+  "Mechanical Engineering Intern",
+  "Hyundai",
+  "Strip Coil",
+  "SPC"
+ ],
+ "experience": {
+  "date_ranges": [
+   "09/2013 to 05/2014",
+   "06/2013 to 08/2013",
+   "05/2012 to 07/2012"
+  ],
+  "stated_years_experience": [
+   5.0,
+   2.5,
+   2.5
+  ],
+  "n_positions_with_dates": 3,
+  "career_span_years_estimate": 2
+ },
+ "lexicon_domain_scores": {
+  "Engineering": 51,
+  "HR": 0,
+  "Finance": 0,
+  "Healthcare": 0,
+  "Agriculture": 0
+ },
+ "entities": {
+  "pretrained_spacy": [
+   {
+    "text": "MECHANICAL ENGINEERING INTERN",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "CAD",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "5 years",
+    "label": "DATE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "CAD",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "SolidWorks",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Autodesk Inventor",
+    "label": "PERSON",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "CATIA",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "2.5 years",
+    "label": "DATE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "CAE Softwares",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "HyperMesh",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Abaqus",
+    "label": "GPE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "ANSYS",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "2.5 years",
+    "label": "DATE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Analysis (",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Linear & Non-linear Static, Dynamic, GD & T, Tolerance Analysis, Design Optimization",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Bill of Materials",
+    "label": "PERSON",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "DFMEA",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Industrial Robotic Assembly",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Illinois Institute of Technology",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Chicago",
+    "label": "GPE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "6",
+    "label": "CARDINAL",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "304",
+    "label": "CARDINAL",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Gripper",
+    "label": "PERSON",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "OptiStruct",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Reliability Engineering Analysis",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Illinois Institute of Technology",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Chicago Sept - Dec 2015",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "3",
+    "label": "CARDINAL",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Taguchi",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "FMEA",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Near Dry Machine",
+    "label": "WORK_OF_ART",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "2",
+    "label": "CARDINAL",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Gearbox Design",
+    "label": "PERSON",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Narsee Monjee Institute of Management Studies",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Mumbai",
+    "label": "GPE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "May 2013",
+    "label": "DATE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "06/2013",
+    "label": "CARDINAL",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "08/2013",
+    "label": "CARDINAL",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Mechanical Engineering Intern",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "GD&T",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Hyundai",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "05/2012 to 07/2012",
+    "label": "DATE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Strip Coil",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "5%",
+    "label": "PERCENT",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "20%",
+    "label": "PERCENT",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "SPC",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "DOE",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "May 2017",
+    "label": "DATE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Mechanical & Aerospace Engineering Illinois Institute of Technology",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "IIT",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Mechanical & Aerospace Engineering",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "3.5/4.0",
+    "label": "CARDINAL",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "CAD",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "CAM",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Engineering Analysis",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "May 2014",
+    "label": "DATE",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Bachelor of Technology",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Monjee Institute of Management Studies",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "City India Mechanical Engineering",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   },
+   {
+    "text": "Autodesk Certified Professional",
+    "label": "ORG",
+    "source": "pretrained (en_core_web_sm)"
+   }
+  ],
+  "rule_based": [
+   {
+    "text": "MECHANICAL ENGINEERING INTERN",
+    "label": "JOB_TITLE",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CAD",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CAM",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Finite Element Analysis",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Mechanical Design",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Product Design",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CAD",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "SolidWorks",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Autodesk Inventor",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "AutoCAD",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CATIA",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "PTC CREO",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CAE",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "HyperMesh",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Abaqus",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "ANSYS",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Tolerance Analysis",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Design Optimization",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Sheet metal",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Design for manufacturing",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Bill of Materials",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "DFMEA",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "prototyping",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "manufacturing",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "welding",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "3D printing",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Finite Element Analysis",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Mechanical Engineering Intern",
+    "label": "JOB_TITLE",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "GD&T",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Manufacturing",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Engineering Intern",
+    "label": "JOB_TITLE",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Manufacturing",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Bill of Materials",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "manufacturing",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Training",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Master's",
+    "label": "DEGREE",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Aerospace",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Aerospace",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CAD",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CAM",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Finite Element Analysis",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Manufacturing",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Bachelor of",
+    "label": "DEGREE",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Autodesk Inventor",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Associate in",
+    "label": "DEGREE",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "AutoCAD",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "PhD",
+    "label": "DEGREE",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Welding",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Machine learning",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "ANSYS",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "AutoCAD",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CAD",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CAM",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CAD",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "CATIA",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "Manufacturing",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "prototyping",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "SolidWorks",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "welding",
+    "label": "SKILL",
+    "source": "rule-based (EntityRuler)"
+   },
+   {
+    "text": "09/2013 to 05/2014",
+    "label": "EXPERIENCE_DATES",
+    "source": "rule-based (regex)"
+   },
+   {
+    "text": "06/2013 to 08/2013",
+    "label": "EXPERIENCE_DATES",
+    "source": "rule-based (regex)"
+   },
+   {
+    "text": "05/2012 to 07/2012",
+    "label": "EXPERIENCE_DATES",
+    "source": "rule-based (regex)"
+   },
+   {
+    "text": "PhD",
+    "label": "DEGREE",
+    "source": "rule-based (regex)"
+   },
+   {
+    "text": "Bachelor of Technology",
+    "label": "DEGREE",
+    "source": "rule-based (regex)"
+   }
+  ]
+ },
+ "classification": {
+  "warning": "PROTOTYPE CLASSIFIER: trained on 60 resumes (12 per class) from a 100-resume dataset in which 82 resumes are synthetic. Scores measured on 20 test resumes do not prove accuracy on real-world resumes; use the predictions as a demonstration of the pipeline, not as a decision tool.",
+  "transformer": {
+   "model": "fine-tuned transformer (transformer_finetuned, base: roberta-base-spacy, best epoch 6)",
+   "predicted": "Engineering",
+   "probabilities": {
+    "Engineering": 0.9961,
+    "Healthcare": 0.0012,
+    "Finance": 0.0011,
+    "Agriculture": 0.0009,
+    "HR": 0.0008
+   }
+  },
+  "baseline": {
+   "model": "TF-IDF + Logistic Regression",
+   "predicted": "Engineering",
+   "probabilities": {
+    "Engineering": 0.513,
+    "HR": 0.1657,
+    "Finance": 0.132,
+    "Healthcare": 0.106,
+    "Agriculture": 0.0833
+   }
+  }
+ },
+ "cleaned_text_preview": "MECHANICAL ENGINEERING INTERN\nSummary\nCAD CAM Finite Element Analysis Mechanical Design Product Design and Development\nSkills\n5 years of experience with CAD packages (SolidWorks, Autodesk Inventor, AutoCAD, CATIA, PTC CREO)\n2.5 years of experience with CAE Softwares (HyperMesh, Abaqus, ANSYS, Optistruct)\n2.5 years of experience with Analysis (Linear & Non-linear Static, Dynamic, GD & T, Tolerance Analysis, Design Optimization)\nExperience with Sheet metal, Design for manufacturing, generating Bill of Materials, DFMEA, Sculpting.\nExperience with advanced material selection for rapid prototyping, advanced manufacturing, welding and 3D printing.\nExperience\n09/2013 to 05/2014\n\nFinite Element Analysis of Industrial Robotic Assembly, Illinois Institute of Technology, Chicago Jan - May 2016.\nConceptualized, brainstormed and designed a 6-axis SCARA Robot for pick and place operation in automotive industry.\nPerformed static analysis with stainless steel 304 to evaluate the maximum load an assembly can lift before yielding.\nAlso, analyzed Gripper and joints to eradicate future failures.\nOptimized design using OptiStruct by varying mesh sizes and element order.\nSimulated assembly with dynamic analysis to find distorted elements and to verify optimized structure.\nReliability Engineering Analysis on Automotive Oil Pump, Illinois Institute of Technology, Chicago Sept - Dec 2015.\nUsed industrial reliability specifications to select the power consumption and flow rate at 3 distinct levels of "
+}
